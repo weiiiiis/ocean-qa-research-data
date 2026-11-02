@@ -1,0 +1,21 @@
+{
+  "method": "bm25",
+  "implementation_version": "ocean-bm25-source-unique-0.1",
+  "implementation_sha256": "43f248ebb84059be0ba820d225da2f500d6eb11e012b000b53ad0e0aed87509d",
+  "corpus_sha256": "6a2d484b15ccd56344f4531aad52607feb1ebd4d9a04f9173b2b598ad4385ffe",
+  "lexical_settings": {
+    "lowercase": true,
+    "stop_words": "english",
+    "token_pattern": "(?u)\\b\\w\\w+\\b"
+  },
+  "k1": 1.5,
+  "b": 0.75,
+  "idf": "log(1+(N-df+0.5)/(df+0.5))",
+  "query_term_frequency": "binary",
+  "source_deduplication": "highest ranked chunk per exact section identity",
+  "tie_breaking": "stable descending score then corpus order",
+  "zero_score_documents": "excluded",
+  "embedding_model_loaded": false,
+  "average_document_length": 81.24883875248838,
+  "fingerprint_sha256": "367bdedf856b33f29af783c9fab8c3431c6b1850c2f23b156e172e56901a6bb7"
+}

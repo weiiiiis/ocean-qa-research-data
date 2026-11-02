@@ -1,0 +1,30 @@
+{
+  "method": "same_record_reference_no_external_merge",
+  "external_historical_records_reused": 0,
+  "A_conditions": [
+    "base_t160",
+    "base_t96",
+    "base_rag_t160",
+    "base_rag_t96",
+    "v2_t160",
+    "v2_t96",
+    "v2_rag_t160",
+    "v2_rag_t96"
+  ],
+  "B_conditions": [
+    "base_t160",
+    "base_rag_t160",
+    "v2_t160",
+    "v2_rag_t160",
+    "v1_t160",
+    "v1_rag_t160"
+  ],
+  "A_B_shared_cells": [
+    "base_t160",
+    "base_rag_t160",
+    "v2_t160",
+    "v2_rag_t160"
+  ],
+  "signature": "167f46e0765ac9cca8cdc7c8a41ce02491c5a9374b6a61161370c9c5555c3067",
+  "same_data_prompt_protocol_model_context": true
+}

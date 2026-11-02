@@ -1,0 +1,22 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 1.7635211585710446,
+    "global_step": 59,
+    "skipped_optimizer_updates_cumulative": 1,
+    "validation_assistant_token_loss": 0.8434078435955653,
+    "validation_target_tokens": 1742,
+    "seconds": 148.83754130001762,
+    "adapter_sha256": "dc09e735d8e4869a4231bb75c5ab6babdbfee1cf7f63db5ebe34e024303c46fb"
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.8960624246547619,
+    "global_step": 119,
+    "skipped_optimizer_updates_cumulative": 1,
+    "validation_assistant_token_loss": 0.7730605899774385,
+    "validation_target_tokens": 1742,
+    "seconds": 148.7980276000162,
+    "adapter_sha256": "46c23828902c7d2e6953f9c6a5fcb50e17b2a986ed0b964a359970e2269cb62b"
+  }
+]

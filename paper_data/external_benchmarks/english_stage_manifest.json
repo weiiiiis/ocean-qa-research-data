@@ -1,0 +1,121 @@
+{
+  "stage": "English development preparation only; no model score or SFT artifact",
+  "dataset": "Pira 2.0",
+  "revision": "756f73c8a52e2b0fbdc8f42569e1e8c6f3865a49",
+  "license": "CC BY 4.0 (Pira dataset); preserve original supporting-text source rights",
+  "download": {
+    "file": "raw/pira/mcqa/validation-00000-of-00001-42647ea31fbd61e7.parquet",
+    "bytes": 268995,
+    "sha256": "eaf5dc197253785df1293fa8a6ca18c2243bf1ee9dd33f234873e68a28320244",
+    "url": "https://huggingface.co/datasets/paulopirozelli/pira/resolve/756f73c8a52e2b0fbdc8f42569e1e8c6f3865a49/mcqa/validation-00000-of-00001-42647ea31fbd61e7.parquet"
+  },
+  "inputs": [
+    {
+      "file": "pira_dev_article_disjoint_en_101.jsonl",
+      "bytes": 217823,
+      "sha256": "dfc77de963b9aa41ce0a62b4e9e2b53fa48b0b84bbac78d6a1ac3a5425a2b739"
+    },
+    {
+      "file": "raw/pira/data/validation-00000-of-00001-ce5e7ad4b67feb65.parquet",
+      "bytes": 527528,
+      "sha256": "59415a3193aa92dcc1d5f9ecc9a9e52f2625b4b44dfc0944aa489ff5b98b4ae0"
+    },
+    {
+      "file": "raw/pira/data/test-00000-of-00001-41cee92681c49a98.parquet",
+      "bytes": 497693,
+      "sha256": "2b964253fa0c6ca1e7640e296c336ca2f9e930973529eba1837c1e033407ea08"
+    },
+    {
+      "file": "pira_supporting_passages.jsonl",
+      "bytes": 1307089,
+      "sha256": "ec85db5c2959fef557fd75e38a48d7116648d08917b136c795d97c1b7e67ca54"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "dev_openqa_en.jsonl",
+      "bytes": 132577,
+      "sha256": "598e06c8fc1e8bc076a11bfa3bbd40ef7910cd960f7d028fbbeb4631f61dbf7e"
+    },
+    {
+      "file": "dev_mcqa_en.jsonl",
+      "bytes": 194013,
+      "sha256": "4baaa4c6f618a874feb2bcc39094184d1143024c2a353b83c8327430bc047c7f"
+    },
+    {
+      "file": "corpus_pira_chunks_en.jsonl",
+      "bytes": 1939343,
+      "sha256": "6a2d484b15ccd56344f4531aad52607feb1ebd4d9a04f9173b2b598ad4385ffe"
+    },
+    {
+      "file": "dev_reference_expert_review.csv",
+      "bytes": 205337,
+      "sha256": "e9c6bc703c9911da8cabb452805e5aaf1f5688cd4136b383fbeb8cc2c3afeaab"
+    },
+    {
+      "file": "dev_reference_support_uncertain.csv",
+      "bytes": 14893,
+      "sha256": "8315bb1cb153d05f3f1acccc99b58bd666c52628ae9a219d4d8ebc29a9d60afb"
+    }
+  ],
+  "counts": {
+    "dev_openqa": 101,
+    "dev_mcqa": 101,
+    "dev_unique_article_eids": 91,
+    "dev_unique_normalized_passages": 90,
+    "corpus_source_passages": 688,
+    "corpus_chunks": 1507
+  },
+  "test_separation_checks": {
+    "question_id_overlap": [],
+    "known_article_eid_overlap": [],
+    "normalized_supporting_text_overlap_count": 0
+  },
+  "answer_in_text": {
+    "1": 93,
+    "0": 2,
+    "missing": 6
+  },
+  "answer_in_text_zero_ids": [
+    "A1649",
+    "A986"
+  ],
+  "answer_in_text_missing_ids": [
+    "A718",
+    "A1080",
+    "A1507",
+    "A832",
+    "A475",
+    "A306"
+  ],
+  "at_labels": {
+    "1": 74,
+    "missing": 18,
+    "0": 9
+  },
+  "mcqa_question_differs_from_openqa_ids": [
+    "A1351",
+    "A1216",
+    "A355",
+    "A811",
+    "A1451",
+    "A1474",
+    "A1165",
+    "A1935",
+    "A1556",
+    "A360",
+    "A915",
+    "A1231",
+    "A306"
+  ],
+  "retrieval_corpus_policy": "All 688 supplied support passages including test support are available as open-book source-only data; this is not QA or label access. Score source Recall@k by chunk.section against expected_source_id.",
+  "reference_policy": "Original answer is primary. Nonempty validation answer is preserved second, not assumed equivalent. Original answer_in_text and at_labels are distinct labels; neither substitutes for local expert review.",
+  "human_review": "All expert fields are blank; no fabricated expert rating. Support-uncertain rows are highlighted before viewing model outputs, not automatically excluded.",
+  "boundaries": [
+    "Development questions are excluded from test by known original ID, EID and normalized supporting text.",
+    "Published EID/text separation cannot prove complete source-document or pretraining independence.",
+    "No Pira question-answer records may be used for this run's SFT training.",
+    "MCQA and open QA use the same 101 IDs, not 202 independent questions.",
+    "Only development files are adapted; official test is neither run nor tuned against here."
+  ]
+}

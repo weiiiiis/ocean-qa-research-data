@@ -1,0 +1,12 @@
+[
+  {
+    "excluded_id": "OCEANSCI-087",
+    "retained_id": "OCEANSCI-086",
+    "reason": "same normalized question, choices and official label"
+  },
+  {
+    "excluded_id": "OCEANSCI-098",
+    "retained_id": "OCEANSCI-097",
+    "reason": "same normalized question, choices and official label"
+  }
+]

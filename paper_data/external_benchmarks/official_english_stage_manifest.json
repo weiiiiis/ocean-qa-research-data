@@ -1,0 +1,2358 @@
+{
+  "created_at_utc": "2026-10-17T07:50:56.521196+00:00",
+  "stage": "Official test schema preparation only; no model generation or tuning",
+  "dataset": "Pira 2.0",
+  "revision": "756f73c8a52e2b0fbdc8f42569e1e8c6f3865a49",
+  "license": "CC BY 4.0 (Pira dataset); preserve original supporting-text source rights",
+  "script": {
+    "file": "prepare_official_english_stage.py",
+    "bytes": 28915,
+    "sha256": "09639b9f28d5412167fb5b549e5823885f43f00204ff5baf4b51c89036ceaba0"
+  },
+  "inputs": [
+    {
+      "file": "raw/pira/data/train-00000-of-00001-7cb516c53d508ffa.parquet",
+      "bytes": 2951462,
+      "sha256": "b92ddca2a175e704d0caa6706eda7fee8831020abcefc441f25355e18dc10ce2"
+    },
+    {
+      "file": "raw/pira/data/validation-00000-of-00001-ce5e7ad4b67feb65.parquet",
+      "bytes": 527528,
+      "sha256": "59415a3193aa92dcc1d5f9ecc9a9e52f2625b4b44dfc0944aa489ff5b98b4ae0"
+    },
+    {
+      "file": "raw/pira/data/test-00000-of-00001-41cee92681c49a98.parquet",
+      "bytes": 497693,
+      "sha256": "2b964253fa0c6ca1e7640e296c336ca2f9e930973529eba1837c1e033407ea08"
+    },
+    {
+      "file": "raw/pira/mcqa/test-00000-of-00001-1c607c8177ebc2d9.parquet",
+      "bytes": 255620,
+      "sha256": "e89da63590540d2eab720860f53d3f3a15a4f3cc0d2b5ae130a39f0ecac056bc"
+    },
+    {
+      "file": "pira_dev_article_disjoint_en_101.jsonl",
+      "bytes": 217823,
+      "sha256": "dfc77de963b9aa41ce0a62b4e9e2b53fa48b0b84bbac78d6a1ac3a5425a2b739"
+    },
+    {
+      "file": "dev_openqa_en.jsonl",
+      "bytes": 132577,
+      "sha256": "598e06c8fc1e8bc076a11bfa3bbd40ef7910cd960f7d028fbbeb4631f61dbf7e"
+    },
+    {
+      "file": "pira_supporting_passages.jsonl",
+      "bytes": 1307089,
+      "sha256": "ec85db5c2959fef557fd75e38a48d7116648d08917b136c795d97c1b7e67ca54"
+    },
+    {
+      "file": "corpus_pira_chunks_en.jsonl",
+      "bytes": 1939343,
+      "sha256": "6a2d484b15ccd56344f4531aad52607feb1ebd4d9a04f9173b2b598ad4385ffe"
+    },
+    {
+      "file": "pira_test_en_227.jsonl",
+      "bytes": 176224,
+      "sha256": "29319ac73751351e290c907ff8289571d3c012f7c5961a4365400d273c88b05a"
+    },
+    {
+      "file": "pira_mcqa_test_en_227.jsonl",
+      "bytes": 236638,
+      "sha256": "48cfd8ef9696d68edbf1f79e3069bb58093be2fd0458dc4d3c401eedf5c9d429"
+    },
+    {
+      "file": "需重点复核的2题.csv",
+      "bytes": 3833,
+      "sha256": "5fb8a1a468e757fc98d46f8449f40c3553d6fc08920bee9773aa9b6d2996a059"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "official_openqa_en_227.jsonl",
+      "bytes": 409757,
+      "sha256": "390e6382cf824b69c28bd1a69e7ac3e8fc0920d1c4c8ac624440b36f1a3d9427"
+    },
+    {
+      "file": "official_mcqa_en_227.jsonl",
+      "bytes": 614099,
+      "sha256": "9839af570b8704d7f2888f72ba3b6c66efde634ed7f90ffbc8e15c845279ed21"
+    },
+    {
+      "file": "official_test_cross_split_overlap.csv",
+      "bytes": 64308,
+      "sha256": "f3446dd58bb2d5beb819aad132ce772c6b59aea5a21f542fcda1910c9dc9d6ae"
+    },
+    {
+      "file": "official_test_support_uncertain.csv",
+      "bytes": 5086,
+      "sha256": "c04f2d0956542c36ead792251e2f0003436c06ad9b59809fde69316beb2f830f"
+    }
+  ],
+  "counts": {
+    "official_openqa": 227,
+    "official_mcqa": 227,
+    "unique_original_questions": 227,
+    "corpus1_questions": 181,
+    "corpus2_questions": 46,
+    "known_article_eid_questions": 180,
+    "questions_without_known_eid": 47,
+    "original_source_groups_before_text_merge": 184,
+    "unique_source_groups": 181,
+    "unique_known_article_eids": 145,
+    "original_group_counts_by_unit": {
+      "supporting_passage_id": 39,
+      "known_article_eid": 145
+    },
+    "source_group_counts_by_unit": {
+      "supporting_passage_id": 39,
+      "known_article_eid": 139,
+      "known_eid_or_exact_passage_component": 3
+    },
+    "source_group_counts_by_corpus": {
+      "1": 143,
+      "2": 38
+    },
+    "source_group_conservative_count": 144,
+    "unique_expected_source_passages": 181,
+    "existing_corpus_source_passages": 688,
+    "existing_corpus_chunks": 1507
+  },
+  "task_id_policy": "Both tasks use identical PIRA-TEST-{official original_id} in openQA official order; 227 paired question IDs, not 454 independent questions",
+  "mcqa_question_differs_from_openqa_ids": [
+    "B2327",
+    "B2444",
+    "A1140",
+    "A767",
+    "A244",
+    "A1830",
+    "A1548",
+    "A171",
+    "A1090",
+    "A1796",
+    "A536",
+    "A1186",
+    "A1453",
+    "A157",
+    "A674",
+    "A903",
+    "A549",
+    "A1238",
+    "A747",
+    "A1595",
+    "A1847",
+    "A1937",
+    "A1674",
+    "A583",
+    "A783"
+  ],
+  "question_choice_label_text_policy": "Each task's official question string, MC options and label copied verbatim; task-specific question differences preserved",
+  "source_group_policy": "Start with known Scopus EID or original supporting passage ID when missing; merge connected components defined by same known EID OR same normalized support passage. source_group_original preserves the initial grouping. Corpus2 has no released unique report ID; passage groups are not whole-report independent groups.",
+  "source_group_conservative_policy": "For a conservative sensitivity, all 46 corpus2 questions share PIRA-UNRESOLVED-CORPUS2; corpus1 retains the merged known-EID/text grouping, including its one unresolved missing-EID question. This is a dependence sensitivity assumption, not a claim that corpus2 is one actual report.",
+  "source_group_definitions": {
+    "PIRA-DOC-06529049263994d4": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-06529049263994d4"
+      ]
+    },
+    "PIRA-DOC-0a4738849811ac0f": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-0a4738849811ac0f"
+      ]
+    },
+    "PIRA-DOC-122300ceb285e274": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-122300ceb285e274"
+      ]
+    },
+    "PIRA-DOC-1c090dc0db03818c": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-1c090dc0db03818c"
+      ]
+    },
+    "PIRA-DOC-1d8870d5c8c6c15e": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-1d8870d5c8c6c15e"
+      ]
+    },
+    "PIRA-DOC-32a71a05227ff1de": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-32a71a05227ff1de"
+      ]
+    },
+    "PIRA-DOC-351ea748c839fae9": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-351ea748c839fae9"
+      ]
+    },
+    "PIRA-DOC-43607eec08e95474": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-43607eec08e95474"
+      ]
+    },
+    "PIRA-DOC-497d1f37baf890fd": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-497d1f37baf890fd"
+      ]
+    },
+    "PIRA-DOC-4b95b141160bed60": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-4b95b141160bed60"
+      ]
+    },
+    "PIRA-DOC-560de3324ab69438": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-560de3324ab69438"
+      ]
+    },
+    "PIRA-DOC-59cb57a8d03ff14c": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-59cb57a8d03ff14c"
+      ]
+    },
+    "PIRA-DOC-6190eb0d923b4d0a": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-6190eb0d923b4d0a"
+      ]
+    },
+    "PIRA-DOC-64cac25cf108409d": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-64cac25cf108409d"
+      ]
+    },
+    "PIRA-DOC-69db28ed61a08155": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-69db28ed61a08155"
+      ]
+    },
+    "PIRA-DOC-6c2b03a87e9745e4": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-6c2b03a87e9745e4"
+      ]
+    },
+    "PIRA-DOC-6f502a36a0353e6f": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-6f502a36a0353e6f"
+      ]
+    },
+    "PIRA-DOC-7b2f80dace41536b": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-7b2f80dace41536b"
+      ]
+    },
+    "PIRA-DOC-864d9e41711ece16": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        1
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-864d9e41711ece16"
+      ]
+    },
+    "PIRA-DOC-8fa3223c3a746f7f": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-8fa3223c3a746f7f"
+      ]
+    },
+    "PIRA-DOC-998b5160d3e60ff5": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-998b5160d3e60ff5"
+      ]
+    },
+    "PIRA-DOC-99f7fea0aeb8cbe6": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-99f7fea0aeb8cbe6"
+      ]
+    },
+    "PIRA-DOC-a0b62a6c0d24e590": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-a0b62a6c0d24e590"
+      ]
+    },
+    "PIRA-DOC-a181f793fd01a9ca": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-a181f793fd01a9ca"
+      ]
+    },
+    "PIRA-DOC-a4e79d8a4f650e76": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-a4e79d8a4f650e76"
+      ]
+    },
+    "PIRA-DOC-a93222f8ad987e35": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-a93222f8ad987e35"
+      ]
+    },
+    "PIRA-DOC-b6844ee47b39cdf2": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-b6844ee47b39cdf2"
+      ]
+    },
+    "PIRA-DOC-bb731d54d8e68eef": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-bb731d54d8e68eef"
+      ]
+    },
+    "PIRA-DOC-bd99e69624f4192b": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-bd99e69624f4192b"
+      ]
+    },
+    "PIRA-DOC-c20036fbcc57cd15": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-c20036fbcc57cd15"
+      ]
+    },
+    "PIRA-DOC-c63def776f4e27ee": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-c63def776f4e27ee"
+      ]
+    },
+    "PIRA-DOC-cae1bd695cc9e8a4": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-cae1bd695cc9e8a4"
+      ]
+    },
+    "PIRA-DOC-e7f636a9bdf4eb40": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-e7f636a9bdf4eb40"
+      ]
+    },
+    "PIRA-DOC-ea55bf3d7fe25479": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-ea55bf3d7fe25479"
+      ]
+    },
+    "PIRA-DOC-eae03154ca5a442f": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-eae03154ca5a442f"
+      ]
+    },
+    "PIRA-DOC-f33d54a1343e1af7": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-f33d54a1343e1af7"
+      ]
+    },
+    "PIRA-DOC-f3bb2b45b90b3d28": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-f3bb2b45b90b3d28"
+      ]
+    },
+    "PIRA-DOC-f4776357243ec145": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-f4776357243ec145"
+      ]
+    },
+    "PIRA-DOC-ffe02bc8b4a548c2": {
+      "unit": "supporting_passage_id",
+      "corpora": [
+        2
+      ],
+      "article_eids": [],
+      "original_source_groups": [
+        "PIRA-DOC-ffe02bc8b4a548c2"
+      ]
+    },
+    "PIRA-EID-2-s2.0-10260407": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-10260407"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-10260407"
+      ]
+    },
+    "PIRA-EID-2-s2.0-16964104": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-16964104"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-16964104"
+      ]
+    },
+    "PIRA-EID-2-s2.0-17044389842": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-17044389842"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-17044389842"
+      ]
+    },
+    "PIRA-EID-2-s2.0-17144436283": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-17144436283"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-17144436283"
+      ]
+    },
+    "PIRA-EID-2-s2.0-17344364742": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-17344364742"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-17344364742"
+      ]
+    },
+    "PIRA-EID-2-s2.0-19586421": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-19586421"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-19586421"
+      ]
+    },
+    "PIRA-EID-2-s2.0-2342623297": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-2342623297"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-2342623297"
+      ]
+    },
+    "PIRA-EID-2-s2.0-242694501": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-242694501"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-242694501"
+      ]
+    },
+    "PIRA-EID-2-s2.0-24662461": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-24662461"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-24662461"
+      ]
+    },
+    "PIRA-SOURCE-COMP-e918edf34fe0b3a3": {
+      "unit": "known_eid_or_exact_passage_component",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-24769642",
+        "2-s2.0-24769643"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-24769642",
+        "PIRA-EID-2-s2.0-24769643"
+      ]
+    },
+    "PIRA-EID-2-s2.0-25144481375": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-25144481375"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-25144481375"
+      ]
+    },
+    "PIRA-EID-2-s2.0-31206995": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-31206995"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-31206995"
+      ]
+    },
+    "PIRA-EID-2-s2.0-33644613229": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-33644613229"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-33644613229"
+      ]
+    },
+    "PIRA-EID-2-s2.0-33646035823": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-33646035823"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-33646035823"
+      ]
+    },
+    "PIRA-EID-2-s2.0-33646073069": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-33646073069"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-33646073069"
+      ]
+    },
+    "PIRA-EID-2-s2.0-33646452775": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-33646452775"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-33646452775"
+      ]
+    },
+    "PIRA-EID-2-s2.0-33745228406": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-33745228406"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-33745228406"
+      ]
+    },
+    "PIRA-EID-2-s2.0-34250708084": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-34250708084"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-34250708084"
+      ]
+    },
+    "PIRA-EID-2-s2.0-344309110": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-344309110"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-344309110"
+      ]
+    },
+    "PIRA-EID-2-s2.0-34531605": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-34531605"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-34531605"
+      ]
+    },
+    "PIRA-EID-2-s2.0-345603133": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-345603133"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-345603133"
+      ]
+    },
+    "PIRA-SOURCE-COMP-bf749cf87e3ee63c": {
+      "unit": "known_eid_or_exact_passage_component",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-34686357",
+        "2-s2.0-34686358"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-34686357",
+        "PIRA-EID-2-s2.0-34686358"
+      ]
+    },
+    "PIRA-EID-2-s2.0-36768397": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-36768397"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-36768397"
+      ]
+    },
+    "PIRA-EID-2-s2.0-37237665": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-37237665"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-37237665"
+      ]
+    },
+    "PIRA-SOURCE-COMP-5a0e7e45ec882288": {
+      "unit": "known_eid_or_exact_passage_component",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-4043182709",
+        "2-s2.0-4043182711"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-4043182709",
+        "PIRA-EID-2-s2.0-4043182711"
+      ]
+    },
+    "PIRA-EID-2-s2.0-43264987": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-43264987"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-43264987"
+      ]
+    },
+    "PIRA-EID-2-s2.0-47849110025": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-47849110025"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-47849110025"
+      ]
+    },
+    "PIRA-EID-2-s2.0-50249174640": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-50249174640"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-50249174640"
+      ]
+    },
+    "PIRA-EID-2-s2.0-51649098845": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-51649098845"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-51649098845"
+      ]
+    },
+    "PIRA-EID-2-s2.0-52249116622": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-52249116622"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-52249116622"
+      ]
+    },
+    "PIRA-EID-2-s2.0-57649139087": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-57649139087"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-57649139087"
+      ]
+    },
+    "PIRA-EID-2-s2.0-59649088185": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-59649088185"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-59649088185"
+      ]
+    },
+    "PIRA-EID-2-s2.0-70449650835": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-70449650835"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-70449650835"
+      ]
+    },
+    "PIRA-EID-2-s2.0-73349086227": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-73349086227"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-73349086227"
+      ]
+    },
+    "PIRA-EID-2-s2.0-77449138097": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-77449138097"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-77449138097"
+      ]
+    },
+    "PIRA-EID-2-s2.0-77955388680": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-77955388680"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-77955388680"
+      ]
+    },
+    "PIRA-EID-2-s2.0-77956543361": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-77956543361"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-77956543361"
+      ]
+    },
+    "PIRA-EID-2-s2.0-77956858304": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-77956858304"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-77956858304"
+      ]
+    },
+    "PIRA-EID-2-s2.0-79953006622": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-79953006622"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-79953006622"
+      ]
+    },
+    "PIRA-EID-2-s2.0-79955374293": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-79955374293"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-79955374293"
+      ]
+    },
+    "PIRA-EID-2-s2.0-79955828033": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-79955828033"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-79955828033"
+      ]
+    },
+    "PIRA-EID-2-s2.0-79959789184": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-79959789184"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-79959789184"
+      ]
+    },
+    "PIRA-EID-2-s2.0-80052582062": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-80052582062"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-80052582062"
+      ]
+    },
+    "PIRA-EID-2-s2.0-80052741860": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-80052741860"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-80052741860"
+      ]
+    },
+    "PIRA-EID-2-s2.0-80054757255": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-80054757255"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-80054757255"
+      ]
+    },
+    "PIRA-EID-2-s2.0-84856741449": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-84856741449"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-84856741449"
+      ]
+    },
+    "PIRA-EID-2-s2.0-84857305090": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-84857305090"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-84857305090"
+      ]
+    },
+    "PIRA-EID-2-s2.0-84857324711": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-84857324711"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-84857324711"
+      ]
+    },
+    "PIRA-EID-2-s2.0-84861595246": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-84861595246"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-84861595246"
+      ]
+    },
+    "PIRA-EID-2-s2.0-84865723570": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-84865723570"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-84865723570"
+      ]
+    },
+    "PIRA-EID-2-s2.0-84883765292": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-84883765292"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-84883765292"
+      ]
+    },
+    "PIRA-EID-2-s2.0-84893361208": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-84893361208"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-84893361208"
+      ]
+    },
+    "PIRA-EID-2-s2.0-84893407222": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-84893407222"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-84893407222"
+      ]
+    },
+    "PIRA-EID-2-s2.0-84897381844": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-84897381844"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-84897381844"
+      ]
+    },
+    "PIRA-EID-2-s2.0-84897392529": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-84897392529"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-84897392529"
+      ]
+    },
+    "PIRA-EID-2-s2.0-84897448998": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-84897448998"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-84897448998"
+      ]
+    },
+    "PIRA-EID-2-s2.0-84897470967": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-84897470967"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-84897470967"
+      ]
+    },
+    "PIRA-EID-2-s2.0-84905748711": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-84905748711"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-84905748711"
+      ]
+    },
+    "PIRA-EID-2-s2.0-84918528762": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-84918528762"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-84918528762"
+      ]
+    },
+    "PIRA-EID-2-s2.0-84930091662": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-84930091662"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-84930091662"
+      ]
+    },
+    "PIRA-EID-2-s2.0-84944574757": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-84944574757"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-84944574757"
+      ]
+    },
+    "PIRA-EID-2-s2.0-84947326315": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-84947326315"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-84947326315"
+      ]
+    },
+    "PIRA-EID-2-s2.0-84949666942": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-84949666942"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-84949666942"
+      ]
+    },
+    "PIRA-EID-2-s2.0-84955127995": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-84955127995"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-84955127995"
+      ]
+    },
+    "PIRA-EID-2-s2.0-84959561430": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-84959561430"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-84959561430"
+      ]
+    },
+    "PIRA-EID-2-s2.0-84966340570": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-84966340570"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-84966340570"
+      ]
+    },
+    "PIRA-EID-2-s2.0-84979574362": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-84979574362"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-84979574362"
+      ]
+    },
+    "PIRA-EID-2-s2.0-84983465797": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-84983465797"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-84983465797"
+      ]
+    },
+    "PIRA-EID-2-s2.0-84987762471": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-84987762471"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-84987762471"
+      ]
+    },
+    "PIRA-EID-2-s2.0-84996602559": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-84996602559"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-84996602559"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85006339618": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85006339618"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85006339618"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85008198009": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85008198009"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85008198009"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85012910163": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85012910163"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85012910163"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85020183362": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85020183362"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85020183362"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85027233889": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85027233889"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85027233889"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85028048315": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85028048315"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85028048315"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85030830298": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85030830298"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85030830298"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85035340277": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85035340277"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85035340277"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85039546750": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85039546750"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85039546750"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85043324954": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85043324954"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85043324954"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85044192214": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85044192214"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85044192214"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85044462127": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85044462127"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85044462127"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85045186297": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85045186297"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85045186297"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85046290497": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85046290497"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85046290497"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85051649253": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85051649253"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85051649253"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85051653660": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85051653660"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85051653660"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85052069920": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85052069920"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85052069920"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85053770238": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85053770238"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85053770238"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85054504118": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85054504118"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85054504118"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85054941296": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85054941296"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85054941296"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85055027692": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85055027692"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85055027692"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85055255571": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85055255571"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85055255571"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85055263465": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85055263465"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85055263465"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85056110569": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85056110569"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85056110569"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85056566136": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85056566136"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85056566136"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85059218520": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85059218520"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85059218520"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85059436090": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85059436090"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85059436090"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85060443361": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85060443361"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85060443361"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85061498967": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85061498967"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85061498967"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85061767810": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85061767810"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85061767810"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85061823653": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85061823653"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85061823653"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85062607406": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85062607406"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85062607406"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85064808857": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85064808857"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85064808857"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85064983703": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85064983703"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85064983703"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85070853924": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85070853924"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85070853924"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85071023764": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85071023764"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85071023764"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85071847548": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85071847548"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85071847548"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85075421341": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85075421341"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85075421341"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85076246665": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85076246665"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85076246665"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85076560202": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85076560202"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85076560202"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85085298469": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85085298469"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85085298469"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85085773731": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85085773731"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85085773731"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85085773825": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85085773825"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85085773825"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85085773875": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85085773875"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85085773875"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85085775562": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85085775562"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85085775562"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85085775753": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85085775753"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85085775753"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85085776540": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85085776540"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85085776540"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85085778037": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85085778037"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85085778037"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85085778412": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85085778412"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85085778412"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85085778651": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85085778651"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85085778651"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85086232639": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85086232639"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85086232639"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85086248840": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85086248840"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85086248840"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85086402425": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85086402425"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85086402425"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85087970879": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85087970879"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85087970879"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85088029712": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85088029712"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85088029712"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85088892946": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85088892946"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85088892946"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85090049799": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85090049799"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85090049799"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85090507698": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85090507698"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85090507698"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85094168812": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85094168812"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85094168812"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85095967333": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85095967333"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85095967333"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85096104148": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85096104148"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85096104148"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85097539519": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85097539519"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85097539519"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85097598677": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85097598677"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85097598677"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85097876795": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85097876795"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85097876795"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85098204648": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85098204648"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85098204648"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85099021856": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85099021856"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85099021856"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85099520347": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85099520347"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85099520347"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85101067912": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85101067912"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85101067912"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85101107313": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85101107313"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85101107313"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85101344072": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85101344072"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85101344072"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85101359309": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85101359309"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85101359309"
+      ]
+    },
+    "PIRA-EID-2-s2.0-85104631395": {
+      "unit": "known_article_eid",
+      "corpora": [
+        1
+      ],
+      "article_eids": [
+        "2-s2.0-85104631395"
+      ],
+      "original_source_groups": [
+        "PIRA-EID-2-s2.0-85104631395"
+      ]
+    }
+  },
+  "distinct_original_source_groups_sharing_identical_passage": {
+    "PIRA-DOC-08d7a1e852a06371": [
+      "PIRA-EID-2-s2.0-34686357",
+      "PIRA-EID-2-s2.0-34686358"
+    ],
+    "PIRA-DOC-2287f69e894bad92": [
+      "PIRA-EID-2-s2.0-24769642",
+      "PIRA-EID-2-s2.0-24769643"
+    ],
+    "PIRA-DOC-84799608863a9487": [
+      "PIRA-EID-2-s2.0-4043182709",
+      "PIRA-EID-2-s2.0-4043182711"
+    ]
+  },
+  "source_group_limitation": "Different released EIDs sharing identical supporting text are merged. Missing EIDs still cannot certify distinct papers; the corpus1 fallback record may belong to another known article. Neither grouping proves full-document independence, especially for corpus2 without report IDs.",
+  "expected_source_mapping": "Every expected_source_id equals an existing corpus chunk.section; retrieval corpus is reused unchanged, with no QA/label additions",
+  "cross_split_known_overlap": {
+    "official_train": {
+      "question_id_overlap_count": 1,
+      "test_questions_with_known_eid_overlap": 161,
+      "unique_overlapping_known_eids": 128,
+      "test_questions_with_normalized_passage_overlap": 197,
+      "unique_overlapping_supporting_passage_ids": 155
+    },
+    "official_validation": {
+      "question_id_overlap_count": 0,
+      "test_questions_with_known_eid_overlap": 63,
+      "unique_overlapping_known_eids": 43,
+      "test_questions_with_normalized_passage_overlap": 78,
+      "unique_overlapping_supporting_passage_ids": 53
+    },
+    "selected_dev101": {
+      "question_id_overlap_count": 0,
+      "test_questions_with_known_eid_overlap": 0,
+      "unique_overlapping_known_eids": 0,
+      "test_questions_with_normalized_passage_overlap": 0,
+      "unique_overlapping_supporting_passage_ids": 0
+    }
+  },
+  "selected_dev101_separation_scope": "Original question ID, released nonmissing article EID and normalized exact supporting passage only. Group labels also disjoint. This does not prove whole-report, semantic, hidden-source or base-pretraining independence.",
+  "official_split_boundary": "Official question splits may share article EIDs or exact supporting passages; overlap is exported rather than removed. No official train/validation QA is added to this project's SFT.",
+  "cross_split_question_id_overlap_details": {
+    "official_train": [
+      "A173"
+    ],
+    "official_validation": [],
+    "selected_dev101": []
+  },
+  "historical_training_overlap_sensitivity_mask": {
+    "original_ids": [
+      "A1329",
+      "B2585"
+    ],
+    "prepared_ids": [
+      "PIRA-TEST-A1329",
+      "PIRA-TEST-B2585"
+    ],
+    "prior_normalized_ids": [
+      "PIRA-A1329",
+      "PIRA-B2585"
+    ],
+    "match_rule": "Match original_id exactly in both tasks; never match only an old/new prefix",
+    "status": "Prior automatic semantic review flags, not confirmed leakage; labels and primary 227 remain unchanged"
+  },
+  "answer_in_text": {
+    "missing": 11,
+    "1": 206,
+    "0": 10
+  },
+  "answer_in_text_zero_ids": [
+    "A244",
+    "A725",
+    "A1842",
+    "A1186",
+    "A439",
+    "A897",
+    "A1589",
+    "A852",
+    "A1329",
+    "A630"
+  ],
+  "answer_in_text_missing_ids": [
+    "B2083",
+    "B2063",
+    "A1140",
+    "A967",
+    "A258",
+    "A250",
+    "A1083",
+    "A366",
+    "A1168",
+    "A1590",
+    "A266"
+  ],
+  "at_labels": {
+    "missing": 29,
+    "1": 179,
+    "0": 19
+  },
+  "annotation_policy": "Retain all 227. answer_in_text is preserved separately from at_labels; at_labels is not a refusal/abstention label and neither overrides original gold answers. No automatic deletion or inferred unanswerability.",
+  "reference_policy": "reference_answer_origin is verbatim answer_en_origin; alternate validation answer remains optional and unverified; published source-field names retained",
+  "human_review": "pending; all expert/reviewer cells blank",
+  "original_inputs_and_corpus_unchanged": true,
+  "official_model_run_performed": false,
+  "official_model_performance_inspected": false
+}

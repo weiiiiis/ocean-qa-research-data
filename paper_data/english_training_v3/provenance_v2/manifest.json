@@ -1,0 +1,170 @@
+{
+  "version": "english_training_v2",
+  "status": "Candidate system-prompt adaptation only; no model training",
+  "parent": "paper_data/english_training_v1",
+  "parent_v1_manifest_sha256": "cfb90634dc570da6c9b9d2a27b9fb20bacb90533b9f567f6432e28d618285969",
+  "parent_v1_files_sha256": {
+    "candidates_300.jsonl": "7f82c02f659cad8054244643a5f1db444b43bce0a61e11b1c8e68d2bc2e30f94",
+    "train_candidates_240.jsonl": "881649629c95949e4752b6f8be4f1d0b6a39e20a362ed6441a3f3befaaeef64b",
+    "validation_candidates_60.jsonl": "2ed33b1efc22a9deaab0ed09162d60b5c63cdac346fd9b9f37c17f19988bbcdd",
+    "facts.tsv": "f3b0baf5d6b236ab28884eb02ae7f8c8faa77692150d2d0a9bfe2557c3107c06",
+    "source_facts_60.jsonl": "27638f19e823e31bbc761487772c66151404edc377f0a763d098cc48d32c9381",
+    "family_split.json": "6fbeb49bc9383229c20049dab3881aa361e0e4ede7dbf57b8965cfce8ed2f916",
+    "source_anchor_and_expert_review.csv": "ce3bde2bab3264cab2191b1b019b3aee32dd3d93c0dcf3b7ba2d65ce4a24be9c",
+    "manifest.json": "cfb90634dc570da6c9b9d2a27b9fb20bacb90533b9f567f6432e28d618285969",
+    "system_prompt.txt": "9a9d462c38bdb65a94b98350977f8c044302e298435d4e895ee6325bfd8ae2d5",
+    "prepare_candidates.py": "1296e66375db9755590725e083a5e8e6509864bae99baf0a1964f2938118cdcd",
+    "README.md": "ca85071ef26f5461629f7b443f84acded2509d29a30a4f0ee3243caa736462a0",
+    "revision_history/initial_facts_before_semantic_review.json": "61e328857f7b6b69a3e7322e586f64ebc11cad31048af3ed172d4dbfc51860dc",
+    "revision_history/initial_manifest_before_semantic_review.json": "433177000677da77dfeb347988e5ee6806fa1bfba855e0fbe494b36a617dd356",
+    "revision_history/semantic_review_2026-10-17.json": "e703cd189f31e6b4debc525055d7d2c31b7012bfcd2a5135340c15998f29ef18"
+  },
+  "change": "Only messages[0].content is replaced by OPEN_SYSTEM_V2; user/assistant messages, IDs, families, splits, sources and labels are unchanged. Token lengths are recomputed.",
+  "prompt_profile": "evidence_v2",
+  "system_prompt_source": "paper_eval/english.py OPEN_SYSTEM_V2 (AST constant; no import)",
+  "system_prompt_text_sha256": "1b7a714c72f967bc0b73c0fbbcad44622c5012dee9d3cdb701e4893360ea4a1b",
+  "system_prompt_file_sha256": "1c2eb3bfc991a8d5eb728323a5b4aeaad0a1506410b763a6476018eaa06c207d",
+  "source_pdf_sha256": "40ededf6867ab823b911970fda2ef77dff9946d2286ab29a22ccf7dd77755df0",
+  "source_corpus_sha256": "eb8cf52f491c7b51d7ac6b85ea4accebc31e8a3c60e396a1312134131a3a3259",
+  "license_and_attribution": "Introduction to Oceanography by Paul Webb, CC BY 4.0 except where otherwise noted; portions credit Steven Earle's Physical Geology",
+  "gold_status": "source-grounded AI-authored candidate, local check performed where traceable; expert review pending",
+  "summaries": {
+    "candidates_300.jsonl": {
+      "examples": 300,
+      "families": 60,
+      "source_groups": 60,
+      "types": {
+        "closed_book": 60,
+        "grounded": 180,
+        "insufficient_evidence": 60
+      },
+      "full_chat_tokens": {
+        "min": 203,
+        "max": 497,
+        "mean": 316.59,
+        "limit": 1024,
+        "truncated_examples": 0
+      },
+      "assistant_answer_max_whitespace_words": 36
+    },
+    "train_candidates_240.jsonl": {
+      "examples": 240,
+      "families": 48,
+      "source_groups": 48,
+      "types": {
+        "closed_book": 48,
+        "grounded": 144,
+        "insufficient_evidence": 48
+      },
+      "full_chat_tokens": {
+        "min": 203,
+        "max": 497,
+        "mean": 317.4291666666667,
+        "limit": 1024,
+        "truncated_examples": 0
+      },
+      "assistant_answer_max_whitespace_words": 36
+    },
+    "validation_candidates_60.jsonl": {
+      "examples": 60,
+      "families": 12,
+      "source_groups": 12,
+      "types": {
+        "closed_book": 12,
+        "grounded": 36,
+        "insufficient_evidence": 12
+      },
+      "full_chat_tokens": {
+        "min": 203,
+        "max": 480,
+        "mean": 313.23333333333335,
+        "limit": 1024,
+        "truncated_examples": 0
+      },
+      "assistant_answer_max_whitespace_words": 31
+    }
+  },
+  "checks": {
+    "only_system_prompt_changed": true,
+    "full_template_length_without_truncation": true,
+    "family_and_section_train_validation_disjoint": true,
+    "expert_approval": false,
+    "model_training_started": false
+  },
+  "trainer_input_policy": "Train only on messages. Provenance, type labels, reference fact metadata and review fields must never be concatenated into user/model input.",
+  "evidence_scope_policy": "Every context-supplied positive and negative example has the same explicit passages-only instruction. Negative answers describe inadequacy of that supplied passage, not ignorance or global unanswerability of the ocean fact.",
+  "boundaries": [
+    "300 task-format examples represent 60 knowledge families, not 300 independent facts or questions.",
+    "Question paraphrases share a family and are kept in the same candidate split.",
+    "Sources are the local English Webb textbook only, not Pira QA or supporting passages.",
+    "No old Chinese candidate evaluation questions were read or translated by this builder.",
+    "Original text provenance differs from Pira's scientific-abstract/UN-report corpus; generic ocean concepts may still overlap.",
+    "The textbook was also used for a prior Chinese candidate benchmark; do not treat that benchmark as unseen evaluation after this training.",
+    "These short examples do not match the length or specificity of every external research-abstract question.",
+    "Use only if the independent development diagnosis justifies supplementation; no guaranteed improvement is asserted.",
+    "Insufficient-evidence examples assert only that the supplied passage is inadequate, not that the underlying question is globally unanswerable."
+  ],
+  "output_files": {
+    "candidates_300.jsonl": {
+      "sha256": "1abeaa93b4513f421bb6f7fcf2460be54e575b1eba97762f2df6b440cbb04e9b",
+      "bytes": 1108794
+    },
+    "train_candidates_240.jsonl": {
+      "sha256": "1a8b4f593b7afb0d06cbbdd312ed4f976ef46c8e03fbc0c2137c9355da486812",
+      "bytes": 888635
+    },
+    "validation_candidates_60.jsonl": {
+      "sha256": "aab6c69c6b6b00825a336d517b09dc4a7203d69ac18e9fab1fc587ba38f355c0",
+      "bytes": 220159
+    },
+    "facts.tsv": {
+      "sha256": "f3b0baf5d6b236ab28884eb02ae7f8c8faa77692150d2d0a9bfe2557c3107c06",
+      "bytes": 23505
+    },
+    "source_facts_60.jsonl": {
+      "sha256": "27638f19e823e31bbc761487772c66151404edc377f0a763d098cc48d32c9381",
+      "bytes": 67004
+    },
+    "family_split.json": {
+      "sha256": "6fbeb49bc9383229c20049dab3881aa361e0e4ede7dbf57b8965cfce8ed2f916",
+      "bytes": 1725
+    },
+    "source_anchor_and_expert_review.csv": {
+      "sha256": "ce3bde2bab3264cab2191b1b019b3aee32dd3d93c0dcf3b7ba2d65ce4a24be9c",
+      "bytes": 69828
+    },
+    "system_prompt.txt": {
+      "sha256": "1c2eb3bfc991a8d5eb728323a5b4aeaad0a1506410b763a6476018eaa06c207d",
+      "bytes": 899
+    },
+    "revision_history/initial_facts_before_semantic_review.json": {
+      "sha256": "61e328857f7b6b69a3e7322e586f64ebc11cad31048af3ed172d4dbfc51860dc",
+      "bytes": 32894
+    },
+    "revision_history/initial_manifest_before_semantic_review.json": {
+      "sha256": "433177000677da77dfeb347988e5ee6806fa1bfba855e0fbe494b36a617dd356",
+      "bytes": 4793
+    },
+    "revision_history/semantic_review_2026-10-17.json": {
+      "sha256": "e703cd189f31e6b4debc525055d7d2c31b7012bfcd2a5135340c15998f29ef18",
+      "bytes": 70668
+    },
+    "provenance_v1/manifest.json": {
+      "sha256": "cfb90634dc570da6c9b9d2a27b9fb20bacb90533b9f567f6432e28d618285969",
+      "bytes": 5865
+    },
+    "provenance_v1/prepare_candidates.py": {
+      "sha256": "1296e66375db9755590725e083a5e8e6509864bae99baf0a1964f2938118cdcd",
+      "bytes": 19977
+    },
+    "provenance_v1/README.md": {
+      "sha256": "ca85071ef26f5461629f7b443f84acded2509d29a30a4f0ee3243caa736462a0",
+      "bytes": 6223
+    },
+    "provenance_v1/system_prompt.txt": {
+      "sha256": "9a9d462c38bdb65a94b98350977f8c044302e298435d4e895ee6325bfd8ae2d5",
+      "bytes": 597
+    }
+  },
+  "builder_sha256": "c0f4af21cf14025daa277e3c913cbf326538f535ede2e32a62f37bcbde1e6c98"
+}

@@ -1,0 +1,7 @@
+{
+  "recorded_at_utc": "2026-10-28T09:01:12.012792+00:00",
+  "primary_unchanged": "91 published source_group EID clusters",
+  "additional_sensitivity": "Union EID clusters with same expected_source_id, no answer or score-based selection; paired cluster bootstrap with same seed 20261028 and 10000 draws",
+  "reason": "91 EID groups correspond to90 unique released supporting-text IDs",
+  "status_at_recording": "Inference ongoing; no full aggregate model scores computed or inspected"
+}

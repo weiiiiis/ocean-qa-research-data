@@ -1,0 +1,16 @@
+﻿f1_direction,v2_content_result,questions
+increase,v2_better,3
+increase,v2_worse,5
+increase,equivalent,14
+increase,tradeoff,1
+increase,uncertain,1
+decrease,v2_better,2
+decrease,v2_worse,11
+decrease,equivalent,22
+decrease,tradeoff,0
+decrease,uncertain,0
+unchanged,v2_better,0
+unchanged,v2_worse,1
+unchanged,equivalent,40
+unchanged,tradeoff,0
+unchanged,uncertain,1

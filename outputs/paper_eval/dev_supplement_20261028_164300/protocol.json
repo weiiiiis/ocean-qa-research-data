@@ -1,0 +1,97 @@
+{
+  "version": "dev-budget-stage-supplement-v1",
+  "frozen_reference_protocol": {
+    "protocol_version": "ocean-paper-official-en-frozen-v1-20261017",
+    "prompt_profile": "evidence_v2",
+    "base_model": "models/Qwen3-4B-Instruct",
+    "adapter": "outputs/ocean_qwen3_english_grounded_v2/epoch_1",
+    "embedding_model": "models/embedding_minilm",
+    "language": "en",
+    "seed": 20261016,
+    "generation": {
+      "max_new_tokens": 160,
+      "do_sample": false,
+      "repetition_penalty": 1.05,
+      "max_input_tokens": 2048
+    },
+    "mcqa_max_new_tokens": 16,
+    "retrieval": {
+      "method": "bm25",
+      "top_k": 3,
+      "min_score": 0.0,
+      "max_context_tokens": 1000,
+      "device": "cpu",
+      "k1": 1.5,
+      "b": 0.75,
+      "lowercase": true,
+      "stop_words": "english",
+      "token_pattern": "(?u)\\b\\w\\w+\\b",
+      "query_term_frequency": "binary",
+      "source_unique": true,
+      "exclude_zero_scores": true
+    },
+    "warmup_generations_per_condition": 1,
+    "measurement_boundary": "Natural answer cost only. No inference-efficiency claim without fixed-work measurements and reversed-order repeats.",
+    "data_boundary": "Only question stems enter retrieval. Gold answers, labels and expected source IDs do not enter prompts. Retrieved source passages are evidence. Development settings must be frozen before the official test.",
+    "change_from_v1": "Identical BM25 and generation settings. Open-QA instructions remove the fictitious citation example, explicitly require exact source IDs, limit unsupported facts and request concise answers. MC prompts are unchanged.",
+    "frozen_model_order": "base_first"
+  },
+  "generation_budgets": [
+    160,
+    96
+  ],
+  "cells": [
+    "base_t160",
+    "base_t96",
+    "base_rag_t160",
+    "base_rag_t96",
+    "v2_t160",
+    "v2_t96",
+    "v2_rag_t160",
+    "v2_rag_t96",
+    "v1_t160",
+    "v1_rag_t160"
+  ],
+  "dataset": "D:\\weitiao\\ocean-chat\\paper_data\\external_benchmarks\\dev_openqa_en.jsonl",
+  "corpus": "D:\\weitiao\\ocean-chat\\paper_data\\external_benchmarks\\corpus_pira_chunks_en.jsonl",
+  "questions": 101,
+  "source_groups": 91,
+  "pilot_ids": [
+    "PIRA-DEV-A1234",
+    "PIRA-DEV-A1371",
+    "PIRA-DEV-A235",
+    "PIRA-DEV-A802",
+    "PIRA-DEV-A928",
+    "PIRA-DEV-A1351",
+    "PIRA-DEV-A1433",
+    "PIRA-DEV-A792",
+    "PIRA-DEV-A1662",
+    "PIRA-DEV-A696",
+    "PIRA-DEV-A1216",
+    "PIRA-DEV-A1838"
+  ],
+  "pilot_selection": "Existing balanced_source_group_round_robin_v1; first 12, before generation; retain all results",
+  "pilot_gate": "All 12 x 8 records present, unique, exact prompt/context equality and termination metadata; truncation does not fail the gate",
+  "sequence": "pilot: base,v2 x budgets160,96; gate; remaining: base,v2; all v1 at160; one GPU process",
+  "order": "Alternate no-RAG/RAG and budget order by question index within each model block",
+  "quantization": {
+    "load_in_4bit": true,
+    "type": "nf4",
+    "double_quant": true,
+    "compute_dtype": "float16",
+    "attention": "sdpa",
+    "batch_size": 1
+  },
+  "statistics": {
+    "seed": 20261028,
+    "resamples": 10000,
+    "method": "Paired percentile source-group cluster bootstrap; question-weighted mean difference; identical sampled clusters for all comparisons",
+    "grouping": "Published source_group (known article EID); not proof of independent complete documents"
+  },
+  "scope": "English dev only; no training, no official test inference, no historical answers reused",
+  "interpretation": "Generation budget sensitivity, not strict equal-length control. Stage comparison confounds second-stage design with extra training.",
+  "termination": "Existing generate reports EOS or len(ids)>=budget without EOS; output_tokens includes EOS. Text is decoded with skip_special_tokens=True and whitespace strip only, no content cropping.",
+  "words": "Whitespace-separated words in full decoded answer, citations included; also save citation-stripped words",
+  "f1": "Existing SQuAD normalization and original published reference, citations removed; lexical overlap only",
+  "citations": "Existing english_report regex; each comma/semicolon-separated identifier counted; resolution against supplied chunk IDs only"
+}

@@ -1,0 +1,36 @@
+{
+  "protocol_version": "ocean-paper-official-en-frozen-v1-20261017",
+  "prompt_profile": "evidence_v2",
+  "base_model": "models/Qwen3-4B-Instruct",
+  "adapter": "outputs/ocean_qwen3_english_grounded_v2/epoch_1",
+  "embedding_model": "models/embedding_minilm",
+  "language": "en",
+  "seed": 20261016,
+  "generation": {
+    "max_new_tokens": 160,
+    "do_sample": false,
+    "repetition_penalty": 1.05,
+    "max_input_tokens": 2048
+  },
+  "mcqa_max_new_tokens": 16,
+  "retrieval": {
+    "method": "bm25",
+    "top_k": 3,
+    "min_score": 0.0,
+    "max_context_tokens": 1000,
+    "device": "cpu",
+    "k1": 1.5,
+    "b": 0.75,
+    "lowercase": true,
+    "stop_words": "english",
+    "token_pattern": "(?u)\\b\\w\\w+\\b",
+    "query_term_frequency": "binary",
+    "source_unique": true,
+    "exclude_zero_scores": true
+  },
+  "warmup_generations_per_condition": 1,
+  "measurement_boundary": "Natural answer cost only. No inference-efficiency claim without fixed-work measurements and reversed-order repeats.",
+  "data_boundary": "Only question stems enter retrieval. Gold answers, labels and expected source IDs do not enter prompts. Retrieved source passages are evidence. Development settings must be frozen before the official test.",
+  "change_from_v1": "Identical BM25 and generation settings. Open-QA instructions remove the fictitious citation example, explicitly require exact source IDs, limit unsupported facts and request concise answers. MC prompts are unchanged.",
+  "frozen_model_order": "base_first"
+}

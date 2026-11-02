@@ -1,0 +1,5 @@
+{"stage": "base", "phase": "pilot", "load_ms": 23237.659399863333, "warmups_excluded": true, "timestamp_utc": "2026-10-28T08:43:35.764946+00:00"}
+{"stage": "v2", "phase": "pilot", "load_ms": 19444.738799938932, "warmups_excluded": true, "timestamp_utc": "2026-10-28T08:46:29.167361+00:00"}
+{"stage": "base", "phase": "full", "load_ms": 13117.120599839836, "warmups_excluded": true, "timestamp_utc": "2026-10-28T08:49:04.940996+00:00"}
+{"stage": "v2", "phase": "full", "load_ms": 11414.465400157496, "warmups_excluded": true, "timestamp_utc": "2026-10-28T09:06:15.612075+00:00"}
+{"stage": "v1", "phase": "full", "load_ms": 11422.635899856687, "warmups_excluded": true, "timestamp_utc": "2026-10-28T09:22:50.457315+00:00"}

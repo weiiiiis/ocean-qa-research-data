@@ -1,0 +1,106 @@
+{
+  "retrieved_at_utc": "2026-10-16T08:13:50.664626+00:00",
+  "files": [
+    {
+      "dataset": "pira",
+      "repo": "paulopirozelli/pira",
+      "revision": "756f73c8a52e2b0fbdc8f42569e1e8c6f3865a49",
+      "url": "https://huggingface.co/datasets/paulopirozelli/pira/resolve/756f73c8a52e2b0fbdc8f42569e1e8c6f3865a49/README.md",
+      "local_file": "raw\\pira\\README.md",
+      "bytes": 11627,
+      "sha256": "83307aa3e8041abc1ff41ce7d86032379f9c5722d61c1c496c80cfc327a28472",
+      "license_card": "CC BY 4.0"
+    },
+    {
+      "dataset": "pira",
+      "repo": "paulopirozelli/pira",
+      "revision": "756f73c8a52e2b0fbdc8f42569e1e8c6f3865a49",
+      "url": "https://huggingface.co/datasets/paulopirozelli/pira/resolve/756f73c8a52e2b0fbdc8f42569e1e8c6f3865a49/data/train-00000-of-00001-7cb516c53d508ffa.parquet",
+      "local_file": "raw\\pira\\data\\train-00000-of-00001-7cb516c53d508ffa.parquet",
+      "bytes": 2951462,
+      "sha256": "b92ddca2a175e704d0caa6706eda7fee8831020abcefc441f25355e18dc10ce2",
+      "license_card": "CC BY 4.0"
+    },
+    {
+      "dataset": "pira",
+      "repo": "paulopirozelli/pira",
+      "revision": "756f73c8a52e2b0fbdc8f42569e1e8c6f3865a49",
+      "url": "https://huggingface.co/datasets/paulopirozelli/pira/resolve/756f73c8a52e2b0fbdc8f42569e1e8c6f3865a49/data/test-00000-of-00001-41cee92681c49a98.parquet",
+      "local_file": "raw\\pira\\data\\test-00000-of-00001-41cee92681c49a98.parquet",
+      "bytes": 497693,
+      "sha256": "2b964253fa0c6ca1e7640e296c336ca2f9e930973529eba1837c1e033407ea08",
+      "license_card": "CC BY 4.0"
+    },
+    {
+      "dataset": "oceanbenchmark_2026",
+      "repo": "zjunlp/OceanBenchmark",
+      "revision": "640b00c5f84c4bb42425ce8214762fd2e5745216",
+      "url": "https://huggingface.co/datasets/zjunlp/OceanBenchmark/resolve/640b00c5f84c4bb42425ce8214762fd2e5745216/README.md",
+      "local_file": "raw\\oceanbenchmark_2026\\README.md",
+      "bytes": 4601,
+      "sha256": "c078063b3f99f6c7d26211e0813bb09a26977a7d1588841e3f431ef88f1014e3",
+      "license_card": "MIT (dataset card)"
+    },
+    {
+      "dataset": "oceanbenchmark_2026",
+      "repo": "zjunlp/OceanBenchmark",
+      "revision": "640b00c5f84c4bb42425ce8214762fd2e5745216",
+      "url": "https://huggingface.co/datasets/zjunlp/OceanBenchmark/resolve/640b00c5f84c4bb42425ce8214762fd2e5745216/Science_Text/data.csv",
+      "local_file": "raw\\oceanbenchmark_2026\\Science_Text\\data.csv",
+      "bytes": 60129,
+      "sha256": "85ec4c26f770cbc8ea9316d06de688d2221b7957f4123a2dba9104792bb120db",
+      "license_card": "MIT (dataset card)"
+    },
+    {
+      "dataset": "pira",
+      "repo": "paulopirozelli/pira",
+      "revision": "756f73c8a52e2b0fbdc8f42569e1e8c6f3865a49",
+      "url": "https://huggingface.co/datasets/paulopirozelli/pira/resolve/756f73c8a52e2b0fbdc8f42569e1e8c6f3865a49/data/validation-00000-of-00001-ce5e7ad4b67feb65.parquet",
+      "local_file": "raw\\pira\\data\\validation-00000-of-00001-ce5e7ad4b67feb65.parquet",
+      "bytes": 527528,
+      "sha256": "59415a3193aa92dcc1d5f9ecc9a9e52f2625b4b44dfc0944aa489ff5b98b4ae0",
+      "license_card": "CC BY 4.0"
+    },
+    {
+      "dataset": "pira",
+      "repo": "paulopirozelli/pira",
+      "revision": "756f73c8a52e2b0fbdc8f42569e1e8c6f3865a49",
+      "url": "https://huggingface.co/datasets/paulopirozelli/pira/resolve/756f73c8a52e2b0fbdc8f42569e1e8c6f3865a49/mcqa/test-00000-of-00001-1c607c8177ebc2d9.parquet",
+      "local_file": "raw\\pira\\mcqa\\test-00000-of-00001-1c607c8177ebc2d9.parquet",
+      "bytes": 255620,
+      "sha256": "e89da63590540d2eab720860f53d3f3a15a4f3cc0d2b5ae130a39f0ecac056bc",
+      "license_card": "CC BY 4.0"
+    },
+    {
+      "dataset": "oceanbench_2024",
+      "repo": "zjunlp/OceanBench",
+      "revision": "7571d9879da80fb34d0e53be7469599e6158a184",
+      "url": "https://huggingface.co/datasets/zjunlp/OceanBench/resolve/7571d9879da80fb34d0e53be7469599e6158a184/README.md",
+      "local_file": "raw\\oceanbench_2024\\README.md",
+      "bytes": 798,
+      "sha256": "ff6a10b0066ddf70f9bbc2b63b67ad1d28ed80aaa233a2a5b6a0cbab88c87949",
+      "license_card": "MIT (dataset card)"
+    },
+    {
+      "dataset": "oceanbench_2024",
+      "repo": "zjunlp/OceanBench",
+      "revision": "7571d9879da80fb34d0e53be7469599e6158a184",
+      "url": "https://huggingface.co/datasets/zjunlp/OceanBench/resolve/7571d9879da80fb34d0e53be7469599e6158a184/OceanBench.txt",
+      "local_file": "raw\\oceanbench_2024\\OceanBench.txt",
+      "bytes": 4801079,
+      "sha256": "1e299fbc3b24bb8d91f1a54ff6caee2f05b5034a2801a8461183ea9ab8aaff6f",
+      "license_card": "MIT (dataset card)"
+    },
+    {
+      "dataset": "oceanbenchmark_2026",
+      "repo": "zjunlp/OceanBenchmark",
+      "revision": "640b00c5f84c4bb42425ce8214762fd2e5745216",
+      "url": "https://huggingface.co/datasets/zjunlp/OceanBenchmark/resolve/640b00c5f84c4bb42425ce8214762fd2e5745216/Science_Text/qa.json",
+      "local_file": "raw\\oceanbenchmark_2026\\Science_Text\\qa.json",
+      "bytes": 80027,
+      "sha256": "cb222ee59dc0f8dfb40c26cfa75895be35e13752215474d260ed40d65d44c7fb",
+      "license_card": "MIT (dataset card)"
+    }
+  ],
+  "errors": []
+}

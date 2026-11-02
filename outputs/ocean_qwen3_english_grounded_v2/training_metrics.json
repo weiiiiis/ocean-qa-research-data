@@ -1,0 +1,12 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 1.0106929540634155,
+    "global_step": 84,
+    "skipped_optimizer_updates_cumulative": 0,
+    "validation_assistant_token_loss": 0.7567398522228824,
+    "validation_target_tokens": 1742,
+    "seconds": 200.09870159998536,
+    "adapter_sha256": "8227de213d3467c63803996ea8dc8095549aed735b4709435521f1c62ef7a9f3"
+  }
+]

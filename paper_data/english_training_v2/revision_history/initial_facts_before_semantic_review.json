@@ -1,0 +1,542 @@
+[
+  {
+    "section": "1.2",
+    "anchor_start": "In an active continental margin,",
+    "anchor_end": "not associated with a plate boundary.",
+    "topic": "active and passive continental margins",
+    "question": "What distinguishes an active continental margin from a passive one?",
+    "question_rephrased": "Is a coastline necessarily a tectonic plate boundary? Explain using the two types of continental margin.",
+    "answer": "An active continental margin coincides with a tectonic plate boundary, whereas a passive margin does not. A coastline is therefore not necessarily a plate boundary."
+  },
+  {
+    "section": "1.3",
+    "anchor_start": "The first major distinction is between the pelagic and benthic zones.",
+    "anchor_end": "known as the benthos.",
+    "topic": "pelagic and benthic habitats",
+    "question": "How do the pelagic and benthic zones differ?",
+    "question_rephrased": "Which marine zone is the water column, and which is the seabed?",
+    "answer": "The pelagic zone is the water column, while the benthic zone is the bottom. Organisms living on or in the bottom are called benthos."
+  },
+  {
+    "section": "1.4",
+    "anchor_start": "To map the ocean floor we need to know the depth",
+    "anchor_end": "one fathom equals six feet,",
+    "topic": "bathymetry and depth soundings",
+    "question": "What does bathymetry measure?",
+    "question_rephrased": "A survey records the depth of the seafloor at many positions. What type of measurement is it making?",
+    "answer": "Bathymetry measures water depth and is used to describe and map the seafloor."
+  },
+  {
+    "section": "2.1",
+    "anchor_start": "Latitude is measured as the angle from the equator",
+    "anchor_end": "considered low latitude.",
+    "topic": "latitude",
+    "question": "How is latitude expressed relative to the equator?",
+    "question_rephrased": "What are the latitude values of the equator and the poles?",
+    "answer": "Latitude is expressed in degrees north or south of the equator. The equator is at 0 degrees, and the poles are at 90 degrees north or south."
+  },
+  {
+    "section": "2.2",
+    "anchor_start": "The rate at which the line unspooled indicated",
+    "anchor_end": "1.85 kph.",
+    "topic": "ship speed in knots",
+    "question": "What speed does one knot represent?",
+    "question_rephrased": "Is a knot a unit of distance or speed, and what does one knot equal?",
+    "answer": "A knot is a unit of speed equal to one nautical mile per hour."
+  },
+  {
+    "section": "2.3",
+    "anchor_start": "It is difficult to accurately represent a three-dimensional spherical object",
+    "anchor_end": "depending on the needs of the presenter.",
+    "topic": "map-projection distortion",
+    "question": "Why do oceanographers use different map projections?",
+    "question_rephrased": "Can a flat map preserve the Earth's area, direction, distance and shape everywhere?",
+    "answer": "Flattening a spherical Earth introduces distortions in area, direction, distance or shape. Different map projections are chosen according to which properties matter for the intended use."
+  },
+  {
+    "section": "3.2",
+    "anchor_start": "The outer core sits outside of the inner core.",
+    "anchor_end": "pressure is not as great as in the inner core.",
+    "topic": "the physical states of Earth's core",
+    "question": "How does the physical state of the outer core differ from that of the inner core?",
+    "question_rephrased": "Which of the two main core layers is liquid rather than solid?",
+    "answer": "The outer core is liquid, whereas the inner core is solid."
+  },
+  {
+    "section": "3.3",
+    "anchor_start": "You can think of a compression wave as a",
+    "anchor_end": "parallel to the direction of wave propagation.",
+    "topic": "seismic P waves",
+    "question": "In which direction do particles move in a seismic P wave?",
+    "question_rephrased": "Does a P wave move particles parallel or perpendicular to its direction of propagation?",
+    "answer": "In a P wave, particles move parallel to the direction in which the wave propagates."
+  },
+  {
+    "section": "4.3",
+    "anchor_start": "Even though the mantle material is essentially solid rock",
+    "anchor_end": "as long as a steady force is applied to it.",
+    "topic": "slow deformation of mantle rock",
+    "question": "Must the mantle be liquid for mantle convection to occur?",
+    "question_rephrased": "How can essentially solid mantle rock take part in convection?",
+    "answer": "Mantle material is essentially solid but can deform and flow slowly under sustained force. Convection therefore does not require the mantle to be a liquid ocean."
+  },
+  {
+    "section": "4.5",
+    "anchor_start": "Divergent boundaries are spreading boundaries",
+    "anchor_end": "although some are on land).",
+    "topic": "divergent plate boundaries",
+    "question": "What happens to oceanic crust at a divergent plate boundary?",
+    "question_rephrased": "When tectonic plates spread apart at an ocean ridge, how is the resulting space filled?",
+    "answer": "New oceanic crust forms to fill the space created as plates move apart at a divergent boundary."
+  },
+  {
+    "section": "4.6",
+    "anchor_start": "At an ocean-ocean convergent boundary",
+    "anchor_end": "as the crust bends downwards.",
+    "topic": "ocean-ocean subduction",
+    "question": "Which oceanic plate often subducts when two oceanic plates converge?",
+    "question_rephrased": "Why does the older oceanic plate often descend beneath the younger one at a convergent boundary?",
+    "answer": "The older, colder oceanic plate is often denser and subducts beneath the younger, warmer plate."
+  },
+  {
+    "section": "4.7",
+    "anchor_start": "Transform boundaries exist where one plate slides past another",
+    "anchor_end": "Some transform faults connect continental parts of plates.",
+    "topic": "transform plate boundaries",
+    "question": "Does a transform boundary create or destroy crust?",
+    "question_rephrased": "How do plates move at a transform boundary, and what happens to the amount of crust there?",
+    "answer": "At a transform boundary, one plate slides past another without creating or destroying crustal material."
+  },
+  {
+    "section": "4.8",
+    "anchor_start": "At that point, in the case of rocks within the crust",
+    "anchor_end": "average amount of displacement (sliding).",
+    "topic": "earthquake rupture and displacement",
+    "question": "Which two rupture properties affect earthquake magnitude in this description?",
+    "question_rephrased": "Does earthquake magnitude depend on rupture area, slip, or both?",
+    "answer": "Earthquake magnitude depends on both the area of the rupture surface and the average displacement along it."
+  },
+  {
+    "section": "4.9",
+    "anchor_start": "The ocean floor is dotted with seamounts",
+    "anchor_end": "it becomes a volcanic island.",
+    "topic": "seamounts",
+    "question": "What is a seamount, and what happens if it reaches above sea level?",
+    "question_rephrased": "How is an underwater volcano related to a volcanic island?",
+    "answer": "A seamount is an underwater volcano. If it grows high enough to break the ocean surface, it becomes a volcanic island."
+  },
+  {
+    "section": "4.10",
+    "anchor_start": "Fringing reefs are reefs that are close to",
+    "anchor_end": "without any central land mass in the lagoon.",
+    "topic": "fringing reefs, barrier reefs and atolls",
+    "question": "How does an atoll differ from a fringing reef?",
+    "question_rephrased": "Which reef type encloses a lagoon without a central island, and which lies close to shore?",
+    "answer": "An atoll is a circular or oval reef surrounding a lagoon without a central land mass. A fringing reef lies close to, or is connected to, the shore."
+  },
+  {
+    "section": "5.1",
+    "anchor_start": "The electrons responsible for the bonds between the atoms",
+    "anchor_end": "called a hydrogen bond (Figure 5.1.1).",
+    "topic": "water polarity and hydrogen bonds",
+    "question": "Why can hydrogen bonds form between water molecules?",
+    "question_rephrased": "Which charged regions of neighboring water molecules attract one another?",
+    "answer": "Water molecules are polar: their hydrogen ends are slightly positive and their oxygen ends slightly negative. The attraction between a hydrogen end and the oxygen end of a neighboring molecule forms a hydrogen bond."
+  },
+  {
+    "section": "5.2",
+    "anchor_start": "Under the high pressures found in the Earth’s interior",
+    "anchor_end": "process called outgassing.",
+    "topic": "volcanic outgassing",
+    "question": "What is volcanic outgassing?",
+    "question_rephrased": "Why can gases escape from magma as it rises toward the surface?",
+    "answer": "Outgassing is the release of gases dissolved in magma as pressure decreases during its rise toward the surface."
+  },
+  {
+    "section": "5.3",
+    "anchor_start": "All of the salts and ions that dissolve in seawater",
+    "anchor_end": "35 parts per thousand (ppt).",
+    "topic": "salinity as a mass proportion",
+    "question": "In the textbook's mass-based description, what does salinity measure?",
+    "question_rephrased": "What does a salinity of 35 grams per kilogram mean?",
+    "answer": "Salinity describes the amount of dissolved salts in seawater. In this mass-based example, 35 grams per kilogram means 35 grams of salt in one kilogram of seawater."
+  },
+  {
+    "section": "5.4",
+    "anchor_start": "The solubility of a gas increases with",
+    "anchor_end": "gas may be released.",
+    "topic": "gas solubility and saturation",
+    "question": "How do pressure, temperature and salinity affect gas solubility in seawater?",
+    "question_rephrased": "Under otherwise comparable conditions, does colder and less saline water hold more dissolved gas?",
+    "answer": "Gas solubility increases with increasing pressure, decreasing temperature and decreasing salinity."
+  },
+  {
+    "section": "5.5",
+    "anchor_start": "Oxygen and carbon dioxide are involved in the same biological processes",
+    "anchor_end": "produce CO2.",
+    "topic": "photosynthesis, respiration and dissolved gases",
+    "question": "How do photosynthesis and respiration affect oxygen and carbon dioxide in opposite ways?",
+    "question_rephrased": "Which of photosynthesis and respiration consumes carbon dioxide, and which consumes oxygen?",
+    "answer": "Photosynthesis consumes carbon dioxide and produces oxygen, while respiration consumes oxygen and produces carbon dioxide."
+  },
+  {
+    "section": "5.6",
+    "anchor_start": "Some bacteria (cyanobacteria) take the dissolved N2",
+    "anchor_end": "through nitrogen fixation.",
+    "topic": "nitrogen fixation",
+    "question": "What chemical conversion occurs during nitrogen fixation in this passage?",
+    "question_rephrased": "How do nitrogen-fixing cyanobacteria make dissolved nitrogen available in another chemical form?",
+    "answer": "Nitrogen-fixing cyanobacteria convert dissolved nitrogen gas into ammonium."
+  },
+  {
+    "section": "5.7",
+    "anchor_start": "Nutrient-like Elements have a distribution similar",
+    "anchor_end": "back into the water column.",
+    "topic": "nutrient-like dissolved-element profiles",
+    "question": "Why are nutrient-like elements often depleted at the ocean surface and enriched below the photic zone?",
+    "question_rephrased": "How do biological uptake and decomposition shape a nutrient-like concentration profile?",
+    "answer": "Biological uptake removes nutrient-like elements near the surface. Below the photic zone, decomposition returns them to the water column, increasing their concentrations."
+  },
+  {
+    "section": "6.1",
+    "anchor_start": "When we talk about pressure in the ocean",
+    "anchor_end": "pressure) of that water.",
+    "topic": "hydrostatic pressure",
+    "question": "Why does hydrostatic pressure increase with depth?",
+    "question_rephrased": "What produces the greater pressure experienced by an object deeper in the ocean?",
+    "answer": "Hydrostatic pressure comes from the weight of the overlying water column under gravity. A deeper object has more water above it and therefore experiences greater pressure."
+  },
+  {
+    "section": "6.2",
+    "anchor_start": "Even though surface water can be quite warm",
+    "anchor_end": "inside your refrigerator.",
+    "topic": "deep water and mean ocean temperature",
+    "question": "Why can the whole ocean be cold even where surface water is warm?",
+    "question_rephrased": "Does a warm sea surface imply that most of the ocean's water is also warm?",
+    "answer": "No. Much of the ocean's water is deeper, colder water, so warm surface conditions do not imply that the ocean as a whole is warm."
+  },
+  {
+    "section": "6.3",
+    "anchor_start": "Density refers to the amount of mass per unit volume",
+    "anchor_end": "increasing the pressure.",
+    "topic": "seawater density",
+    "question": "What is density, and which changes can increase seawater density?",
+    "question_rephrased": "How do lower temperature, higher salinity and higher pressure affect seawater density?",
+    "answer": "Density is mass per unit volume. Seawater density can increase when temperature decreases, salinity increases or pressure increases."
+  },
+  {
+    "section": "6.4",
+    "anchor_start": "Sound is a form of energy transmitted through pressure waves",
+    "anchor_end": "passing on the energy to adjacent molecules.",
+    "topic": "sound as a longitudinal pressure wave",
+    "question": "How do water molecules move as an underwater sound wave passes?",
+    "question_rephrased": "Is the molecular motion in an underwater sound wave parallel or perpendicular to wave propagation?",
+    "answer": "An underwater sound wave is a longitudinal pressure wave. Water molecules vibrate back and forth parallel to the direction of propagation, transferring energy to neighboring molecules."
+  },
+  {
+    "section": "6.5",
+    "anchor_start": "Longer wavelengths are absorbed first;",
+    "anchor_end": "blue and green light reaching the deepest depths.",
+    "topic": "selective absorption of light in seawater",
+    "question": "Which colors generally penetrate farther into seawater: red, or blue and green?",
+    "question_rephrased": "Why can blue-green light persist deeper than red light in seawater?",
+    "answer": "Longer wavelengths such as red are absorbed nearer the surface. Blue and green light generally penetrate farther into seawater."
+  },
+  {
+    "section": "7.1",
+    "anchor_start": "However, primary production is also carried out by bacteria",
+    "anchor_end": "section 4.11 on hydrothermal vents).",
+    "topic": "chemosynthesis",
+    "question": "What energy source can support primary production without sunlight?",
+    "question_rephrased": "How can bacteria produce organic matter in the absence of light?",
+    "answer": "Chemosynthetic bacteria obtain energy by oxidizing inorganic substances such as hydrogen sulfide, allowing primary production without sunlight."
+  },
+  {
+    "section": "7.2",
+    "anchor_start": "Diatoms are single-celled algae consisting",
+    "anchor_end": "component of glass.",
+    "topic": "diatom tests",
+    "question": "What material forms a diatom's test?",
+    "question_rephrased": "Is the shell of a diatom made primarily of silica or calcium carbonate?",
+    "answer": "A diatom's shell, or test, is made of silica."
+  },
+  {
+    "section": "7.3",
+    "anchor_start": "For phytoplankton, soil is obviously not needed",
+    "anchor_end": "availability of light and nutrients.",
+    "topic": "controls on phytoplankton productivity",
+    "question": "Which two resources are central controls on phytoplankton productivity in this account?",
+    "question_rephrased": "What two availability factors should be considered when explaining phytoplankton production?",
+    "answer": "The availability of light and nutrients is central to phytoplankton productivity."
+  },
+  {
+    "section": "7.4",
+    "anchor_start": "Coastal waters are more productive than the central ocean for two main reasons.",
+    "anchor_end": "remain trapped in the shallows.",
+    "topic": "coastal nutrient supply and productivity",
+    "question": "Why can coastal waters be more productive than the central ocean?",
+    "question_rephrased": "How can runoff and a shallow continental shelf help support coastal primary production?",
+    "answer": "Runoff supplies nutrients to coastal waters, and a shallow shelf helps retain nutrients where they can more easily return to the surface. These processes can support greater primary production."
+  },
+  {
+    "section": "8.1",
+    "anchor_start": "The balance of incoming and outgoing heat on Earth",
+    "anchor_end": "incoming heat equals the outgoing heat.",
+    "topic": "the Earth's heat budget",
+    "question": "What is Earth's heat budget?",
+    "question_rephrased": "What relationship between incoming and outgoing heat is needed to maintain constant conditions?",
+    "answer": "Earth's heat budget is the balance between incoming and outgoing heat. Constant conditions require incoming and outgoing heat to balance."
+  },
+  {
+    "section": "8.2",
+    "anchor_start": "Therefore, in the Northern Hemisphere",
+    "anchor_end": "also leads to deflection to the left.",
+    "topic": "the direction of Coriolis deflection",
+    "question": "To which side does Coriolis deflection act in each hemisphere?",
+    "question_rephrased": "How does the apparent direction of Coriolis deflection differ north and south of the equator?",
+    "answer": "Relative to the direction of motion, Coriolis deflection is to the right in the Northern Hemisphere and to the left in the Southern Hemisphere."
+  },
+  {
+    "section": "8.3",
+    "anchor_start": "So the air rising at the equator is warm",
+    "anchor_end": "forms rain.",
+    "topic": "cooling, condensation and equatorial rain",
+    "question": "How can rising moist air produce rain near the equator?",
+    "question_rephrased": "What happens to water vapor as warm, moist equatorial air rises and cools?",
+    "answer": "As warm, moist air rises, it cools, allowing water vapor to condense and form rain."
+  },
+  {
+    "section": "8.4",
+    "anchor_start": "All three of these terms describe the same atmospheric processes",
+    "anchor_end": "Northwest Pacific.",
+    "topic": "hurricane, cyclone and typhoon terminology",
+    "question": "How do the names hurricane, cyclone and typhoon differ?",
+    "question_rephrased": "Do hurricane, cyclone and typhoon describe different storm mechanisms or regional names for the same kind of storm?",
+    "answer": "They are regional names for the same type of tropical storm. The names used include hurricane in the Atlantic and Northeast Pacific, cyclone in the Indian and South Pacific, and typhoon in the Northwest Pacific."
+  },
+  {
+    "section": "9.2",
+    "anchor_start": "The Gulf Stream takes this warm water",
+    "anchor_end": "along the U.S. east coast (Figure 9.2.2).",
+    "topic": "northward heat transport by the Gulf Stream",
+    "question": "In which direction does the Gulf Stream carry warm water along the United States east coast?",
+    "question_rephrased": "Does the Gulf Stream transport warm water northward or southward along the U.S. east coast?",
+    "answer": "The Gulf Stream carries warm water northward along the U.S. east coast."
+  },
+  {
+    "section": "9.3",
+    "anchor_start": "If the magnitudes and directions of the movements of each layer",
+    "anchor_end": "called Ekman transport (Figure 9.3.1).",
+    "topic": "idealized Ekman transport",
+    "question": "In the idealized Ekman spiral described here, what is the net transport direction relative to the wind?",
+    "question_rephrased": "How does depth-integrated Ekman transport differ between the Northern and Southern Hemispheres in this idealized account?",
+    "answer": "Net Ekman transport is 90 degrees to the wind: to its right in the Northern Hemisphere and to its left in the Southern Hemisphere."
+  },
+  {
+    "section": "9.5",
+    "anchor_start": "Upwelling is the process that brings deeper water",
+    "anchor_end": "section 7.3).",
+    "topic": "upwelling and nutrient delivery",
+    "question": "Why can upwelling increase surface primary production?",
+    "question_rephrased": "What does water rising from depth supply to nutrient-depleted surface waters?",
+    "answer": "Upwelling brings deeper, nutrient-rich water to the surface, supplying nutrients that can stimulate primary production."
+  },
+  {
+    "section": "9.6",
+    "anchor_start": "Every few years, the cold, nutrient-rich water",
+    "anchor_end": "it is called El Niño (the child).",
+    "topic": "El Nino conditions off Peru",
+    "question": "How can El Nino alter the water conditions associated with productive fisheries off Peru?",
+    "question_rephrased": "What replaces cold, nutrient-rich water off Peru during the El Nino conditions described in the textbook?",
+    "answer": "During these El Nino conditions, unusually warm, nutrient-poor water replaces the normally cold, nutrient-rich water off Peru, which can reduce fish populations."
+  },
+  {
+    "section": "9.7",
+    "anchor_start": "Each of the cells may be several meters wide",
+    "anchor_end": "in opposite directions.",
+    "topic": "neighboring Langmuir cells",
+    "question": "How do adjacent Langmuir cells rotate relative to one another?",
+    "question_rephrased": "Do neighboring Langmuir circulation cells rotate in the same direction?",
+    "answer": "Adjacent Langmuir cells rotate in opposite directions."
+  },
+  {
+    "section": "9.8",
+    "anchor_start": "Since seawater density depends mainly on temperature and salinity",
+    "anchor_end": "leaving the remaining seawater with greater salinity (see",
+    "topic": "thermohaline circulation",
+    "question": "Why is density-driven circulation called thermohaline circulation?",
+    "question_rephrased": "Which two seawater properties are indicated by the word thermohaline?",
+    "answer": "Thermohaline circulation is named for temperature and salinity, two main controls on seawater density."
+  },
+  {
+    "section": "10.1",
+    "anchor_start": "Internal waves form at the boundaries",
+    "anchor_end": "at the surface.",
+    "topic": "internal waves",
+    "question": "Where do internal waves form in the ocean?",
+    "question_rephrased": "Why can a large wave exist at depth without an equally large wave being visible at the surface?",
+    "answer": "Internal waves form along boundaries between water masses of different densities and propagate at depth. A large internal wave can therefore be inconspicuous at the surface."
+  },
+  {
+    "section": "10.2",
+    "anchor_start": "As waves are produced, they are opposed by a restoring force",
+    "anchor_end": "gravity becomes the restoring force.",
+    "topic": "wave restoring forces",
+    "question": "What restores small capillary waves and larger wind-generated waves toward equilibrium?",
+    "question_rephrased": "How does the restoring force differ between tiny capillary ripples and larger wind waves?",
+    "answer": "Surface tension is the restoring force for small capillary waves, while gravity is the restoring force for larger wind-generated waves."
+  },
+  {
+    "section": "10.4",
+    "anchor_start": "First, tsunamis have nothing to do with the tides",
+    "anchor_end": "but they are not related to tsunamis.",
+    "topic": "tsunamis and tidal waves",
+    "question": "Why is calling a tsunami a tidal wave misleading?",
+    "question_rephrased": "Are tsunamis generated by the tides?",
+    "answer": "Tsunamis are not generated by tides, so calling them tidal waves is misleading."
+  },
+  {
+    "section": "11.2",
+    "anchor_start": "While this view provides a basic explanation",
+    "anchor_end": "many other factors.",
+    "topic": "geography in tidal prediction",
+    "question": "Why is a simple equilibrium account insufficient to predict local tides?",
+    "question_rephrased": "Which geographic factors omitted from a basic equilibrium description can affect local tides?",
+    "answer": "Local tides are influenced by factors such as the continents and water depth. A basic equilibrium description omits these geographic effects and therefore cannot fully predict local tides."
+  },
+  {
+    "section": "11.3",
+    "anchor_start": "A diurnal tide consists of only one high tide",
+    "anchor_end": "considered a diurnal tide.",
+    "topic": "diurnal tides",
+    "question": "What is a diurnal tide?",
+    "question_rephrased": "How many high and low tides occur per day in a diurnal tidal pattern?",
+    "answer": "A diurnal tide has one high tide and one low tide per day."
+  },
+  {
+    "section": "12.2",
+    "anchor_start": "Lithogenous or terrigenous sediment is primarily composed",
+    "anchor_end": "almost everywhere on the ocean floor.",
+    "topic": "lithogenous sediments",
+    "question": "What is the source material of lithogenous sediment?",
+    "question_rephrased": "What does terrigenous sediment consist of?",
+    "answer": "Lithogenous, or terrigenous, sediment is primarily made of fragments of preexisting rocks that have reached the ocean."
+  },
+  {
+    "section": "12.3",
+    "anchor_start": "Biogenous sediments come from the remains of living organisms",
+    "anchor_end": "that rapidly deteriorate after death.",
+    "topic": "biogenous sediments",
+    "question": "Why do shells, teeth and skeletal elements contribute more persistently to biogenous sediment than soft tissues?",
+    "question_rephrased": "Which parts of dead organisms preferentially contribute to biogenous marine sediments?",
+    "answer": "Mineralized hard parts such as shells, teeth and skeletal elements resist decomposition better than soft tissues, so they preferentially contribute to biogenous sediments."
+  },
+  {
+    "section": "12.4",
+    "anchor_start": "Occasionally chemical reactions occur",
+    "anchor_end": "can remain in a dissolved state.",
+    "topic": "hydrogenous sediments",
+    "question": "How does hydrogenous sediment form?",
+    "question_rephrased": "What happens when a change in water conditions causes dissolved substances to precipitate?",
+    "answer": "Hydrogenous sediment forms when dissolved substances precipitate as solid particles and accumulate. Changes in temperature, pressure or pH can trigger this precipitation."
+  },
+  {
+    "section": "12.5",
+    "anchor_start": "Cosmogenous sediment is derived from extraterrestrial sources",
+    "anchor_end": "microscopic spherules and larger meteor debris.",
+    "topic": "cosmogenous sediments",
+    "question": "Where does cosmogenous sediment come from?",
+    "question_rephrased": "What is the ultimate origin of cosmogenous material deposited in the ocean?",
+    "answer": "Cosmogenous sediment is derived from extraterrestrial sources and includes microscopic spherules and larger meteor debris."
+  },
+  {
+    "section": "12.6",
+    "anchor_start": "Sediment accumulation will depend on",
+    "anchor_end": "the system.",
+    "topic": "controls on sediment accumulation",
+    "question": "What factors govern sediment accumulation at a location?",
+    "question_rephrased": "Why can two locations receive different amounts or types of sediment?",
+    "answer": "Sediment accumulation depends on supply, distance from the source, accumulation time, preservation and the addition of other sediment types."
+  },
+  {
+    "section": "13.1",
+    "anchor_start": "But beaches are comprised of whatever types of sediments",
+    "anchor_end": "instead be dominated by small shells, or larger rocks or pebbles (Figure 13.1.1).",
+    "topic": "variation in beach materials",
+    "question": "Must a beach be composed of quartz sand?",
+    "question_rephrased": "Why can some beaches consist of volcanic grains, shell fragments or pebbles instead of quartz sand?",
+    "answer": "No. Beaches reflect the locally available sediment and can contain volcanic material, carbonate remains, shells, rocks or pebbles rather than quartz sand."
+  },
+  {
+    "section": "13.2",
+    "anchor_start": "However, most waves still reach the shore at a small angle",
+    "anchor_end": "waves are breaking) (Figure 13.2.1).",
+    "topic": "longshore currents",
+    "question": "How can waves create a longshore current?",
+    "question_rephrased": "Why can breaking waves move water parallel to the shoreline?",
+    "answer": "Waves arriving at a small angle push water along the shore, creating a longshore current in the surf zone."
+  },
+  {
+    "section": "13.3",
+    "anchor_start": "That energy is evenly spaced out in the deep water",
+    "anchor_end": "more strongly eroded.",
+    "topic": "wave-energy focusing on headlands",
+    "question": "Why are headlands often eroded more strongly than neighboring bays?",
+    "question_rephrased": "How can wave refraction favor erosion of a coastal headland?",
+    "answer": "Wave refraction focuses energy on headlands, so they receive more wave energy than adjacent bays and can be eroded more strongly."
+  },
+  {
+    "section": "13.4",
+    "anchor_start": "On coasts that are dominated by depositional processes",
+    "anchor_end": "creating large fan-shaped deltas.",
+    "topic": "river sediment and deltas",
+    "question": "How can a delta form at a river mouth?",
+    "question_rephrased": "What coastal landform can develop when a river deposits abundant sediment at its mouth?",
+    "answer": "Sediment delivered by a river can accumulate at its mouth and form a delta."
+  },
+  {
+    "section": "13.5",
+    "anchor_start": "Groins (or groynes) are barriers built perpendicular",
+    "anchor_end": "even more pronounced on that side of the groin.",
+    "topic": "groins and downdrift erosion",
+    "question": "Why can a groin increase erosion on its downdrift side?",
+    "question_rephrased": "How can trapping sand on one side of a groin reduce the sand supply on the other side?",
+    "answer": "A groin interrupts longshore transport and traps sand on its updrift side. This reduces the replacement sand reaching the downdrift side, where erosion can increase."
+  },
+  {
+    "section": "13.6",
+    "anchor_start": "Estuaries are partially enclosed bodies of water",
+    "anchor_end": "normal seawater.",
+    "topic": "estuaries and brackish water",
+    "question": "What makes water in an estuary brackish?",
+    "question_rephrased": "How does fresh water input affect the salinity of a partially enclosed coastal estuary?",
+    "answer": "Fresh water from land dilutes seawater in an estuary, producing brackish water with salinity between fresh water and normal seawater."
+  },
+  {
+    "section": "13.7",
+    "anchor_start": "So even without the input of new water from melting ice,",
+    "anchor_end": "warming ocean temperatures will cause sea level to rise.",
+    "topic": "thermal expansion and sea level",
+    "question": "Can ocean warming affect sea level without adding water from land ice?",
+    "question_rephrased": "Which physical change in seawater can contribute to sea-level rise when the ocean warms?",
+    "answer": "Yes. Thermal expansion of warming seawater can contribute to sea-level rise without adding meltwater from land ice."
+  },
+  {
+    "section": "14.1",
+    "anchor_start": "Glacial ice is formed from the accumulation and compression of snow",
+    "anchor_end": "freezing of sea water,",
+    "topic": "glacial ice and sea ice",
+    "question": "How do glacial ice and sea ice differ in their formation?",
+    "question_rephrased": "Does all ice floating in the ocean originate from frozen seawater?",
+    "answer": "Glacial ice forms from accumulated and compressed snow on land, while sea ice forms by freezing seawater. Ice floating in the ocean can therefore have either origin."
+  },
+  {
+    "section": "14.2",
+    "anchor_start": "The weight of the accumulated layers compresses the snow",
+    "anchor_end": "denser glacial ice (Figure 14.2.1).",
+    "topic": "firn and glacial ice",
+    "question": "What is firn, and how can it become glacial ice?",
+    "question_rephrased": "How does continued snow accumulation transform older snow into dense glacial ice?",
+    "answer": "Accumulated snow is compressed into a denser granular material called firn. Continued compression can turn firn into still denser glacial ice."
+  }
+]

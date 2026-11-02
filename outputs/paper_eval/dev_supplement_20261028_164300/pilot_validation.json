@@ -1,0 +1,46 @@
+{
+  "checked_at_utc": "2026-10-28T08:48:49.130526+00:00",
+  "scope": "pilot",
+  "expected": 96,
+  "records_in_file": 96,
+  "missing": [],
+  "unique": true,
+  "signature_consistent": true,
+  "prompt_context_consistent": true,
+  "termination_metadata_valid": true,
+  "complete": true,
+  "by_condition": {
+    "base_t160": {
+      "answers": 12,
+      "truncated": 0
+    },
+    "base_t96": {
+      "answers": 12,
+      "truncated": 0
+    },
+    "base_rag_t160": {
+      "answers": 12,
+      "truncated": 0
+    },
+    "base_rag_t96": {
+      "answers": 12,
+      "truncated": 1
+    },
+    "v2_t160": {
+      "answers": 12,
+      "truncated": 0
+    },
+    "v2_t96": {
+      "answers": 12,
+      "truncated": 0
+    },
+    "v2_rag_t160": {
+      "answers": 12,
+      "truncated": 0
+    },
+    "v2_rag_t96": {
+      "answers": 12,
+      "truncated": 1
+    }
+  }
+}

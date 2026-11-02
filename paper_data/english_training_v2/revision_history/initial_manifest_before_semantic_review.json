@@ -1,0 +1,116 @@
+{
+  "status": "Candidate data prepared only; not expert-approved; no model trained",
+  "gold_status": "source-grounded AI-authored candidate, local check performed where traceable; expert review pending",
+  "language": "en",
+  "examples": 300,
+  "knowledge_families": 60,
+  "source_sections": 60,
+  "source_books": 1,
+  "counts_by_type": {
+    "closed_book": 60,
+    "grounded": 180,
+    "insufficient_evidence": 60
+  },
+  "counts_by_variant": {
+    "no_context": 60,
+    "direct_DOC1": 60,
+    "distractor_mixed_original_source_id": 60,
+    "rephrased_SRC_id": 60,
+    "unrelated_passage_only": 60
+  },
+  "counts_by_chapter_examples": {
+    "1": 15,
+    "2": 15,
+    "3": 10,
+    "4": 35,
+    "5": 35,
+    "6": 25,
+    "7": 20,
+    "8": 20,
+    "9": 30,
+    "10": 15,
+    "11": 10,
+    "12": 25,
+    "13": 35,
+    "14": 10
+  },
+  "candidate_train_split": {
+    "examples": 240,
+    "families": 48
+  },
+  "candidate_validation_split": {
+    "examples": 60,
+    "families": 12
+  },
+  "source_url": "https://rwu.pressbooks.pub/webboceanography/",
+  "license_and_attribution": "Introduction to Oceanography by Paul Webb, CC BY 4.0 except where otherwise noted; portions credit Steven Earle's Physical Geology",
+  "source_pdf_sha256": "40ededf6867ab823b911970fda2ef77dff9946d2286ab29a22ccf7dd77755df0",
+  "source_corpus_sha256": "eb8cf52f491c7b51d7ac6b85ea4accebc31e8a3c60e396a1312134131a3a3259",
+  "authored_facts_sha256": "1a49700a132e0acf004ab03cbb640110b34185ee5c774c24502625073b234054",
+  "system_prompt_source": "paper_eval/english.py OPEN_SYSTEM (AST constant only)",
+  "system_prompt_sha256": "9a9d462c38bdb65a94b98350977f8c044302e298435d4e895ee6325bfd8ae2d5",
+  "tokenizer": "models/Qwen3-4B-Instruct; local-only tokenizer, no model loaded",
+  "token_length_including_full_system_user_assistant_template": {
+    "min": 157,
+    "max": 435,
+    "mean": 249.60666666666665,
+    "limit": 1024,
+    "truncated_examples": 0
+  },
+  "source_excerpt_chars": {
+    "min": 108,
+    "max": 595
+  },
+  "checks": {
+    "all_60_anchor_pairs_located": true,
+    "all_60_excerpts_matched_local_pdf": true,
+    "all_answer_citations_match_supplied_ids": true,
+    "closed_book_answers_have_no_citations": true,
+    "grounded_answers_cite_only_relevant_supplied_document": true,
+    "all_samples_within_1024_tokens_without_truncation": true,
+    "expert_approval": false,
+    "model_training_started": false
+  },
+  "boundaries": [
+    "300 task-format examples represent 60 knowledge families, not 300 independent facts or questions.",
+    "Question paraphrases share a family and are kept in the same candidate split.",
+    "Sources are the local English Webb textbook only, not Pira QA or supporting passages.",
+    "No old Chinese candidate evaluation questions were read or translated by this builder.",
+    "Original text provenance differs from Pira's scientific-abstract/UN-report corpus; generic ocean concepts may still overlap.",
+    "The textbook was also used for a prior Chinese candidate benchmark; do not treat that benchmark as unseen evaluation after this training.",
+    "These short examples do not match the length or specificity of every external research-abstract question.",
+    "Use only if the independent development diagnosis justifies supplementation; no guaranteed improvement is asserted.",
+    "Insufficient-evidence examples assert only that the supplied passage is inadequate, not that the underlying question is globally unanswerable."
+  ],
+  "trainer_input_policy": "Train only on messages. Provenance, type labels, reference fact metadata and review fields must never be concatenated into user/model input.",
+  "output_files": {
+    "candidates_300.jsonl": {
+      "sha256": "8babfc5610c658f32a54d8db49676b11204ee519e834467e04c83818f4f8cdc9",
+      "bytes": 978176
+    },
+    "source_facts_60.jsonl": {
+      "sha256": "20c9d548a44671c6f185546db998810fa73a5b359b63d8edebb82e844947b74b",
+      "bytes": 66747
+    },
+    "train_candidates_240.jsonl": {
+      "sha256": "b03bc24109668fc833fbe1de6f67f7377a5956cec9ff727c1e3abf943d82e2d3",
+      "bytes": 785103
+    },
+    "validation_candidates_60.jsonl": {
+      "sha256": "243a7ff004a7562c7a5f8df23828fa63b1ce60f9d2f164245e672f3ffde3178c",
+      "bytes": 193073
+    },
+    "family_split.json": {
+      "sha256": "6fbeb49bc9383229c20049dab3881aa361e0e4ede7dbf57b8965cfce8ed2f916",
+      "bytes": 1725
+    },
+    "source_anchor_and_expert_review.csv": {
+      "sha256": "a6f16580447556545862af21a9f8c9c1a2b92a921ebffcf8dddcd354f453a2e5",
+      "bytes": 69449
+    },
+    "system_prompt.txt": {
+      "sha256": "9a9d462c38bdb65a94b98350977f8c044302e298435d4e895ee6325bfd8ae2d5",
+      "bytes": 597
+    }
+  }
+}

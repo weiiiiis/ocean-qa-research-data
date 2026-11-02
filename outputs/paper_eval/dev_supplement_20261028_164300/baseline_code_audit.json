@@ -1,0 +1,42 @@
+{
+  "paper_eval\\english.py": {
+    "frozen_sha256": "b0585247cacaa43134c4366c4c8adc99c224ecc111e2c0c6292b7fc70cf8d725",
+    "current_sha256": "b0585247cacaa43134c4366c4c8adc99c224ecc111e2c0c6292b7fc70cf8d725",
+    "matches": true
+  },
+  "paper_eval\\inference.py": {
+    "frozen_sha256": "493d3a4d814bb8583e09f3610fbf0eb5ff4b5e86057455ca567da4e4abe83465",
+    "current_sha256": "493d3a4d814bb8583e09f3610fbf0eb5ff4b5e86057455ca567da4e4abe83465",
+    "matches": true
+  },
+  "paper_eval\\common.py": {
+    "frozen_sha256": "ab0f0ab68a420406a2859ab1910f713e9bdbb84d3a973828ef6ba940662d0480",
+    "current_sha256": "ab0f0ab68a420406a2859ab1910f713e9bdbb84d3a973828ef6ba940662d0480",
+    "matches": true
+  },
+  "paper_eval\\retrieval.py": {
+    "frozen_sha256": "5ba91828a486f579f9ca7f9e0de2de35fe3b55aba382b7b7b3e30df41a17fa8c",
+    "current_sha256": "5ba91828a486f579f9ca7f9e0de2de35fe3b55aba382b7b7b3e30df41a17fa8c",
+    "matches": true
+  },
+  "paper_eval\\bm25_retrieval.py": {
+    "frozen_sha256": "43f248ebb84059be0ba820d225da2f500d6eb11e012b000b53ad0e0aed87509d",
+    "current_sha256": "43f248ebb84059be0ba820d225da2f500d6eb11e012b000b53ad0e0aed87509d",
+    "matches": true
+  },
+  "paper_eval\\english_report.py": {
+    "frozen_sha256": "df1276e3510810e66212cd93ac890df8a959dc58495d76ed3fb8c1cf1acfd3b2",
+    "current_sha256": "df1276e3510810e66212cd93ac890df8a959dc58495d76ed3fb8c1cf1acfd3b2",
+    "matches": true
+  },
+  "paper_eval\\official_english_report.py": {
+    "frozen_sha256": "ce78da1f6cfcf8a7b74de37c2a3688ef6f628f766207bd504938960cb41e388a",
+    "current_sha256": "ce78da1f6cfcf8a7b74de37c2a3688ef6f628f766207bd504938960cb41e388a",
+    "matches": true
+  },
+  "paper_eval\\export_official_blind_subset.py": {
+    "frozen_sha256": "901ba0d844cfca1bad304d82e45aa5bdcee8a590d27d28b2eb35d32b42ee1258",
+    "current_sha256": "901ba0d844cfca1bad304d82e45aa5bdcee8a590d27d28b2eb35d32b42ee1258",
+    "matches": true
+  }
+}

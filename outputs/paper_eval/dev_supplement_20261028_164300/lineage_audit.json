@@ -1,0 +1,15 @@
+{
+  "v2_start_adapter": "D:\\weitiao\\ocean-chat\\outputs\\ocean_qwen3_english_grounded_v1\\epoch_1",
+  "current_v1_matches_starting_hashes": {
+    "adapter_config.json": true,
+    "adapter_model.safetensors": true,
+    "added_tokens.json": true,
+    "special_tokens_map.json": true,
+    "tokenizer.json": true,
+    "tokenizer_config.json": true,
+    "vocab.json": true
+  },
+  "all_starting_hashes_match": true,
+  "v1_training_config_sha256": "c3540405123092f964fb3302cbd906a37227457ae955c6512730865d24e853ca",
+  "v2_training_config_sha256": "58b48d727f96afa0f2b0c78538bba2da61c9222a5d5d971121d6c329cf185e4f"
+}

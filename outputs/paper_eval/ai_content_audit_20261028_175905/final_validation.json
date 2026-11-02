@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-10-29T10:17:40.457453+00:00",
+  "questions": 101,
+  "answers": 202,
+  "unique_pairs": 101,
+  "determinate_pairs": 99,
+  "uncertain_pairs": 2,
+  "defined_points": 141,
+  "no_assessable_point_questions": 4,
+  "exact_evidence_references_verified": 793,
+  "source_files_unchanged": 56,
+  "anonymous_answers_match_originals": true,
+  "same_actual_contexts": true,
+  "checklists_locked_before_answer_display": true,
+  "content_judgment_seal_unchanged": true,
+  "human_scores_blank": true,
+  "f1_cross_table_sum": 101
+}

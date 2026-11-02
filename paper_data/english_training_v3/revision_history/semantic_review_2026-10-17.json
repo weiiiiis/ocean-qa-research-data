@@ -1,0 +1,966 @@
+{
+  "review_date_local": "2026-10-17 Asia/Shanghai",
+  "review_type": "AI author semantic/source review, not teacher or expert certification",
+  "families_reviewed": 60,
+  "insufficient_pairs_reviewed": 60,
+  "grounded_distractor_pairs_reviewed": 60,
+  "families_with_fact_or_anchor_changes": [
+    "WEBB-EN-F003",
+    "WEBB-EN-F013",
+    "WEBB-EN-F014",
+    "WEBB-EN-F019",
+    "WEBB-EN-F024",
+    "WEBB-EN-F025",
+    "WEBB-EN-F033",
+    "WEBB-EN-F035",
+    "WEBB-EN-F037",
+    "WEBB-EN-F040",
+    "WEBB-EN-F041",
+    "WEBB-EN-F045",
+    "WEBB-EN-F046",
+    "WEBB-EN-F052",
+    "WEBB-EN-F058",
+    "WEBB-EN-F059"
+  ],
+  "shared_prompt_change": "All supplied-context positive and negative tasks receive the identical explicit passages-only scope. Negative targets state lack of evidence in the given passage, never global factual ignorance.",
+  "findings_after_revision": "No remaining direct-answer leakage identified in the 60 paired distractors during this AI review. This is not an independent factuality score or guarantee.",
+  "expert_fields": "All independent expert review fields remain blank in source_anchor_and_expert_review.csv.",
+  "original_state_files": [
+    "revision_history/initial_manifest_before_semantic_review.json",
+    "revision_history/initial_facts_before_semantic_review.json"
+  ],
+  "items": [
+    {
+      "family_id": "WEBB-EN-F001",
+      "source_group": "webb_section_1.2",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F031",
+      "insufficient_distractor_topic": "coastal nutrient supply and productivity",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F002",
+      "source_group": "webb_section_1.3",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F032",
+      "insufficient_distractor_topic": "the Earth's heat budget",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F003",
+      "source_group": "webb_section_1.4",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F033",
+      "insufficient_distractor_topic": "the direction of Coriolis deflection",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {
+        "anchor_end": {
+          "before": "one fathom equals six feet,",
+          "after": "length of the line (Figure 1.4.1)."
+        }
+      },
+      "review_note": "Ended the excerpt at a complete bathymetry sentence rather than a trailing fathom-unit clause.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F004",
+      "source_group": "webb_section_2.1",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F034",
+      "insufficient_distractor_topic": "cooling, condensation and equatorial rain",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F005",
+      "source_group": "webb_section_2.2",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F035",
+      "insufficient_distractor_topic": "hurricane, cyclone and typhoon terminology",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F006",
+      "source_group": "webb_section_2.3",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F036",
+      "insufficient_distractor_topic": "northward heat transport by the Gulf Stream",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F007",
+      "source_group": "webb_section_3.2",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F037",
+      "insufficient_distractor_topic": "idealized Ekman transport",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F008",
+      "source_group": "webb_section_3.3",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F038",
+      "insufficient_distractor_topic": "upwelling and nutrient delivery",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F009",
+      "source_group": "webb_section_4.3",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F039",
+      "insufficient_distractor_topic": "El Nino conditions off Peru",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F010",
+      "source_group": "webb_section_4.5",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F040",
+      "insufficient_distractor_topic": "neighboring Langmuir cells",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F011",
+      "source_group": "webb_section_4.6",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F041",
+      "insufficient_distractor_topic": "thermohaline circulation",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F012",
+      "source_group": "webb_section_4.7",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F042",
+      "insufficient_distractor_topic": "internal waves",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F013",
+      "source_group": "webb_section_4.8",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F043",
+      "insufficient_distractor_topic": "wave restoring forces",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {
+        "question": {
+          "before": "Which two rupture properties affect earthquake magnitude in this description?",
+          "after": "Which two rupture properties contribute to earthquake magnitude?"
+        },
+        "question_rephrased": {
+          "before": "Does earthquake magnitude depend on rupture area, slip, or both?",
+          "after": "Do rupture area and average slip both contribute to earthquake magnitude?"
+        }
+      },
+      "review_note": "Removed undefined this-description wording and asked which rupture properties contribute, without claiming these are the only factors.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F014",
+      "source_group": "webb_section_4.9",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F044",
+      "insufficient_distractor_topic": "tsunamis and tidal waves",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {
+        "topic": {
+          "before": "seamounts",
+          "after": "volcanic seamounts and volcanic islands"
+        },
+        "question": {
+          "before": "What is a seamount, and what happens if it reaches above sea level?",
+          "after": "In the textbook's volcanic example, how does a seamount become a volcanic island?"
+        },
+        "question_rephrased": {
+          "before": "How is an underwater volcano related to a volcanic island?",
+          "after": "What happens when the volcanic seamount described here grows above sea level?"
+        },
+        "answer": {
+          "before": "A seamount is an underwater volcano. If it grows high enough to break the ocean surface, it becomes a volcanic island.",
+          "after": "In this volcanic example, an underwater volcano becomes a volcanic island when it grows above the ocean surface."
+        }
+      },
+      "review_note": "Avoided defining every seamount as volcanic; question and answer are explicitly restricted to the textbook volcanic example.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F015",
+      "source_group": "webb_section_4.10",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F045",
+      "insufficient_distractor_topic": "geography and local tidal variation",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F016",
+      "source_group": "webb_section_5.1",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F046",
+      "insufficient_distractor_topic": "diurnal tides",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F017",
+      "source_group": "webb_section_5.2",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F047",
+      "insufficient_distractor_topic": "lithogenous sediments",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F018",
+      "source_group": "webb_section_5.3",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F048",
+      "insufficient_distractor_topic": "biogenous sediments",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F019",
+      "source_group": "webb_section_5.4",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F049",
+      "insufficient_distractor_topic": "hydrogenous sediments",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {
+        "question_rephrased": {
+          "before": "Under otherwise comparable conditions, does colder and less saline water hold more dissolved gas?",
+          "after": "Under otherwise comparable conditions, how do colder temperature and lower salinity change gas solubility in seawater?"
+        },
+        "answer": {
+          "before": "Gas solubility increases with increasing pressure, decreasing temperature and decreasing salinity.",
+          "after": "Under otherwise comparable conditions, gas solubility in seawater generally increases with higher pressure, lower temperature and lower salinity."
+        }
+      },
+      "review_note": "Added comparable-conditions and generally qualifiers; distinguished solubility from the actual biologically modified gas concentration. The gas-solubility and hydrogenous-precipitation passages share dissolved-substance vocabulary, but neither supplies the other task's specific required explanation; retain for independent human review.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F020",
+      "source_group": "webb_section_5.5",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F050",
+      "insufficient_distractor_topic": "cosmogenous sediments",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F021",
+      "source_group": "webb_section_5.6",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F051",
+      "insufficient_distractor_topic": "controls on sediment accumulation",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F022",
+      "source_group": "webb_section_5.7",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F052",
+      "insufficient_distractor_topic": "variation in beach materials",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F023",
+      "source_group": "webb_section_6.1",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F053",
+      "insufficient_distractor_topic": "longshore currents",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F024",
+      "source_group": "webb_section_6.2",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F054",
+      "insufficient_distractor_topic": "wave-energy focusing on headlands",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {
+        "answer": {
+          "before": "No. Much of the ocean's water is deeper, colder water, so warm surface conditions do not imply that the ocean as a whole is warm.",
+          "after": "Much of the ocean's water is deeper, colder water, so warm surface conditions do not imply that the ocean as a whole is warm."
+        }
+      },
+      "review_note": "Removed initial No, which was inappropriate for the primary why question; retained the same source-supported explanation.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F025",
+      "source_group": "webb_section_6.3",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F055",
+      "insufficient_distractor_topic": "river sediment and deltas",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {
+        "answer": {
+          "before": "Density is mass per unit volume. Seawater density can increase when temperature decreases, salinity increases or pressure increases.",
+          "after": "Density is mass per unit volume. For seawater under normal oceanic conditions, cooling, increased salinity and increased pressure generally increase density."
+        }
+      },
+      "review_note": "Qualified density trends as normal oceanic seawater conditions rather than a universal rule for every aqueous solution.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F026",
+      "source_group": "webb_section_6.4",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F056",
+      "insufficient_distractor_topic": "groins and downdrift erosion",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F027",
+      "source_group": "webb_section_6.5",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F057",
+      "insufficient_distractor_topic": "estuaries and brackish water",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F028",
+      "source_group": "webb_section_7.1",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F058",
+      "insufficient_distractor_topic": "ocean warming and sea level",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F029",
+      "source_group": "webb_section_7.2",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F059",
+      "insufficient_distractor_topic": "glacial ice and sea ice",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F030",
+      "source_group": "webb_section_7.3",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F060",
+      "insufficient_distractor_topic": "firn and glacial ice",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F031",
+      "source_group": "webb_section_7.4",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F001",
+      "insufficient_distractor_topic": "active and passive continental margins",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F032",
+      "source_group": "webb_section_8.1",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F002",
+      "insufficient_distractor_topic": "pelagic and benthic habitats",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F033",
+      "source_group": "webb_section_8.2",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F003",
+      "insufficient_distractor_topic": "bathymetry and depth soundings",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {
+        "question": {
+          "before": "To which side does Coriolis deflection act in each hemisphere?",
+          "after": "For horizontal motion, to which side does Coriolis deflection act in each hemisphere?"
+        },
+        "question_rephrased": {
+          "before": "How does the apparent direction of Coriolis deflection differ north and south of the equator?",
+          "after": "How does the apparent Coriolis deflection of horizontal motion differ north and south of the equator?"
+        },
+        "answer": {
+          "before": "Relative to the direction of motion, Coriolis deflection is to the right in the Northern Hemisphere and to the left in the Southern Hemisphere.",
+          "after": "For horizontal motion in Earth's rotating frame, Coriolis deflection is to the right of motion in the Northern Hemisphere and to the left in the Southern Hemisphere."
+        }
+      },
+      "review_note": "Specified horizontal motion in the rotating frame to avoid overgeneralizing hemisphere deflection to arbitrary motion.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F034",
+      "source_group": "webb_section_8.3",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F004",
+      "insufficient_distractor_topic": "latitude",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F035",
+      "source_group": "webb_section_8.4",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F005",
+      "insufficient_distractor_topic": "ship speed in knots",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {
+        "answer": {
+          "before": "They are regional names for the same type of tropical storm. The names used include hurricane in the Atlantic and Northeast Pacific, cyclone in the Indian and South Pacific, and typhoon in the Northwest Pacific.",
+          "after": "For the tropical cyclones described here, the terms are regional: hurricane in the Atlantic and Northeast Pacific, cyclone in the Indian and South Pacific, and typhoon in the Northwest Pacific."
+        }
+      },
+      "review_note": "Replaced tropical storm with regional tropical-cyclone terminology, avoiding an accidental assertion about a distinct intensity category.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F036",
+      "source_group": "webb_section_9.2",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F006",
+      "insufficient_distractor_topic": "map-projection distortion",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F037",
+      "source_group": "webb_section_9.3",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F007",
+      "insufficient_distractor_topic": "the physical states of Earth's core",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {
+        "question": {
+          "before": "In the idealized Ekman spiral described here, what is the net transport direction relative to the wind?",
+          "after": "In the idealized Ekman model, what is the net transport direction relative to the wind?"
+        },
+        "question_rephrased": {
+          "before": "How does depth-integrated Ekman transport differ between the Northern and Southern Hemispheres in this idealized account?",
+          "after": "How does idealized depth-integrated Ekman transport differ between the Northern and Southern Hemispheres?"
+        },
+        "answer": {
+          "before": "Net Ekman transport is 90 degrees to the wind: to its right in the Northern Hemisphere and to its left in the Southern Hemisphere.",
+          "after": "In the idealized Ekman model, depth-integrated transport is 90 degrees to the wind: to its right in the Northern Hemisphere and to its left in the Southern Hemisphere."
+        }
+      },
+      "review_note": "Kept the 90-degree transport statement explicitly within the idealized Ekman model.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F038",
+      "source_group": "webb_section_9.5",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F008",
+      "insufficient_distractor_topic": "seismic P waves",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F039",
+      "source_group": "webb_section_9.6",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F009",
+      "insufficient_distractor_topic": "slow deformation of mantle rock",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F040",
+      "source_group": "webb_section_9.7",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F010",
+      "insufficient_distractor_topic": "divergent plate boundaries",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {
+        "anchor_start": {
+          "before": "Each of the cells may be several meters wide",
+          "after": "Underneath these strong winds,"
+        }
+      },
+      "review_note": "Expanded the source excerpt to identify Langmuir cells rather than leaving an undefined each-of-the-cells reference.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F041",
+      "source_group": "webb_section_9.8",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F011",
+      "insufficient_distractor_topic": "ocean-ocean subduction",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {
+        "anchor_start": {
+          "before": "Since seawater density depends mainly on temperature and salinity",
+          "after": "Waters of different densities tend to stratify themselves into layers,"
+        },
+        "anchor_end": {
+          "before": "leaving the remaining seawater with greater salinity (see",
+          "after": "this circulation is referred to as thermohaline circulation."
+        }
+      },
+      "review_note": "Replaced a truncated parenthetical source ending with a complete density/temperature/salinity description.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F042",
+      "source_group": "webb_section_10.1",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F012",
+      "insufficient_distractor_topic": "transform plate boundaries",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F043",
+      "source_group": "webb_section_10.2",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F013",
+      "insufficient_distractor_topic": "earthquake rupture and displacement",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F044",
+      "source_group": "webb_section_10.4",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F014",
+      "insufficient_distractor_topic": "volcanic seamounts and volcanic islands",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F045",
+      "source_group": "webb_section_11.2",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F015",
+      "insufficient_distractor_topic": "fringing reefs, barrier reefs and atolls",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {
+        "anchor_start": {
+          "before": "While this view provides a basic explanation",
+          "after": "Finally, the continents and the bottom topography of the oceans"
+        },
+        "anchor_end": {
+          "before": "many other factors.",
+          "after": "leading to regional tidal variations."
+        },
+        "topic": {
+          "before": "geography in tidal prediction",
+          "after": "geography and local tidal variation"
+        },
+        "question": {
+          "before": "Why is a simple equilibrium account insufficient to predict local tides?",
+          "after": "Which geographic factors can influence local tides?"
+        },
+        "question_rephrased": {
+          "before": "Which geographic factors omitted from a basic equilibrium description can affect local tides?",
+          "after": "Can continental boundaries and bottom topography help explain regional tidal variations?"
+        },
+        "answer": {
+          "before": "Local tides are influenced by factors such as the continents and water depth. A basic equilibrium description omits these geographic effects and therefore cannot fully predict local tides.",
+          "after": "Continental boundaries and ocean-bottom topography influence local tides, helping produce regional tidal variations."
+        }
+      },
+      "review_note": "Switched to the direct geographic-tidal-effects passage on PDF page 274; avoided both undefined this-view wording and the earlier textbook claim that equilibrium tides repeat at the same clock time.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F046",
+      "source_group": "webb_section_11.3",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F016",
+      "insufficient_distractor_topic": "water polarity and hydrogen bonds",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {
+        "question_rephrased": {
+          "before": "How many high and low tides occur per day in a diurnal tidal pattern?",
+          "after": "How many high and low tides occur during a tidal day in a diurnal pattern?"
+        },
+        "answer": {
+          "before": "A diurnal tide has one high tide and one low tide per day.",
+          "after": "A diurnal tidal pattern has one high tide and one low tide in a tidal day."
+        }
+      },
+      "review_note": "Clarified tidal day rather than implying an exact 24-hour solar-day interval.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F047",
+      "source_group": "webb_section_12.2",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F017",
+      "insufficient_distractor_topic": "volcanic outgassing",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F048",
+      "source_group": "webb_section_12.3",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F018",
+      "insufficient_distractor_topic": "salinity as a mass proportion",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F049",
+      "source_group": "webb_section_12.4",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F019",
+      "insufficient_distractor_topic": "gas solubility and saturation",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass. The gas-solubility and hydrogenous-precipitation passages share dissolved-substance vocabulary, but neither supplies the other task's specific required explanation; retain for independent human review.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F050",
+      "source_group": "webb_section_12.5",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F020",
+      "insufficient_distractor_topic": "photosynthesis, respiration and dissolved gases",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F051",
+      "source_group": "webb_section_12.6",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F021",
+      "insufficient_distractor_topic": "nitrogen fixation",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F052",
+      "source_group": "webb_section_13.1",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F022",
+      "insufficient_distractor_topic": "nutrient-like dissolved-element profiles",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {
+        "answer": {
+          "before": "No. Beaches reflect the locally available sediment and can contain volcanic material, carbonate remains, shells, rocks or pebbles rather than quartz sand.",
+          "after": "Beaches reflect the locally available sediment and can contain volcanic material, carbonate remains, shells, rocks or pebbles rather than quartz sand."
+        }
+      },
+      "review_note": "Removed initial No so the same answer works for the alternate why question.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F053",
+      "source_group": "webb_section_13.2",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F023",
+      "insufficient_distractor_topic": "hydrostatic pressure",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F054",
+      "source_group": "webb_section_13.3",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F024",
+      "insufficient_distractor_topic": "deep water and mean ocean temperature",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F055",
+      "source_group": "webb_section_13.4",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F025",
+      "insufficient_distractor_topic": "seawater density",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F056",
+      "source_group": "webb_section_13.5",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F026",
+      "insufficient_distractor_topic": "sound as a longitudinal pressure wave",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F057",
+      "source_group": "webb_section_13.6",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F027",
+      "insufficient_distractor_topic": "selective absorption of light in seawater",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F058",
+      "source_group": "webb_section_13.7",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F028",
+      "insufficient_distractor_topic": "chemosynthesis",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {
+        "topic": {
+          "before": "thermal expansion and sea level",
+          "after": "ocean warming and sea level"
+        },
+        "question_rephrased": {
+          "before": "Which physical change in seawater can contribute to sea-level rise when the ocean warms?",
+          "after": "Is meltwater from land ice required for warming ocean water to raise sea level?"
+        },
+        "answer": {
+          "before": "Yes. Thermal expansion of warming seawater can contribute to sea-level rise without adding meltwater from land ice.",
+          "after": "Warming seawater can raise sea level even without additional meltwater from land ice."
+        }
+      },
+      "review_note": "Removed Yes and a thermal-expansion mechanism not stated in the supplied short excerpt; both questions/answer now directly concern warming-induced rise without added land-ice meltwater.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F059",
+      "source_group": "webb_section_14.1",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F029",
+      "insufficient_distractor_topic": "diatom tests",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {
+        "anchor_end": {
+          "before": "freezing of sea water,",
+          "after": "rarely exceeds a thickness of several meters (Figure 14.1.1)."
+        }
+      },
+      "review_note": "Completed the sea-ice sentence instead of stopping at a comma.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    },
+    {
+      "family_id": "WEBB-EN-F060",
+      "source_group": "webb_section_14.2",
+      "source_support_review": "AI author re-read question, alternate question, answer and exact supplied excerpt; retained answer is supported within the stated scope.",
+      "insufficient_distractor_family": "WEBB-EN-F030",
+      "insufficient_distractor_topic": "controls on phytoplankton productivity",
+      "insufficient_evidence_review": "AI re-read paired distractor; it does not provide the facts required by this target question. The user instruction restricts the answer to the supplied passages.",
+      "grounded_mixed_passage_review": "The same distractor is non-answering; the relevant source supports the positive target and the answer cites only that source.",
+      "changes": {},
+      "review_note": "No additional source-support or answer-scope problem identified during this pass.",
+      "reviewer_type": "AI author, not independent expert",
+      "expert_approval": false
+    }
+  ]
+}

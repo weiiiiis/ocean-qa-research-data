@@ -1,0 +1,68 @@
+﻿stage,metric,numerator,denominator,unknown_or_na,value,note
+v1,refusal_none,91,101,0,0.900990099009901,
+v1,refusal_appropriate,6,101,0,0.0594059405940594,
+v1,refusal_erroneous,3,101,0,0.0297029702970297,
+v1,refusal_uncertain,1,101,0,0.009900990099009901,
+v1,answers_with_claim_status_S,95,101,0,0.9405940594059405,
+v1,answers_with_claim_status_C,3,101,0,0.0297029702970297,
+v1,answers_with_claim_status_N,9,101,0,0.0891089108910891,
+v1,answers_with_claim_status_U,2,101,0,0.019801980198019802,
+v1,citation_answer_supported,83,101,0,0.8217821782178217,
+v1,citation_answer_partial,8,101,0,0.07920792079207921,
+v1,citation_answer_unsupported,8,101,0,0.07920792079207921,
+v1,citation_answer_missing,0,101,0,0.0,
+v1,citation_answer_uncertain,0,101,0,0.0,
+v1,citation_answer_not_applicable,2,101,0,0.019801980198019802,
+v1,point_coverage_C,93,141,0,0.6595744680851063,Unit: necessary point; U not treated as missed
+v1,point_coverage_P,22,141,0,0.15602836879432624,Unit: necessary point; U not treated as missed
+v1,point_coverage_O,26,141,0,0.18439716312056736,Unit: necessary point; U not treated as missed
+v1,point_coverage_U,0,141,0,0.0,Unit: necessary point; U not treated as missed
+v1,weighted_point_coverage,104.0,141,0,0.7375886524822695,"Unit: defined point; U=0 among141 points. Four questions have no assessable points and their per-answer coverage is NA, not zero."
+v1,answers_with_omission,22,97,4,0.2268041237113402,
+v1,citation_marker_S,97,116,0,0.8362068965517241,
+v1,citation_marker_C,3,116,0,0.02586206896551724,
+v1,citation_marker_N,16,116,0,0.13793103448275862,
+v1,citation_marker_U,0,116,0,0.0,
+v1,direct_answer_yes,83,101,0,0.8217821782178217,
+v1,direct_answer_partial,5,101,0,0.04950495049504951,
+v1,direct_answer_no,10,101,0,0.09900990099009901,
+v1,direct_answer_uncertain,3,101,0,0.0297029702970297,
+v2,refusal_none,88,101,0,0.8712871287128713,
+v2,refusal_appropriate,4,101,0,0.039603960396039604,
+v2,refusal_erroneous,8,101,0,0.07920792079207921,
+v2,refusal_uncertain,1,101,0,0.009900990099009901,
+v2,answers_with_claim_status_S,88,101,0,0.8712871287128713,
+v2,answers_with_claim_status_C,9,101,0,0.0891089108910891,
+v2,answers_with_claim_status_N,10,101,0,0.09900990099009901,
+v2,answers_with_claim_status_U,1,101,0,0.009900990099009901,
+v2,citation_answer_supported,81,101,0,0.801980198019802,
+v2,citation_answer_partial,6,101,0,0.0594059405940594,
+v2,citation_answer_unsupported,12,101,0,0.1188118811881188,
+v2,citation_answer_missing,0,101,0,0.0,
+v2,citation_answer_uncertain,0,101,0,0.0,
+v2,citation_answer_not_applicable,2,101,0,0.019801980198019802,
+v2,point_coverage_C,78,141,0,0.5531914893617021,Unit: necessary point; U not treated as missed
+v2,point_coverage_P,30,141,0,0.2127659574468085,Unit: necessary point; U not treated as missed
+v2,point_coverage_O,33,141,0,0.23404255319148937,Unit: necessary point; U not treated as missed
+v2,point_coverage_U,0,141,0,0.0,Unit: necessary point; U not treated as missed
+v2,weighted_point_coverage,93.0,141,0,0.6595744680851063,"Unit: defined point; U=0 among141 points. Four questions have no assessable points and their per-answer coverage is NA, not zero."
+v2,answers_with_omission,27,97,4,0.27835051546391754,
+v2,citation_marker_S,95,113,0,0.8407079646017699,
+v2,citation_marker_C,8,113,0,0.07079646017699115,
+v2,citation_marker_N,10,113,0,0.08849557522123894,
+v2,citation_marker_U,0,113,0,0.0,
+v2,direct_answer_yes,77,101,0,0.7623762376237624,
+v2,direct_answer_partial,7,101,0,0.06930693069306931,
+v2,direct_answer_no,14,101,0,0.13861386138613863,
+v2,direct_answer_uncertain,3,101,0,0.0297029702970297,
+paired,v2_better,5,101,0,0.04950495049504951,"Single AI judgment, not human accuracy"
+paired,v2_worse,17,101,0,0.16831683168316833,"Single AI judgment, not human accuracy"
+paired,equivalent,76,101,0,0.7524752475247525,"Single AI judgment, not human accuracy"
+paired,tradeoff,1,101,0,0.009900990099009901,"Single AI judgment, not human accuracy"
+paired,uncertain,2,101,0,0.019801980198019802,"Single AI judgment, not human accuracy"
+evidence,S,80,101,0,0.7920792079207921,Sufficient/partial/insufficient/uncertain
+evidence,P,17,101,0,0.16831683168316833,Sufficient/partial/insufficient/uncertain
+evidence,I,4,101,0,0.039603960396039604,Sufficient/partial/insufficient/uncertain
+evidence,U,0,101,0,0.0,Sufficient/partial/insufficient/uncertain
+v1,answers_no_assessable_points,4,101,4,0.039603960396039604,"These four answers have NA coverage, not zero coverage."
+v2,answers_no_assessable_points,4,101,4,0.039603960396039604,"These four answers have NA coverage, not zero coverage."

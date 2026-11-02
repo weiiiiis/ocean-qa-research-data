@@ -1,0 +1,24 @@
+{
+  "protocol_version": "ocean-paper-eval-en-0.1",
+  "base_model": "models/Qwen3-4B-Instruct",
+  "adapter": "outputs/ocean_qwen3_targeted30/final_lora_adapter",
+  "embedding_model": "models/embedding_minilm",
+  "language": "en",
+  "seed": 20261016,
+  "generation": {
+    "max_new_tokens": 160,
+    "do_sample": false,
+    "repetition_penalty": 1.05,
+    "max_input_tokens": 2048
+  },
+  "mcqa_max_new_tokens": 16,
+  "retrieval": {
+    "top_k": 3,
+    "min_score": 0.45,
+    "max_context_tokens": 1000,
+    "device": "cpu"
+  },
+  "warmup_generations_per_condition": 1,
+  "measurement_boundary": "Natural answers only; no fixed-token cost probes in this runner. A short response is not evidence of faster token generation.",
+  "data_boundary": "Retrieval query is the question stem only. Prompts use the question, MC choices when applicable, and retrieved source passages. Gold answers and expected source IDs never enter retrieval or prompts."
+}

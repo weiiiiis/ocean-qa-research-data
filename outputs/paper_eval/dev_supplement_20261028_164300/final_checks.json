@@ -1,0 +1,17 @@
+{
+  "checked_at_utc": "2026-10-28T09:39:07.649185+00:00",
+  "passed": true,
+  "questions": 101,
+  "unique_conditions": 10,
+  "raw_answers": 1010,
+  "per_question_metric_rows": 1010,
+  "summary_rows": 10,
+  "paired_metric_rows": 162,
+  "same_question_ids_all_conditions": true,
+  "no_duplicates": true,
+  "same_actual_prompt_and_context_across_stages_and_budgets": true,
+  "human_scores_blank": true,
+  "protected_original_files_unchanged": 481,
+  "previous_delivery_hashes_verified": 53,
+  "verification_code_sha256": "33780782646f7f5f2e434bf260f6d048fc0b3a8fedc57bd40a0a3df206e174b8"
+}

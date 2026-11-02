@@ -1,0 +1,114 @@
+{
+  "created_at_utc": "2026-10-17T07:43:55.602945+00:00",
+  "audit_version": "native_source60_pira_question_overlap_v1",
+  "script": "D:\\weitiao\\ocean-chat\\paper_data\\english_training_v2\\overlap_audit\\audit_sources.py",
+  "script_sha256": "9aeaf4870fb560aa3134a253c2724dc92086734df2b762f05fbbfa5ff81f9cd2",
+  "input_files": {
+    "source_facts": {
+      "path": "D:\\weitiao\\ocean-chat\\paper_data\\english_training_v2\\source_facts_60.jsonl",
+      "sha256": "27638f19e823e31bbc761487772c66151404edc377f0a763d098cc48d32c9381"
+    },
+    "family_split": {
+      "path": "D:\\weitiao\\ocean-chat\\paper_data\\english_training_v2\\family_split.json",
+      "sha256": "6fbeb49bc9383229c20049dab3881aa361e0e4ede7dbf57b8965cfce8ed2f916"
+    },
+    "development": {
+      "path": "D:\\weitiao\\ocean-chat\\paper_data\\external_benchmarks\\dev_openqa_en.jsonl",
+      "sha256": "598e06c8fc1e8bc076a11bfa3bbd40ef7910cd960f7d028fbbeb4631f61dbf7e"
+    },
+    "official_test": {
+      "path": "D:\\weitiao\\ocean-chat\\paper_data\\external_benchmarks\\pira_test_en_227.jsonl",
+      "sha256": "29319ac73751351e290c907ff8289571d3c012f7c5961a4365400d273c88b05a"
+    }
+  },
+  "native_source_families": 60,
+  "training_partition_families": 48,
+  "validation_partition_families": 12,
+  "formatted_sft_examples_not_audit_units": 300,
+  "embedding": {
+    "path": "D:\\weitiao\\ocean-chat\\models\\embedding_minilm",
+    "file_hashes": {
+      "1_Pooling\\config.json": "4be450dde3b0273bb9787637cfbd28fe04a7ba6ab9d36ac48e92b11e350ffc23",
+      "config.json": "6300193cb75e01cf80c96decef7187dfb33094d97cc1490b7ead6ff134476e4e",
+      "config_sentence_transformers.json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "model.safetensors": "eaa086f0ffee582aeb45b36e34cdd1fe2d6de2bef61f8a559a1bbc9bd955917b",
+      "modules.json": "8f4b264b80206c830bebbdcae377e137925650a433b689343a63bdc9b3145460",
+      "sentence_bert_config.json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sentencepiece.bpe.model": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865",
+      "special_tokens_map.json": "378eb3bf733eb16e65792d7e3fda5b8a4631387ca04d2015199c4d4f22ae554d",
+      "tokenizer.json": "2c3387be76557bd40970cec13153b3bbf80407865484b209e655e5e4729076b8",
+      "tokenizer_config.json": "5036ea374ffedd706e3bef33e2e0d6953cb868ef8a490e76e32ba0faa37a6b9b",
+      "unigram.json": "71b44701d7efd054205115acfa6ef126c5d2f84bd3affe0c59e48163674d19a6"
+    },
+    "device": "cpu",
+    "torch_threads": 2,
+    "torch_interop_threads": 2,
+    "pooling": "attention-mask mean; L2-normalized",
+    "max_tokens": 384,
+    "batch_size": 16,
+    "dtype": "float32"
+  },
+  "threshold": 0.82,
+  "exact_rule": "Raw case-sensitive equality against canonical or existing rephrased training question",
+  "normalized_rule": "Unicode NFKC, casefold, remove non-word characters and underscores, against canonical or existing rephrased question",
+  "primary_semantic_rule": "Maximum cosine against the 60 canonical questions and 60 already-authored rephrasings, grouped into 60 native source families",
+  "canonical_only_score": "Reported separately; primary score includes existing rephrasing because it is used by candidate SFT",
+  "qa_auxiliary_rule": "Compare benchmark question stem to canonical training Question/Answer concatenation; auxiliary only, not part of primary question flag",
+  "evaluation_fields_used": [
+    "id",
+    "question",
+    "source_group"
+  ],
+  "benchmark_answers_or_choices_used": false,
+  "model_generation_or_model_performance_used": false,
+  "dataset_or_split_mutation": false,
+  "source_family_partition": "All60 audit is conservative; training48 columns separately audit actual candidate training families, excluding 12 validation families",
+  "human_review_status": "pending; all reviewer/decision/note cells blank",
+  "interpretation": "Flags indicate candidates for manual review, not proven leakage. No automatic exclusion or relabeling. No automatic flag does not establish independence. This only audits the new source60, not all old adapter training or unknown base-model pretraining.",
+  "official_test_boundary": "Official test was inspected solely as question-stem contamination audit before training; test answers and model performance were not used, and no test content was added to SFT or retrieval",
+  "packages": {
+    "torch": "2.6.0+cu124",
+    "transformers": "4.51.3",
+    "numpy": "2.1.3"
+  },
+  "elapsed_seconds": 8.266679199994542,
+  "summary": {
+    "development": {
+      "benchmark_questions": 101,
+      "exact_question_flag": 0,
+      "normalized_question_flag": 0,
+      "semantic_question_flag": 0,
+      "question_overlap_any_flag": 0,
+      "training48_exact_flag": 0,
+      "training48_normalized_flag": 0,
+      "training48_semantic_flag": 0,
+      "qa_auxiliary_semantic_flag": 0,
+      "maximum_question_cosine": 0.7478407025337219,
+      "maximum_question_answer_auxiliary_cosine": 0.5944539308547974,
+      "flagged_question_ids": [],
+      "auxiliary_only_flagged_ids": []
+    },
+    "official_test": {
+      "benchmark_questions": 227,
+      "exact_question_flag": 0,
+      "normalized_question_flag": 0,
+      "semantic_question_flag": 0,
+      "question_overlap_any_flag": 0,
+      "training48_exact_flag": 0,
+      "training48_normalized_flag": 0,
+      "training48_semantic_flag": 0,
+      "qa_auxiliary_semantic_flag": 0,
+      "maximum_question_cosine": 0.7310889959335327,
+      "maximum_question_answer_auxiliary_cosine": 0.6274193525314331,
+      "flagged_question_ids": [],
+      "auxiliary_only_flagged_ids": []
+    }
+  },
+  "output_files_sha256": {
+    "development_nearest_review.csv": "fc146de636f0e978c1c0b7cdaf98ff5b76ed72d6e4b75c22f948b3a5484961a0",
+    "official_test_nearest_review.csv": "02cf68981027ada6cb3c7c7cac85f8f04ea75af46f547c3945f259c0106d4e79",
+    "flagged_review.csv": "104ebb0a2a785ed916114b301501b37db619afc4ef933e1b82aac4d6decb59b6",
+    "audit.json": "2fbab500e7dbc048a9b625205de9e66a024e541f60a3e8e48e4782127ac99158",
+    "cosine_matrices.npz": "277224c663602a94b5253c5fa964ffb385a1c4145970c380d09f17b0449ba326"
+  }
+}

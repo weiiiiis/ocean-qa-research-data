@@ -1,0 +1,43 @@
+{
+  "protocol_version": "ocean-paper-eval-0.1",
+  "dataset": "paper_data/test.jsonl",
+  "corpus": "paper_data/corpus.jsonl",
+  "base_model": "models/Qwen3-4B-Instruct",
+  "adapter": "outputs/ocean_qwen3_targeted30/final_lora_adapter",
+  "embedding_model": "models/embedding_minilm",
+  "language": "zh",
+  "generation": {
+    "max_new_tokens": 384,
+    "do_sample": false,
+    "repetition_penalty": 1.05,
+    "max_input_tokens": 2048
+  },
+  "retrieval": {
+    "top_k": 3,
+    "min_score": 0.45,
+    "max_context_tokens": 1000,
+    "device": "cpu"
+  },
+  "seed": 20261016,
+  "warmup_generations": 2,
+  "model_order": "base_first",
+  "cost_probe": {
+    "question_count": 12,
+    "repeats": 3,
+    "fixed_new_tokens": 128
+  },
+  "training_audit": {
+    "exact_normalized_match": "exclude",
+    "char_tfidf_review_threshold": 0.50,
+    "embedding_review_threshold": 0.82,
+    "review_status": "candidate; requires independent domain review",
+    "pretraining_exposure": "unknown; not claimed to be uncontaminated"
+  },
+  "analysis": {
+    "bootstrap_resamples": 2000,
+    "cluster_unit": "source_group",
+    "primary_quality_endpoint": "expert factual correctness (0-4)",
+    "secondary_quality_endpoints": ["expert key-point completeness", "expert citation support"],
+    "automatic_metrics": "retrieval evidence recall, citation syntax, and term coverage are proxies, not factual accuracy"
+  }
+}

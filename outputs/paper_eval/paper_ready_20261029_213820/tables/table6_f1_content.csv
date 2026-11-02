@@ -1,0 +1,4 @@
+﻿f1_direction,v2_better,v2_worse,equivalent,tradeoff,uncertain,row_total,total_questions,unit,source
+increase,3,5,14,1,1,24,101,question,D:\weitiao\ocean-chat\outputs\paper_eval\ai_content_audit_20261028_175905\paired_reviews.csv
+decrease,2,11,22,0,0,35,101,question,D:\weitiao\ocean-chat\outputs\paper_eval\ai_content_audit_20261028_175905\paired_reviews.csv
+unchanged,0,1,40,0,1,42,101,question,D:\weitiao\ocean-chat\outputs\paper_eval\ai_content_audit_20261028_175905\paired_reviews.csv

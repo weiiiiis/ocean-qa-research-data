@@ -1,0 +1,17 @@
+﻿v1_refusal,v2_refusal,questions,denominator
+none,none,87,101
+none,appropriate,0,101
+none,erroneous,4,101
+none,uncertain,0,101
+appropriate,none,1,101
+appropriate,appropriate,4,101
+appropriate,erroneous,1,101
+appropriate,uncertain,0,101
+erroneous,none,0,101
+erroneous,appropriate,0,101
+erroneous,erroneous,3,101
+erroneous,uncertain,0,101
+uncertain,none,0,101
+uncertain,appropriate,0,101
+uncertain,erroneous,0,101
+uncertain,uncertain,1,101

@@ -1,0 +1,28 @@
+# Pinned to the exact versions verified on the local machine (2026-10-09).
+#
+# torch is NOT listed here on purpose: use the CUDA build that ships with your
+# AutoDL image (local reference: torch 2.6.0+cu124, Python 3.13). Reinstalling
+# torch by pip usually pulls a mismatched CUDA runtime and wastes ~3 GB.
+#
+# !! If the rented card is Blackwell (RTX 5090 / RTX PRO 6000, sm_120) !!
+# torch 2.6.0+cu124 does NOT support sm_120. It imports fine and then dies at
+# the first CUDA call with "no kernel image is available for execution on the
+# device". Use an image shipping torch >= 2.7 with CUDA >= 12.8, or install:
+#   pip install --upgrade torch --index-url https://download.pytorch.org/whl/cu128
+# cloud_setup.py checks this before training starts.
+#
+# !! Do NOT install sentence-transformers !!
+# It pulls transformers 5.x + huggingface_hub 1.x, which break this project
+# (huggingface_hub >= 1.0 makes transformers 4.51.3 fail on import). This was
+# hit on 2026-10-09 and required a rollback to the versions above. If you need
+# embeddings, load the model with plain transformers + mean pooling instead.
+#
+# huggingface_hub MUST stay below 1.0. Version 1.x removes APIs that
+# transformers 4.51.3 still calls, so `import transformers` fails outright.
+transformers==4.51.3
+peft==0.19.1
+accelerate==1.14.0
+bitsandbytes==0.50.0
+huggingface_hub==0.36.2
+safetensors==0.8.0
+numpy==2.1.3

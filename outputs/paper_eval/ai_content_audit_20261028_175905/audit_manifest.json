@@ -1,0 +1,25 @@
+{
+  "created_at_utc": "2026-10-28T09:59:05.333489+00:00",
+  "signature": {
+    "source_hashes_sha256": "9372ee429e980ade6f5df3968c4d0d06a6db4609e7b5b12bf5e4b8a5cc229005",
+    "protocol_sha256": "e0ebd0ec4ceb8fe60911e0081521e02facd03d879360b99c453f0368993e6cd5",
+    "packet_sha256": "a49ff8974f0b8f473b6a61065bcdb783158e4c2fa80d5c87a4f44de78e0e6d2e",
+    "evidence_packet_sha256": "2673e6ad277fbb015a4653d7d50ee4120e89964852a0510df15ccd34b80b8890",
+    "mapping_sha256": "5d3156b5d9e3891aca057d1a30342e60aa1ea50248c8188e175b648fc6c6216e",
+    "code_sha256": "569282cfb7891fd4b69a3a6b7ec89008c27e4acefab998799b731c1fcb3f6337"
+  },
+  "source": "D:\\weitiao\\ocean-chat\\outputs\\paper_eval\\dev_supplement_20261028_164300",
+  "reviewer": {
+    "name": "Codex当前会话AI助手",
+    "family": "系统角色说明为GPT-6",
+    "exact_model_id": "未记录",
+    "snapshot_version": "未记录",
+    "method": "single conversational AI, sequential direct content review; no inference API calls",
+    "independent_reviewers": 1,
+    "fully_blind": false
+  },
+  "questions": 101,
+  "answers": 202,
+  "original_metric_rows_ingested": 1010,
+  "signature_sha256": "408c1635a0816bfd85c8fb51d1e503de8f87c3d08170f72131addc3ebe7d901d"
+}

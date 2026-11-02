@@ -1,0 +1,213 @@
+{
+  "plan_date_local": "2026-10-17",
+  "timezone": "Asia/Shanghai",
+  "seed": 20261017,
+  "status": "Local pretest plan prepared; root formal freeze and independent expert approval remain separate.",
+  "registration_status": "Local filesystem record only. Not an OSF registration or other external preregistration.",
+  "model_answers_read_or_generated": false,
+  "development_model_scores_read": false,
+  "gpu_used": false,
+  "expert_approval_obtained": false,
+  "expert_scores": "pending; no scores supplied or inferred",
+  "inputs_sha256": {
+    "D:\\weitiao\\ocean-chat\\paper_data\\external_benchmarks\\official_openqa_en_227.jsonl": "390e6382cf824b69c28bd1a69e7ac3e8fc0920d1c4c8ac624440b36f1a3d9427",
+    "D:\\weitiao\\ocean-chat\\paper_data\\external_benchmarks\\pira_supporting_passages.jsonl": "ec85db5c2959fef557fd75e38a48d7116648d08917b136c795d97c1b7e67ca54",
+    "D:\\weitiao\\ocean-chat\\paper_data\\external_benchmarks\\corpus_pira_chunks_en.jsonl": "6a2d484b15ccd56344f4531aad52607feb1ebd4d9a04f9173b2b598ad4385ffe",
+    "D:\\weitiao\\ocean-chat\\paper_data\\external_benchmarks\\pretest_review_plan_20261017\\prepare_plan.py": "c9dee0ab48b04028a18618297fe280015e2f01d7793fa301a7bcff515b53f208",
+    "D:\\weitiao\\ocean-chat\\paper_data\\external_benchmarks\\overlap_pretest_decisions_20261017.json": "ecd3f9bb7837bc3b3a90a509ba620d8f3c02c61f103c207c792b85fce0376550"
+  },
+  "outputs_sha256": {
+    "selected_review_questions_40.jsonl": "98b3307648e7d669bba435b7e75454c1aeaf682a499115029f20946a039bee86",
+    "selected_review_ids_40.csv": "412db8057ed1b91e6ce57e387132b4c78095f97bf9cf5ab97382051c49423029",
+    "reference_suitability_review_21.jsonl": "cd7f49fe11397d5a2c40aac99fc2b7592b3e15c44d0632c651a9df82f061857e",
+    "reference_suitability_review_21.csv": "bc7b1d6b304c282c96d918865b4900b6406763082a7f12181bdd83752bcf537f"
+  },
+  "python_version_for_rng_reproduction": "3.13.5",
+  "sample": {
+    "published_answer_in_text_eligible": 206,
+    "selected_questions": 40,
+    "distinct_original_source_groups": 40,
+    "selected_original_ids": [
+      "A924",
+      "A1873",
+      "A1298",
+      "A1393",
+      "A1129",
+      "A1107",
+      "A232",
+      "A290",
+      "A1884",
+      "A867",
+      "A976",
+      "A1172",
+      "A346",
+      "A296",
+      "A1137",
+      "A1661",
+      "A636",
+      "A371",
+      "A583",
+      "A538",
+      "A1847",
+      "A1504",
+      "A1386",
+      "A484",
+      "A536",
+      "A202",
+      "A1488",
+      "A674",
+      "A174",
+      "A516",
+      "A610",
+      "B2468",
+      "B2066",
+      "B2327",
+      "B2017",
+      "B2223",
+      "B2053",
+      "B2427",
+      "B2392",
+      "B2287"
+    ],
+    "stratification": [
+      {
+        "corpus": 1,
+        "eligible_questions": 162,
+        "eligible_distinct_source_groups": 135,
+        "quota": 31,
+        "selected_source_groups": [
+          "PIRA-EID-2-s2.0-79953006622",
+          "PIRA-EID-2-s2.0-85085773825",
+          "PIRA-EID-2-s2.0-84987762471",
+          "PIRA-EID-2-s2.0-85088892946",
+          "PIRA-EID-2-s2.0-77956858304",
+          "PIRA-EID-2-s2.0-85020183362",
+          "PIRA-EID-2-s2.0-16964104",
+          "PIRA-EID-2-s2.0-85070853924",
+          "PIRA-EID-2-s2.0-85051649253",
+          "PIRA-EID-2-s2.0-33646452775",
+          "PIRA-EID-2-s2.0-34250708084",
+          "PIRA-EID-2-s2.0-84893407222",
+          "PIRA-EID-2-s2.0-33646035823",
+          "PIRA-EID-2-s2.0-73349086227",
+          "PIRA-EID-2-s2.0-84944574757",
+          "PIRA-EID-2-s2.0-85090507698",
+          "PIRA-EID-2-s2.0-85006339618",
+          "PIRA-EID-2-s2.0-59649088185",
+          "PIRA-EID-2-s2.0-19586421",
+          "PIRA-EID-2-s2.0-85061823653",
+          "PIRA-EID-2-s2.0-85097598677",
+          "PIRA-EID-2-s2.0-84947326315",
+          "PIRA-EID-2-s2.0-85064983703",
+          "PIRA-EID-2-s2.0-85055027692",
+          "PIRA-EID-2-s2.0-344309110",
+          "PIRA-EID-2-s2.0-85088029712",
+          "PIRA-EID-2-s2.0-85071023764",
+          "PIRA-EID-2-s2.0-57649139087",
+          "PIRA-EID-2-s2.0-85101107313",
+          "PIRA-EID-2-s2.0-84905748711",
+          "PIRA-EID-2-s2.0-84857324711"
+        ]
+      },
+      {
+        "corpus": 2,
+        "eligible_questions": 44,
+        "eligible_distinct_source_groups": 36,
+        "quota": 9,
+        "selected_source_groups": [
+          "PIRA-DOC-69db28ed61a08155",
+          "PIRA-DOC-1d8870d5c8c6c15e",
+          "PIRA-DOC-a4e79d8a4f650e76",
+          "PIRA-DOC-6c2b03a87e9745e4",
+          "PIRA-DOC-43607eec08e95474",
+          "PIRA-DOC-497d1f37baf890fd",
+          "PIRA-DOC-1c090dc0db03818c",
+          "PIRA-DOC-4b95b141160bed60",
+          "PIRA-DOC-bd99e69624f4192b"
+        ]
+      }
+    ],
+    "algorithm": [
+      "Keep only published answer_in_text == 1; do not use model outputs, EM, F1 or citation scores.",
+      "Allocate 40 slots proportionally to corpus 1/2 question counts by largest remainders; remainder ties by ascending corpus ID.",
+      "Use one random.Random(20261017) stream, process corpus strata in ascending order.",
+      "Within each stratum, sort source_group strings then shuffle, and take the stratum quota of sources.",
+      "Within each selected source, sort questions by original_id and choose one using rng.randrange.",
+      "No source receives a second question; fail rather than silently relaxing this condition."
+    ],
+    "inclusion_boundary": "Stratified source-balanced sampling, not an equal-probability simple random sample of questions. Corpus 2 passage IDs do not establish independent source documents."
+  },
+  "remaining_reference_review": {
+    "questions": 21,
+    "published_answer_in_text_zero": 10,
+    "published_answer_in_text_missing": 11,
+    "policy": "Human reference, question and evidence-sufficiency audit only; do not treat these as a refusal gold standard or relabel without a separate decision."
+  },
+  "automatic_analysis_rules": {
+    "primary_question_set": {
+      "name": "official_full_227",
+      "questions": 227,
+      "exclusions": []
+    },
+    "fixed_sensitivity_question_sets": [
+      {
+        "name": "legacy_flag_excluded_225",
+        "questions": 225,
+        "exclude_original_ids": [
+          "A1329",
+          "B2585"
+        ]
+      },
+      {
+        "name": "published_answer_in_text_1_206",
+        "questions": 206,
+        "filter": "published original_assessments.answer_in_text == 1"
+      }
+    ],
+    "same_original_ids_across_tasks": "Use original_id to apply exactly the same subsets in open QA and MC, despite task-specific ID prefixes.",
+    "mcqa": {
+      "main_metric": "leading-option accuracy; invalid extraction counts incorrect",
+      "leading_option_regex": "^\\s*([A-E])(?=$|[\\s.)\\]}:;,，。：、-])",
+      "extractor": "After optional leading whitespace, accept one capital A-E followed by end-of-string, whitespace or the explicitly listed punctuation. Never search inside an answer or mistake the A in Answer for option A.",
+      "strict_format_secondary": "After strip(), exactly one capital A-E. Report strict accuracy and invalid-format rate separately; no chain-of-thought or explanatory suffix is accepted by this metric."
+    },
+    "openqa": {
+      "primary_automatic": "SQuAD-style token F1 against reference_answer_origin only, after removing recognizable square-bracket citation ID markers from the model answer.",
+      "raw_answer_sensitivity": "Same original reference and normalization, without removing model citation markers.",
+      "reference_sensitivity": "Published alternate references are optional sensitivity only; equivalence has not been independently validated.",
+      "interpretation": "All EM/F1 measures are lexical overlap, not factual accuracy, completeness or evidence support."
+    },
+    "uncertainty": {
+      "main_clusters": "source_group (known article EID/known-EID-or-exact-passage component where available; exact supporting passage otherwise)",
+      "corpus2_conservative_sensitivity": "Repeat paired bootstrap with source_group_conservative; all unresolved corpus-2 rows belong to PIRA-UNRESOLVED-CORPUS2. Point estimates stay unchanged; independent-source uncertainty can differ.",
+      "resamples": 2000,
+      "bootstrap_seed": 20261017,
+      "primary_difference": "lora_rag minus base_rag",
+      "others": "secondary/exploratory"
+    }
+  },
+  "human_review_rules": {
+    "sample_frozen_before_outputs": true,
+    "independent_reviewers": 2,
+    "quality_scope": "All four conditions for the same 40 preselected questions; randomize opaque answer IDs independently per reviewer after actual answers exist.",
+    "factual_correctness": "Human 0-4; 0 incorrect/missing, 1 major errors, 2 mixed/partial, 3 mostly correct with minor issues, 4 correct for the question.",
+    "essential_completeness": "Human 0-4, separate from correctness; 0 absent, 1 major omissions, 2 partial, 3 most essential points, 4 all essential requested points.",
+    "evidence_support": "RAG answers: human 0-4 using actual provided evidence; no-RAG answers: not applicable, never zero-filled.",
+    "citation_counts": [
+      "citation_links_count",
+      "supported_citation_links_count",
+      "claims_requiring_citation",
+      "claims_with_supported_citation"
+    ],
+    "reviewer_independence": "Two real experts review independently before any discussion; preserve initial ratings and document later adjudication separately.",
+    "blinding": "No model/condition names in expert packets. Private mapping remains separate. Quality packet may strip citation markers; evidence packet preserves actual answer and contexts. Wording can still reveal behavior, so blinding is imperfect.",
+    "missing_scores": "Blank/pending, never imputed as zero. No automated F1 or citation-validity score becomes an expert score.",
+    "reference_problems": "Flag doubtful references or ambiguous questions for separate review; do not silently repair official labels or select exclusions using observed model scores."
+  },
+  "limitations": [
+    "The 40-question sample cannot certify the whole benchmark; report its selected scope and source-balanced sampling.",
+    "Unflagged test questions are not proof of unseen pretraining or complete historical SFT independence.",
+    "Corpus-2 passage-level groups are unresolved fragments of larger report sources; the conservative grouping is a sensitivity, not recovered true lineage.",
+    "No model answers, expert approval, external registration or expert ratings exist in these plan artifacts."
+  ]
+}

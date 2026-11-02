@@ -1,0 +1,55 @@
+{
+  "pira_total": 2258,
+  "pira_splits": {
+    "train": 1806,
+    "validation": 225,
+    "test": 227
+  },
+  "pira_test_source_passages": 181,
+  "pira_all_available_supporting_passages": 688,
+  "pira_test_source_passages_also_in_original_train": 155,
+  "pira_test_source_passages_also_in_original_validation": 53,
+  "pira_open_mcqa_shared_ids": 227,
+  "pira_answer_in_text": {
+    "1.0": 206,
+    "-1.0": 11,
+    "0.0": 10
+  },
+  "pira_at_labels": {
+    "1.0": 179,
+    "-1.0": 29,
+    "0.0": 19
+  },
+  "pira_at_labels_warning": "Do not equate at_labels with passage-answerability: 15 of 19 at_labels=0 rows have answer_in_text=1, and 4 at_labels=1 rows have answer_in_text=0.",
+  "oceanbenchmark_text_count": 102,
+  "oceanbenchmark_source_papers": 43,
+  "oceanbenchmark_missing_category": 69,
+  "legacy_records": 10344,
+  "legacy_tasks": {
+    "Analysis": 644,
+    "Classification": 803,
+    "Commonsense Reasoning": 999,
+    "Description": 1092,
+    "Editing": 909,
+    "Extraction": 997,
+    "Judgment": 610,
+    "Letter Writing": 226,
+    "Open-ended Generation": 856,
+    "Other": 144,
+    "Question-Answering": 1181,
+    "Recognition": 380,
+    "Recommendation": 1011,
+    "Summary": 144,
+    "Transformation": 348
+  },
+  "legacy_qa_records": 1181,
+  "candidate_main_questions": 227,
+  "sft_semantic_flags": {
+    "pira_2_default_test": 2
+  },
+  "sft_audited_pairs": 2190,
+  "oceanbenchmark_unique_after_exact_dedup": 100,
+  "candidate_records_before_dedup": 329,
+  "candidate_additional_mcq_raw": 102,
+  "unique_normalized_question_candidates": 327
+}

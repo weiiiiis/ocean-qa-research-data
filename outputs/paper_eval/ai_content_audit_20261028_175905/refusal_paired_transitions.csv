@@ -1,0 +1,17 @@
+﻿v1_refusal,v2_refusal,questions
+none,none,87
+none,appropriate,0
+none,erroneous,4
+none,uncertain,0
+appropriate,none,1
+appropriate,appropriate,4
+appropriate,erroneous,1
+appropriate,uncertain,0
+erroneous,none,0
+erroneous,appropriate,0
+erroneous,erroneous,3
+erroneous,uncertain,0
+uncertain,none,0
+uncertain,appropriate,0
+uncertain,erroneous,0
+uncertain,uncertain,1

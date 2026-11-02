@@ -1,0 +1,168 @@
+{
+  "audit_date_user_timezone": "2026-10-17 Asia/Shanghai",
+  "review_type": "AI pretest source-overlap precheck; not expert review",
+  "scope": {
+    "legacy_known_sft_unique_pairs": 2190,
+    "semantic_threshold": 0.82,
+    "flagged_official_pira_questions_reviewed": 2,
+    "model_generations_read_or_produced": false,
+    "gpu_used": false,
+    "reference_access": "Published references and supporting texts read only to understand the flagged question intent; no new answer generated.",
+    "not_covered": "Unknown base-model pretraining, missing historical SFT lineage, and separate provenance audit of any newly created training dataset."
+  },
+  "input_provenance": {
+    "paper_data\\external_benchmarks\\需重点复核的2题.csv": "5fb8a1a468e757fc98d46f8449f40c3553d6fc08920bee9773aa9b6d2996a059",
+    "paper_data\\external_benchmarks\\known_sft_overlap.json": "18eff62644b8051fdb5f4eee4668dacf9ecd5d460d9998cf15ad561048282101",
+    "paper_data\\external_benchmarks\\pira_test_en_227.jsonl": "29319ac73751351e290c907ff8289571d3c012f7c5961a4365400d273c88b05a",
+    "paper_data\\external_benchmarks\\pira_mcqa_test_en_227.jsonl": "48cfd8ef9696d68edbf1f79e3069bb58093be2fd0458dc4d3c401eedf5c9d429",
+    "paper_data\\external_benchmarks\\pira_supporting_passages.jsonl": "ec85db5c2959fef557fd75e38a48d7116648d08917b136c795d97c1b7e67ca54",
+    "paper_data\\external_benchmarks\\prepare_and_screen.py": "32aa777d006455798a8385d89b45089e8ef61301c0e55979395c26118d2ee112"
+  },
+  "legacy_screen_interpretation": "The legacy scan embeds English question stems against windows of a Chinese training question plus joined assistant turns (700-character windows, stride 500). Similarity above 0.82 requests semantic review; it does not establish a paraphrase, answer reproduction, or shared document.",
+  "items": [
+    {
+      "canonical_original_id": "B2585",
+      "openqa_id": "PIRA-B2585",
+      "mcqa_id": "PIRA-MC-B2585",
+      "question": "What factors can affect fish-communities properties in coastal areas?",
+      "supporting_source_id": "PIRA-DOC-122300ceb285e274",
+      "supporting_source_text_sha256": "857a4e86d365329746c56e29d3e96b698bcc9e4c887879a0721c9533ba53e911",
+      "published_assessments_unchanged": {
+        "answer_in_text": 1.0,
+        "at_labels": 1.0,
+        "question_meaningful": 5.0,
+        "answer_equivalent": 5.0,
+        "answer_difficulty": 1.0
+      },
+      "legacy_screen": {
+        "similarity": 0.8340009450912476,
+        "threshold": 0.82,
+        "flag_type": "cross_language_semantic_review",
+        "nearest_training_question": "请介绍中国近海的主要水团及其特征。",
+        "nearest_training_answer": "中国近海的主要水团包括：沿岸低盐水团，受河流径流（如长江、黄河）影响，盐度低、浑浊度高；陆架混合水团，由沿岸水与外海水混合形成，分布于陆架区；黑潮暖水及其分支（如台湾暖流和对马暖流），温度盐度较高，沿陆坡北上；以及黄海冷水团，为冬季冷却下沉残留于黄海洼地的低温高盐水体，夏季形成底层冷水团。各水团的季节消长与相互作用决定中国近海的水文格局。\n黄海冷水团是黄海夏季底层最重要的水文特征，其低温高盐环境为冷水性生物提供适宜栖息地，是黄海重要渔场形成的基础。冷水团的存在造成黄海夏季强烈的温跃层，抑制垂向混合，影响营养盐的垂向分布。冷水团的年际变化影响黄海鱼类种群结构、洄游分布和捕捞产量，是黄海生态系统动力学的关键因子，也是黄海冷水团海域碳循环与生物地球化学过程研究的重点。\n长江冲淡水是长江入海径流与海水混合形成的低盐水团，其扩展范围受径流量、风和地形影响，夏季可向东北方向扩展至济州岛附近。冲淡水携带大量陆源营养盐和泥沙，显著影响东海初级生产力与沉积过程；其扩展路径控制着东海锋面位置和渔场分布。过量营养盐输入则引发赤潮和富营养化问题。长江冲淡水的变化对近海生态、渔业和沉积环境具有重要影响。",
+        "training_path": "D:\\weitiao\\research\\qwen2_ocean_qlora_project\\data\\ocean_qa_sample.jsonl",
+        "training_line_1_based": 601,
+        "training_file_sha256_now": "d54d696a134bb50bc9bb851b29278233865d39d08b0881aae35e9b27143d741d",
+        "all_user_turns_in_inspected_training_record": [
+          "请介绍中国近海的主要水团及其特征。",
+          "黄海冷水团对黄海生态系统有何作用？",
+          "长江冲淡水对中国近海有何影响？"
+        ]
+      },
+      "ai_precheck": {
+        "shared_domain_concepts": [
+          "沿岸海洋生态",
+          "温盐等水文环境",
+          "营养盐与鱼类群落/渔场"
+        ],
+        "different_question_targets": "测试题询问沿岸鱼类群落性质的影响因素；训练记录主要介绍中国近海水团及黄海冷水团、长江冲淡水的区域作用。请求的对象、范围和需要列出的因素集合不同。",
+        "answer_reproduction_assessment": "训练答案确有低温/盐度/营养盐/鱼类分布等领域概念，但未复现公开题所需的一组沿岸生境、海底及扰动因素；不能根据共享领域词判定同义QA。",
+        "ai_classification": "domain_related_no_identified_question_or_answer_duplicate_in_inspected_record",
+        "label_attention": null,
+        "same_or_paraphrased_question": "not identified in the inspected nearest training record; this is not proof of non-overlap across unknown sources",
+        "same_underlying_source_document": "unknown; historical SFT source lineage is incomplete",
+        "scope": "AI source-and-semantics precheck only, not independent expert adjudication or a factual quality score",
+        "official_primary_inclusion_recommendation": "retain in full 227-item official primary result",
+        "fixed_sensitivity_recommendation": "exclude this canonical ID together with the other legacy semantic flag, independently of model outcomes"
+      },
+      "expert_review": {
+        "status": "pending",
+        "human_decision": "",
+        "reviewer": "",
+        "notes": ""
+      }
+    },
+    {
+      "canonical_original_id": "A1329",
+      "openqa_id": "PIRA-A1329",
+      "mcqa_id": "PIRA-MC-A1329",
+      "question": "How are the effects of global climate change manifesting in the oceans and coastal areas?",
+      "supporting_source_id": "PIRA-DOC-4b940f8d4810a3bf",
+      "supporting_source_text_sha256": "9263111a337c7bc12093f68144b94e0a9ca4437a0eda85ae82c25391c6625138",
+      "published_assessments_unchanged": {
+        "answer_in_text": 0.0,
+        "at_labels": 0.0,
+        "question_meaningful": 1.0,
+        "answer_equivalent": 5.0,
+        "answer_difficulty": 1.0
+      },
+      "legacy_screen": {
+        "similarity": 0.8868076205253601,
+        "threshold": 0.82,
+        "flag_type": "cross_language_semantic_review",
+        "nearest_training_question": "人类活动如何影响海洋分层状态？",
+        "nearest_training_answer": "海洋中的垂直分层主要由太阳辐射引起的海水温度变化所驱动。这种分层现象包括了季节性混合层、热盐层和冰层等不同类型的层次结构。在日照强烈的季节，表层海水接收大量太阳辐射，温度上升而密度下降，形成较轻、温暖的上层，称为季节性混合层；而在光照较少的季节，表层水温降低，密度增加，阻碍上下层水体之间的交换，形成相对稳定的垂直分层。\n海洋的垂直分层对生物分布、能量流动和物质循环起着至关重要的作用。表层的光合作用是整个海洋食物链的基础，而底层则为许多深海生物提供了生存环境。分层促进了营养物质从表层向深层的输送，有利于营养盐的再分配，支撑着深层生态系统的存在。此外，分层还能影响海洋气候系统，如通过影响海-气界面的热量和水分交换，进而影响全球气候模式。\n人类活动，特别是温室气体排放导致的全球变暖，已经对海洋分层产生了显著影响。随着全球气温升高，表层海水变暖加剧，导致季节性混合层加深，同时降低了上层海水的比重，减少了上下水层之间的混合。此外，气候变化还引起极端天气事件增多，如暴雨和风暴，这些事件会将大量的淡水快速注入海洋表面，进一步影响海洋的温度和盐度分布，导致分层结构的不稳定性和变化。这些变化对海洋生态系统和全球气候系统产生深远影响。",
+        "training_path": "D:\\weitiao\\research\\qwen2_ocean_qlora_project\\data\\ocean_qa_sample.jsonl",
+        "training_line_1_based": 739,
+        "training_file_sha256_now": "d54d696a134bb50bc9bb851b29278233865d39d08b0881aae35e9b27143d741d",
+        "all_user_turns_in_inspected_training_record": [
+          "海洋中为什么会出现垂直分层现象？",
+          "这种分层对海洋生态系统有何影响？",
+          "人类活动如何影响海洋分层状态？"
+        ]
+      },
+      "ai_precheck": {
+        "shared_domain_concepts": [
+          "全球变暖与海洋变化",
+          "生态系统影响",
+          "人类活动与气候因素"
+        ],
+        "different_question_targets": "测试题请求全球气候变化在海洋和沿岸的表现；训练记录围绕海水垂直分层的成因、生态作用及人类活动影响。两者主题相关，但问题关系和范围不同。",
+        "answer_reproduction_assessment": "训练答案讨论海表升温、混合、淡水输入及分层生态影响；公开参考针对沿海生态系统形态/配置及生态系统服务，未发现该目标答案在所检查训练记录中复现。",
+        "ai_classification": "shared_climate_ecology_concepts_no_identified_question_or_answer_duplicate_in_inspected_record",
+        "label_attention": {
+          "published_answer_in_text": 0.0,
+          "published_question_meaningful": 1.0,
+          "ai_observation": "公开支撑段落的开头含沿海生态系统配置和生态系统服务相关表述；与answer_in_text=0的关系需人工复核。低meaningful原评分亦应作为题目适用性标记。这里只记录观察，不改原标签、参考答案或题目。",
+          "human_status": "pending"
+        },
+        "same_or_paraphrased_question": "not identified in the inspected nearest training record; this is not proof of non-overlap across unknown sources",
+        "same_underlying_source_document": "unknown; historical SFT source lineage is incomplete",
+        "scope": "AI source-and-semantics precheck only, not independent expert adjudication or a factual quality score",
+        "official_primary_inclusion_recommendation": "retain in full 227-item official primary result",
+        "fixed_sensitivity_recommendation": "exclude this canonical ID together with the other legacy semantic flag, independently of model outcomes"
+      },
+      "expert_review": {
+        "status": "pending",
+        "human_decision": "",
+        "reviewer": "",
+        "notes": ""
+      }
+    }
+  ],
+  "proposed_pretest_reporting_policy": {
+    "status": "proposal for root to freeze before formal test generation; no dataset files or labels changed",
+    "primary": {
+      "name": "official_full_227",
+      "expected_questions_each_task": 227,
+      "excluded_canonical_original_ids": [],
+      "rationale": "Preserve comparability with the official test rather than deleting semantically related domain concepts as proven contamination."
+    },
+    "sensitivity": {
+      "name": "legacy_flag_excluded_225",
+      "expected_questions_each_task": 225,
+      "excluded_canonical_original_ids": [
+        "A1329",
+        "B2585"
+      ],
+      "excluded_openqa_ids": [
+        "PIRA-A1329",
+        "PIRA-B2585"
+      ],
+      "excluded_mcqa_ids": [
+        "PIRA-MC-A1329",
+        "PIRA-MC-B2585"
+      ],
+      "rationale": "Conservative fixed sensitivity to both legacy semantic flags, independent of model answers, scores or final AI judgement; not a claim that the two are confirmed duplicates."
+    },
+    "same_items_across_tasks": "Use original_id to map the exact same two questions in open QA and MC; task-specific ID prefixes differ.",
+    "source_group_note": "This two-ID sensitivity is item-level, not proof of whole-source exclusion or unseen source-document generalization."
+  },
+  "limitations": [
+    "No automatic flag is not proof that a question or its source was unseen during training.",
+    "Inspection of nearest known matches cannot reconstruct unknown training sources or certify independence.",
+    "AI precheck conclusions are separate from expert fields, which remain blank and pending.",
+    "No official raw files, published labels, existing human-review fields, model weights or training samples were modified.",
+    "The complete official result and fixed sensitivity result must both be reported; do not choose exclusions after inspecting model performance."
+  ]
+}

@@ -1,0 +1,30 @@
+﻿check,passed,detail
+official counts,True,
+formal arithmetic option_accuracy,True,
+formal arithmetic strict_letter_accuracy,True,
+formal arithmetic format_compliance,True,
+formal arithmetic stripped_f1,True,
+dev six conditions,True,
+budget eight conditions,True,
+AI proportion arithmetic,True,
+cross-tab total,True,
+cross-tab verdict marginal,True,
+required cases,True,
+case F1 arithmetic,True,
+claim map,True,"['claim_id', 'claim_zh', 'claim_en', 'evidence_table_field_or_case', 'dataset_conditions_and_sample_scope', 'evidence_type', 'support_strength', 'permitted_wording_zh', 'limitations_to_retain']"
+source immutability,True,178 source files; changed=[]
+fig1_formal exports,True,"(4389, 3249); dpi=(599.9988, 599.9988); SVG text objects=64; PDF text chars=479"
+fig1_formal source CSV,True,
+fig2_stages exports,True,"(4389, 3189); dpi=(599.9988, 599.9988); SVG text objects=55; PDF text chars=455"
+fig2_stages source CSV,True,
+fig3_f1_content exports,True,"(4381, 1929); dpi=(599.9988, 599.9988); SVG text objects=35; PDF text chars=278"
+fig3_f1_content source CSV,True,
+fig4_paired exports,True,"(4390, 2109); dpi=(599.9988, 599.9988); SVG text objects=25; PDF text chars=301"
+fig4_paired source CSV,True,
+figS1_ai40 exports,True,"(4389, 2109); dpi=(599.9988, 599.9988); SVG text objects=32; PDF text chars=333"
+figS1_ai40 source CSV,True,
+figure1 table alignment,True,
+figure2 table alignment,True,
+figure3 table alignment,True,
+figure4 coverage alignment,True,
+manuscript key numeric trace,True,

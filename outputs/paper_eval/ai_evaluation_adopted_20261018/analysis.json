@@ -1,0 +1,716 @@
+{
+  "created_at_utc": "2026-10-18T10:20:13.736322+00:00",
+  "adoption_date_local": "2026-10-18",
+  "adoption_basis": "User reports that their teacher agreed to directly use the AI suggestions.",
+  "status": "adopted_as_AI_evaluation",
+  "rating_origin": "AI",
+  "ai_evaluation_workflows": 1,
+  "parallel_scoring_shards": 3,
+  "independent_human_raters": 0,
+  "teacher_itemwise_scores_entered": false,
+  "questions": 40,
+  "quality_answers": 160,
+  "evidence_answers": 80,
+  "separate_reference_reviews": 21,
+  "scope": "The preselected 40-question subset of 206 published answer_in_text=1 questions; not all 227 test questions.",
+  "bootstrap": {
+    "replicates": 2000,
+    "seed": 20261018,
+    "method": "Paired source-cluster bootstrap; question-weighted score means and pooled count ratios. Same cluster draws for all conditions and within-question contrasts.",
+    "interpretation": "Exploratory intervals conditional on the selected subset and grouping assumptions; not an estimate of human-rater validity or population representativeness."
+  },
+  "groupings": {
+    "source_group": {
+      "source_groups": 40,
+      "by_condition": {
+        "base": {
+          "factual_quality": {
+            "mean": 1.025,
+            "ci95": [
+              0.65,
+              1.4
+            ],
+            "numerator": 41.0,
+            "denominator": 40.0,
+            "valid_bootstrap_replicates": 2000
+          },
+          "completeness": {
+            "mean": 0.95,
+            "ci95": [
+              0.525,
+              1.375
+            ],
+            "numerator": 38.0,
+            "denominator": 40.0,
+            "valid_bootstrap_replicates": 2000
+          },
+          "faithfulness": {
+            "mean": null,
+            "ci95": null,
+            "numerator": 0.0,
+            "denominator": 0.0,
+            "valid_bootstrap_replicates": 0
+          },
+          "citation_support": {
+            "mean": null,
+            "ci95": null,
+            "numerator": 0.0,
+            "denominator": 0.0,
+            "valid_bootstrap_replicates": 0
+          },
+          "citation_coverage": {
+            "mean": null,
+            "ci95": null,
+            "numerator": 0.0,
+            "denominator": 0.0,
+            "valid_bootstrap_replicates": 0
+          }
+        },
+        "base_rag": {
+          "factual_quality": {
+            "mean": 3.125,
+            "ci95": [
+              2.675,
+              3.525
+            ],
+            "numerator": 125.0,
+            "denominator": 40.0,
+            "valid_bootstrap_replicates": 2000
+          },
+          "completeness": {
+            "mean": 3.275,
+            "ci95": [
+              2.8,
+              3.7
+            ],
+            "numerator": 131.0,
+            "denominator": 40.0,
+            "valid_bootstrap_replicates": 2000
+          },
+          "faithfulness": {
+            "mean": 3.325,
+            "ci95": [
+              2.975,
+              3.625
+            ],
+            "numerator": 133.0,
+            "denominator": 40.0,
+            "valid_bootstrap_replicates": 2000
+          },
+          "citation_support": {
+            "mean": 0.6231884057971014,
+            "ci95": [
+              0.5016525423728814,
+              0.7872551782443284
+            ],
+            "numerator": 129.0,
+            "denominator": 207.0,
+            "valid_bootstrap_replicates": 2000
+          },
+          "citation_coverage": {
+            "mean": 0.7898089171974523,
+            "ci95": [
+              0.7083333333333334,
+              0.8620797413793102
+            ],
+            "numerator": 124.0,
+            "denominator": 157.0,
+            "valid_bootstrap_replicates": 2000
+          }
+        },
+        "lora": {
+          "factual_quality": {
+            "mean": 1.4,
+            "ci95": [
+              0.975,
+              1.85
+            ],
+            "numerator": 56.0,
+            "denominator": 40.0,
+            "valid_bootstrap_replicates": 2000
+          },
+          "completeness": {
+            "mean": 1.175,
+            "ci95": [
+              0.725,
+              1.675
+            ],
+            "numerator": 47.0,
+            "denominator": 40.0,
+            "valid_bootstrap_replicates": 2000
+          },
+          "faithfulness": {
+            "mean": null,
+            "ci95": null,
+            "numerator": 0.0,
+            "denominator": 0.0,
+            "valid_bootstrap_replicates": 0
+          },
+          "citation_support": {
+            "mean": null,
+            "ci95": null,
+            "numerator": 0.0,
+            "denominator": 0.0,
+            "valid_bootstrap_replicates": 0
+          },
+          "citation_coverage": {
+            "mean": null,
+            "ci95": null,
+            "numerator": 0.0,
+            "denominator": 0.0,
+            "valid_bootstrap_replicates": 0
+          }
+        },
+        "lora_rag": {
+          "factual_quality": {
+            "mean": 3.25,
+            "ci95": [
+              2.825,
+              3.625
+            ],
+            "numerator": 130.0,
+            "denominator": 40.0,
+            "valid_bootstrap_replicates": 2000
+          },
+          "completeness": {
+            "mean": 3.3,
+            "ci95": [
+              2.85,
+              3.7
+            ],
+            "numerator": 132.0,
+            "denominator": 40.0,
+            "valid_bootstrap_replicates": 2000
+          },
+          "faithfulness": {
+            "mean": 3.375,
+            "ci95": [
+              3.025,
+              3.675
+            ],
+            "numerator": 135.0,
+            "denominator": 40.0,
+            "valid_bootstrap_replicates": 2000
+          },
+          "citation_support": {
+            "mean": 0.7623762376237624,
+            "ci95": [
+              0.6538157894736842,
+              0.860469881814716
+            ],
+            "numerator": 77.0,
+            "denominator": 101.0,
+            "valid_bootstrap_replicates": 2000
+          },
+          "citation_coverage": {
+            "mean": 0.7524752475247525,
+            "ci95": [
+              0.6428571428571429,
+              0.8532110091743119
+            ],
+            "numerator": 76.0,
+            "denominator": 101.0,
+            "valid_bootstrap_replicates": 2000
+          }
+        }
+      },
+      "paired_differences": {
+        "lora_minus_base": {
+          "factual_quality": {
+            "mean": 0.375,
+            "ci95": [
+              0.10000000000000009,
+              0.675
+            ],
+            "paired_questions": 40,
+            "valid_bootstrap_replicates": 2000
+          },
+          "completeness": {
+            "mean": 0.2250000000000001,
+            "ci95": [
+              -0.07500000000000007,
+              0.6
+            ],
+            "paired_questions": 40,
+            "valid_bootstrap_replicates": 2000
+          }
+        },
+        "base_rag_minus_base": {
+          "factual_quality": {
+            "mean": 2.1,
+            "ci95": [
+              1.55,
+              2.6256249999999968
+            ],
+            "paired_questions": 40,
+            "valid_bootstrap_replicates": 2000
+          },
+          "completeness": {
+            "mean": 2.325,
+            "ci95": [
+              1.7999999999999998,
+              2.85
+            ],
+            "paired_questions": 40,
+            "valid_bootstrap_replicates": 2000
+          }
+        },
+        "lora_rag_minus_base_rag": {
+          "factual_quality": {
+            "mean": 0.125,
+            "ci95": [
+              -0.10000000000000009,
+              0.4249999999999998
+            ],
+            "paired_questions": 40,
+            "valid_bootstrap_replicates": 2000
+          },
+          "completeness": {
+            "mean": 0.02499999999999991,
+            "ci95": [
+              -0.25,
+              0.3250000000000002
+            ],
+            "paired_questions": 40,
+            "valid_bootstrap_replicates": 2000
+          },
+          "faithfulness": {
+            "mean": 0.04999999999999982,
+            "ci95": [
+              -0.25,
+              0.375
+            ],
+            "paired_questions": 40,
+            "valid_bootstrap_replicates": 2000
+          },
+          "citation_support": {
+            "mean": 0.13918783182666095,
+            "ci95": [
+              -0.04353609141432498,
+              0.29882396626242236
+            ],
+            "paired_questions": 40,
+            "valid_bootstrap_replicates": 2000
+          },
+          "citation_coverage": {
+            "mean": -0.0373336696726998,
+            "ci95": [
+              -0.14476875219871824,
+              0.06961775849580333
+            ],
+            "paired_questions": 40,
+            "valid_bootstrap_replicates": 2000
+          }
+        },
+        "lora_rag_minus_lora": {
+          "factual_quality": {
+            "mean": 1.85,
+            "ci95": [
+              1.25,
+              2.4
+            ],
+            "paired_questions": 40,
+            "valid_bootstrap_replicates": 2000
+          },
+          "completeness": {
+            "mean": 2.125,
+            "ci95": [
+              1.475,
+              2.700624999999997
+            ],
+            "paired_questions": 40,
+            "valid_bootstrap_replicates": 2000
+          }
+        }
+      }
+    },
+    "source_group_conservative": {
+      "source_groups": 32,
+      "by_condition": {
+        "base": {
+          "factual_quality": {
+            "mean": 1.025,
+            "ci95": [
+              0.46875,
+              1.4583333333333333
+            ],
+            "numerator": 41.0,
+            "denominator": 40.0,
+            "valid_bootstrap_replicates": 2000
+          },
+          "completeness": {
+            "mean": 0.95,
+            "ci95": [
+              0.3125,
+              1.53125
+            ],
+            "numerator": 38.0,
+            "denominator": 40.0,
+            "valid_bootstrap_replicates": 2000
+          },
+          "faithfulness": {
+            "mean": null,
+            "ci95": null,
+            "numerator": 0.0,
+            "denominator": 0.0,
+            "valid_bootstrap_replicates": 0
+          },
+          "citation_support": {
+            "mean": null,
+            "ci95": null,
+            "numerator": 0.0,
+            "denominator": 0.0,
+            "valid_bootstrap_replicates": 0
+          },
+          "citation_coverage": {
+            "mean": null,
+            "ci95": null,
+            "numerator": 0.0,
+            "denominator": 0.0,
+            "valid_bootstrap_replicates": 0
+          }
+        },
+        "base_rag": {
+          "factual_quality": {
+            "mean": 3.125,
+            "ci95": [
+              2.59375,
+              3.5
+            ],
+            "numerator": 125.0,
+            "denominator": 40.0,
+            "valid_bootstrap_replicates": 2000
+          },
+          "completeness": {
+            "mean": 3.275,
+            "ci95": [
+              2.6875,
+              3.6875
+            ],
+            "numerator": 131.0,
+            "denominator": 40.0,
+            "valid_bootstrap_replicates": 2000
+          },
+          "faithfulness": {
+            "mean": 3.325,
+            "ci95": [
+              2.96875,
+              3.625
+            ],
+            "numerator": 133.0,
+            "denominator": 40.0,
+            "valid_bootstrap_replicates": 2000
+          },
+          "citation_support": {
+            "mean": 0.6231884057971014,
+            "ci95": [
+              0.52777394106814,
+              0.8351648351648352
+            ],
+            "numerator": 129.0,
+            "denominator": 207.0,
+            "valid_bootstrap_replicates": 2000
+          },
+          "citation_coverage": {
+            "mean": 0.7898089171974523,
+            "ci95": [
+              0.7282361660079052,
+              0.8529479222881813
+            ],
+            "numerator": 124.0,
+            "denominator": 157.0,
+            "valid_bootstrap_replicates": 2000
+          }
+        },
+        "lora": {
+          "factual_quality": {
+            "mean": 1.4,
+            "ci95": [
+              0.6875,
+              1.9285714285714286
+            ],
+            "numerator": 56.0,
+            "denominator": 40.0,
+            "valid_bootstrap_replicates": 2000
+          },
+          "completeness": {
+            "mean": 1.175,
+            "ci95": [
+              0.34375,
+              1.9111607142857119
+            ],
+            "numerator": 47.0,
+            "denominator": 40.0,
+            "valid_bootstrap_replicates": 2000
+          },
+          "faithfulness": {
+            "mean": null,
+            "ci95": null,
+            "numerator": 0.0,
+            "denominator": 0.0,
+            "valid_bootstrap_replicates": 0
+          },
+          "citation_support": {
+            "mean": null,
+            "ci95": null,
+            "numerator": 0.0,
+            "denominator": 0.0,
+            "valid_bootstrap_replicates": 0
+          },
+          "citation_coverage": {
+            "mean": null,
+            "ci95": null,
+            "numerator": 0.0,
+            "denominator": 0.0,
+            "valid_bootstrap_replicates": 0
+          }
+        },
+        "lora_rag": {
+          "factual_quality": {
+            "mean": 3.25,
+            "ci95": [
+              2.71875,
+              3.625
+            ],
+            "numerator": 130.0,
+            "denominator": 40.0,
+            "valid_bootstrap_replicates": 2000
+          },
+          "completeness": {
+            "mean": 3.3,
+            "ci95": [
+              2.71875,
+              3.7
+            ],
+            "numerator": 132.0,
+            "denominator": 40.0,
+            "valid_bootstrap_replicates": 2000
+          },
+          "faithfulness": {
+            "mean": 3.375,
+            "ci95": [
+              3.0,
+              3.6875
+            ],
+            "numerator": 135.0,
+            "denominator": 40.0,
+            "valid_bootstrap_replicates": 2000
+          },
+          "citation_support": {
+            "mean": 0.7623762376237624,
+            "ci95": [
+              0.63156328320802,
+              0.8538483146067415
+            ],
+            "numerator": 77.0,
+            "denominator": 101.0,
+            "valid_bootstrap_replicates": 2000
+          },
+          "citation_coverage": {
+            "mean": 0.7524752475247525,
+            "ci95": [
+              0.6264683734939759,
+              0.8437673611111111
+            ],
+            "numerator": 76.0,
+            "denominator": 101.0,
+            "valid_bootstrap_replicates": 2000
+          }
+        }
+      },
+      "paired_differences": {
+        "lora_minus_base": {
+          "factual_quality": {
+            "mean": 0.375,
+            "ci95": [
+              0.0625,
+              0.59375
+            ],
+            "paired_questions": 40,
+            "valid_bootstrap_replicates": 2000
+          },
+          "completeness": {
+            "mean": 0.2250000000000001,
+            "ci95": [
+              -0.15625,
+              0.5156808035714283
+            ],
+            "paired_questions": 40,
+            "valid_bootstrap_replicates": 2000
+          }
+        },
+        "base_rag_minus_base": {
+          "factual_quality": {
+            "mean": 2.1,
+            "ci95": [
+              1.5416666666666667,
+              2.78125
+            ],
+            "paired_questions": 40,
+            "valid_bootstrap_replicates": 2000
+          },
+          "completeness": {
+            "mean": 2.325,
+            "ci95": [
+              1.7707589285714285,
+              3.03125
+            ],
+            "paired_questions": 40,
+            "valid_bootstrap_replicates": 2000
+          }
+        },
+        "lora_rag_minus_base_rag": {
+          "factual_quality": {
+            "mean": 0.125,
+            "ci95": [
+              -0.125,
+              0.3999999999999999
+            ],
+            "paired_questions": 40,
+            "valid_bootstrap_replicates": 2000
+          },
+          "completeness": {
+            "mean": 0.02499999999999991,
+            "ci95": [
+              -0.28125,
+              0.3035714285714284
+            ],
+            "paired_questions": 40,
+            "valid_bootstrap_replicates": 2000
+          },
+          "faithfulness": {
+            "mean": 0.04999999999999982,
+            "ci95": [
+              -0.25,
+              0.375
+            ],
+            "paired_questions": 40,
+            "valid_bootstrap_replicates": 2000
+          },
+          "citation_support": {
+            "mean": 0.13918783182666095,
+            "ci95": [
+              -0.09167385057471265,
+              0.2758869028744637
+            ],
+            "paired_questions": 40,
+            "valid_bootstrap_replicates": 2000
+          },
+          "citation_coverage": {
+            "mean": -0.0373336696726998,
+            "ci95": [
+              -0.16739112698092745,
+              0.0622991507137848
+            ],
+            "paired_questions": 40,
+            "valid_bootstrap_replicates": 2000
+          }
+        },
+        "lora_rag_minus_lora": {
+          "factual_quality": {
+            "mean": 1.85,
+            "ci95": [
+              1.3,
+              2.5625
+            ],
+            "paired_questions": 40,
+            "valid_bootstrap_replicates": 2000
+          },
+          "completeness": {
+            "mean": 2.125,
+            "ci95": [
+              1.46875,
+              3.03125
+            ],
+            "paired_questions": 40,
+            "valid_bootstrap_replicates": 2000
+          }
+        }
+      }
+    }
+  },
+  "score_distribution": {
+    "base": {
+      "ai_factual_correctness": {
+        "0": 22,
+        "1": 2,
+        "2": 9,
+        "3": 7,
+        "4": 0
+      },
+      "ai_essential_completeness": {
+        "0": 24,
+        "1": 4,
+        "2": 6,
+        "3": 2,
+        "4": 4
+      }
+    },
+    "base_rag": {
+      "ai_factual_correctness": {
+        "0": 5,
+        "1": 1,
+        "2": 1,
+        "3": 10,
+        "4": 23
+      },
+      "ai_essential_completeness": {
+        "0": 6,
+        "1": 0,
+        "2": 1,
+        "3": 3,
+        "4": 30
+      }
+    },
+    "lora": {
+      "ai_factual_correctness": {
+        "0": 16,
+        "1": 8,
+        "2": 4,
+        "3": 8,
+        "4": 4
+      },
+      "ai_essential_completeness": {
+        "0": 20,
+        "1": 9,
+        "2": 3,
+        "3": 0,
+        "4": 8
+      }
+    },
+    "lora_rag": {
+      "ai_factual_correctness": {
+        "0": 5,
+        "1": 0,
+        "2": 1,
+        "3": 8,
+        "4": 26
+      },
+      "ai_essential_completeness": {
+        "0": 5,
+        "1": 1,
+        "2": 0,
+        "3": 5,
+        "4": 29
+      }
+    }
+  },
+  "inputs_sha256": {
+    "outputs\\paper_eval\\ai_prescore_teachercheck_v1_20261018\\ai_prescore_manifest.json": "0d0569b677edc4ac47d84a72d447bb401fa7d8dfe465c641eda10e8a0ee5b1c4",
+    "outputs\\paper_eval\\en_test_blind40_frozen_v1_20261017\\private\\english_blind_mapping.json": "73527b17430ad0894cd6db0a2827d4c24a221712ed09e673e4d50efe3d1a59c8",
+    "outputs\\paper_eval\\en_test_blind40_frozen_v1_20261017\\selected_questions.jsonl": "f9a96cdc0b6ef0e66c0c6ee2ae01ccba5d8116aad83b9fa00ed2a881cdacad40",
+    "outputs\\paper_eval\\ai_prescore_teachercheck_v1_20261018\\graded\\shard_1.jsonl": "c1d1f38ec07e8aebf5844f013a536b43c193b34b0fc74583b4baa1dd0c57de2d",
+    "outputs\\paper_eval\\ai_prescore_teachercheck_v1_20261018\\graded\\shard_2.jsonl": "eed0dd31071459bd7f85ca8541236a28df5a08951f15be1db1721d6cb94fb55c",
+    "outputs\\paper_eval\\ai_prescore_teachercheck_v1_20261018\\graded\\shard_3.jsonl": "22657d3402a9b860c1224abbc91a25b32c7682816df15cb7ffeaa13b02539512"
+  },
+  "analysis_script_sha256": "604139413d456eae6e012ebdce6e9ac9305c55f5366525fed959416d6244d692",
+  "limitations": [
+    "Single AI evaluation workflow; no independent human ratings or inter-rater agreement.",
+    "Exact judge model revision and decoding parameters were not independently logged in this interactive workflow.",
+    "Three parallel grading shards and AI internal calibration are not independent expert ratings.",
+    "AI reference judgments have not replaced the official references or frozen automatic metrics.",
+    "AI citation-link support counts use semantic citation scopes and may differ from strict automatic ID-format parsing.",
+    "Source availability and wording can reveal configuration despite omitted explicit condition labels.",
+    "Score intervals quantify question/source sampling variation, not AI-judge error or repeated-judge variability."
+  ]
+}

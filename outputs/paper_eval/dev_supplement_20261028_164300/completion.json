@@ -1,0 +1,55 @@
+{
+  "checked_at_utc": "2026-10-28T09:33:16.944464+00:00",
+  "scope": "full",
+  "expected": 1010,
+  "records_in_file": 1010,
+  "missing": [],
+  "unique": true,
+  "signature_consistent": true,
+  "prompt_context_consistent": true,
+  "termination_metadata_valid": true,
+  "complete": true,
+  "by_condition": {
+    "base_t160": {
+      "answers": 101,
+      "truncated": 0
+    },
+    "base_t96": {
+      "answers": 101,
+      "truncated": 0
+    },
+    "base_rag_t160": {
+      "answers": 101,
+      "truncated": 2
+    },
+    "base_rag_t96": {
+      "answers": 101,
+      "truncated": 23
+    },
+    "v2_t160": {
+      "answers": 101,
+      "truncated": 0
+    },
+    "v2_t96": {
+      "answers": 101,
+      "truncated": 0
+    },
+    "v2_rag_t160": {
+      "answers": 101,
+      "truncated": 0
+    },
+    "v2_rag_t96": {
+      "answers": 101,
+      "truncated": 3
+    },
+    "v1_t160": {
+      "answers": 101,
+      "truncated": 0
+    },
+    "v1_rag_t160": {
+      "answers": 101,
+      "truncated": 0
+    }
+  },
+  "signature_sha256": "167f46e0765ac9cca8cdc7c8a41ce02491c5a9374b6a61161370c9c5555c3067"
+}

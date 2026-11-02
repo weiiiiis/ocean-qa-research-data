@@ -1,0 +1,331 @@
+section	task	mode	question	key_points	anchors
+1.1	comparison	professional	根据教材给出的半球覆盖率，比较南、北半球的海洋覆盖程度，并解释为什么不能把全球71%直接当作两个半球各自的覆盖率。	北半球约61%、南半球约81%;全球比例是整体统计，半球分布不均;南半球海洋覆盖率更高	Northern Hemisphere;Southern Hemisphere
+1.1	classification	professional	教材所列主要洋盆中，哪一个同时具有最大面积和最大平均深度？这是否意味着所有海洋中的水平均分布？	太平洋面积最大、平均深度最大;各洋盆水量和面积分布明显不均	Pacific is the largest;not distributed equally
+1.1	reasoning	professional	只比较教材给出的全球平均海深约3800米和平均陆地高度约840米，平均海深大约是平均陆高的多少倍？这个比值能否解释为陆地面积与海洋面积之比？	3800除以840约为4.5;比较的是平均垂向尺度;不是陆海面积比	average depth;average land elevation
+1.1	calculation	professional	假设采用教材中的珠峰高度8848米和挑战者深渊深度11022米，将这座山的山脚放在该深渊底部，山顶距海面还有多少米？请说明这只是依据给定数值的计算。	11022减8848等于2174米;山顶仍在海面以下;计算依据题目给定的教材数值	8848;11,022
+1.1	popular	popular	给小学生解释：“海洋里的水很多”为什么不等于“地球每个地方的海都一样深、一样多水”？	洋盆大小和深度各不相同;太平洋拥有很大比例的海水;全球总量不能代替每个地点的情况	not distributed equally
+1.2	comparison	professional	主动大陆边缘与被动大陆边缘的划分依据是什么？海岸线本身是否必然就是板块边界？	依据大陆海洋过渡带是否与板块边界相联系;主动边缘常有明显构造活动;被动边缘的板块边界可远离海岸	active continental margin;passive continental margin
+1.2	classification	professional	沿一个理想化被动大陆边缘从岸向深海，如何依次区分大陆架、陆架坡折、大陆坡和大陆隆？	大陆架较浅且平缓;陆架坡折是坡度明显改变处;大陆坡向深海下降，坡脚沉积区为大陆隆	continental shelf;continental rise
+1.2	reasoning	professional	一幅大陆边缘剖面图的水平范围为300千米、垂直范围为5000米。为什么图上看起来很陡的大陆坡在实际海底可能相当平缓？	水平和垂直比例尺不同;垂向被夸大;不能把绘图角度直接当成真实坡角	vertical exaggeration
+1.2	mechanism	professional	浊流如何帮助形成大陆坡上的海底峡谷，并把物质搬运到坡脚？	携带沉积物和碎屑的高密度流沿坡向下运动;可侵蚀切割大陆坡;搬运物质在较缓坡脚沉积	turbidity currents;continental rise
+1.2	popular	popular	海边往外走到深海，海底为什么不像一堵直上直下的墙？用大陆架和大陆坡向孩子解释。	近岸常有较平缓的大陆架;再经坡折进入较陡的大陆坡;示意图常把垂直方向夸大	continental shelf;vertical exaggeration
+1.3	comparison	professional	“中层带鱼类”和“底栖动物”采用的是同一种海洋分区标准吗？解释水层分区与海底分区的区别。	中层带属于水柱中的远洋深度分区;底栖指在海底表面或沉积物中生活;同一深度的水体与底面需区分	pelagic zone;benthic zone
+1.3	classification	professional	浅海区和大洋区如何以陆架坡折为界划分？它们的界线是否单纯由离岸距离决定？	浅海区对应低潮线至陆架坡折上方水体;大洋区为其外侧开放海域水体;陆架宽度可变，不能只按固定离岸距离划分	neritic province;oceanic province
+1.3	reasoning	professional	一个在700米深水柱中采集的样品，按照教材分区属于哪一水层？该水层有微弱光线是否就意味着能维持光合作用？	700米位于200至1000米的中层带;光线微弱;通常不足以支持光合作用	200-1000;photosynthesis
+1.3	comparison	professional	比较高潮线以上的飞沫带与高潮线和低潮线之间的潮间带：它们何时会被海水淹没？	飞沫带位于高潮线以上，主要在风暴或异常大浪时淹没;潮间带位于高潮线与低潮线之间，随潮汐周期浸没和露出	supralittoral;littoral zone
+1.3	popular	popular	一只生活在海沟底泥中的小动物和一条在海沟水里游动的鱼都在6000米以下。为什么科学家仍会用不同的名字描述它们的生活空间？	一个生活在海底底栖环境;另一个生活在海底上方的水柱;同深度不等于同一种栖息空间	hadal zone;hadopelagic
+1.4	mechanism	professional	早期铅锤测深时，如果海流把测深绳吹斜，为什么按放绳长度记录的水深可能偏大？	绳长测量的是倾斜路径;垂直水深小于倾斜绳长;海流偏转是该方法的误差来源	currents could deflect
+1.4	calculation	professional	回声测深中声速取1500米每秒，声脉冲往返时间为1.6秒。水深应怎样计算，为什么要除以2？	1500乘1.6再除以2等于1200米;计时包括向下和返回两段路径	returning echo;1500
+1.4	comparison	professional	为什么单次铅锤测深即使很准确，也不足以绘制完整的海底地形图？	只提供单个位置的深度;需要许多空间分布的测点;单点精度不能代替空间覆盖	depth data for a single point
+1.4	reasoning	professional	测深系统若固定使用一个声速值，在真实声速与假设值不同时，会给深度计算带来什么问题？请从距离等于速度乘时间解释。	回波时间需要借助声速转换为距离;假设声速偏高会高估深度，反之低估;应考虑海水声速变化	1500 m/s;water depth
+1.4	popular	popular	给孩子解释：船发出“滴”的声音后，为什么只知道多久听到回声，就能估计海底有多深？	声音往海底走再返回;声速已知时可由时间估算总路程;水深只占往返路程的一半	returning echo
+2.1	comparison	professional	纬线和经线在接近两极时各有什么变化？为什么一度经度对应的地面距离不能在所有纬度都相同？	纬线圈向两极变短;经线向两极汇聚;同样经度差在高纬度对应的实际距离较小	parallels of latitude;Longitude
+2.1	calculation	professional	将北纬36度15分30秒换算为十进制度，写出换算过程并保留四位小数。	1度等于60分，1分等于60秒;36加15除60再加30除3600;结果约36.2583度北纬	60 minutes;60 seconds
+2.1	reasoning	professional	在理想观测条件下，北半球航海者测到北极星的地平高度角为42度，可怎样估计纬度？为什么教材没有为南半球直接使用同一颗星的方法？	纬度约为北纬42度;北极星在北天极附近;南半球没有可直接对应使用的北极星观测条件	North Star;Southern Hemisphere
+2.1	comparison	professional	赤道与本初子午线作为坐标基准的选取有什么区别？为什么本初子午线在历史上可以选在不同城市？	赤道由地球旋转轴和赤道平面确定;本初子午线经度零点主要是人为约定;不同历史时期可采用不同经线作为零点	prime meridian;arbitrary
+2.1	popular	popular	小朋友说：“北纬30度就是离北极30度。”这句话错在哪里？纬度应从哪里开始数？	纬度从赤道起算;赤道为0度、北极为北纬90度;北纬30度不是离北极30度	Latitude is measured;90
+2.3	mechanism	professional	为什么墨卡托投影中格陵兰岛显得异常大？这种投影失真在接近两极时为何更明显？	真实经线向两极汇聚;墨卡托图中经线仍平行;高纬度距离和面积被夸大	Mercator projection;Greenland
+2.3	comparison	professional	古德同纬度断裂投影和墨卡托投影在全球海洋展示与导航方面各有什么取舍？	古德投影减小部分面积失真但切断海洋或大陆;其经线方向不统一，不适合导航;墨卡托便于表示航向但高纬面积严重失真	Goode homolosine;navigation
+2.3	classification	professional	罗宾森投影通常用于什么目的？为什么它也不能在平面上同时完全保留全球的面积、距离、方向和形状？	常用于全球数据展示;平面表示球面需要取舍;它减轻部分失真但不消除所有失真	Robinson;two-dimensional maps
+2.3	reasoning	professional	同一张海底等深线图上，甲处等深线比乙处密集。在等深距相同的前提下，哪处坡度更大？为什么需要说明等深距相同？	甲处更陡;相同垂直深度差对应更小水平距离;不同等深距时不能只凭线密度直接比较	lines connecting areas of equal depth;closer together
+2.3	popular	popular	为什么不能把一张平面世界地图上的大小和距离都当作地球上的真实比例？请用剥橘子皮后铺平的思路解释。	球面无法无失真铺成平面;地图投影会改变面积、距离或形状等属性;不同任务应选择合适投影	three-dimensional spherical;distorted
+3.1	mechanism	professional	星云假说如何解释太阳系由旋转的气体尘埃云逐渐形成恒星和行星？	气体尘埃云在引力作用下收缩旋转;中心聚集形成太阳;周围盘状物质逐步吸积形成行星	nebula
+3.1	comparison	professional	为什么靠近太阳的内侧行星多为岩质，而外侧巨行星能保留更多挥发性物质？	早期内侧温度较高;耐高温的金属和岩石物质较易凝聚保留;较冷外侧可保存冰和更多气体	inner;outer
+3.1	mechanism	professional	早期地球在吸积过程中为什么会发热？这种热对后来的内部成分分层有什么意义？	碰撞和引力压缩等过程将能量转为热;放射性衰变也供热;升温和部分熔融有利于密度不同的物质分离	accretion
+3.1	classification	professional	教材描述的大爆炸与日常爆炸有何关键区别？为什么不能把它简单理解为物质在一个早已存在的空场地里炸开？	大爆炸涉及物质、能量和空间的演化;日常爆炸是在已有空间中扩散;不能把空间本身的膨胀遗漏	expansion of matter
+3.1	popular	popular	向孩子解释：为什么科学家会把太阳形成后的许多小颗粒不断碰撞、聚集的过程称为“吸积”？	小颗粒相互碰撞并聚集;物体逐渐长成较大的星子和行星;不是一次出现完整行星	accretion
+3.2	comparison	professional	按化学成分划分的地壳、地幔、地核，与按力学性质划分的岩石圈、软流圈是否一一对应？	两种划分依据不同;岩石圈包括地壳和上部刚性地幔;软流圈属于较易流动的上地幔部分	lithosphere;asthenosphere
+3.2	misconception	professional	“软流圈比较软，所以整个地幔都是液态岩浆。”这句话为什么不成立？	软流圈以固态岩石为主但可缓慢塑性变形;软不等于整体液态;地幔不能简单视为岩浆海洋	asthenosphere;solid
+3.2	comparison	professional	地核内外两层都富含金属，为什么外核可为液态而内核保持固态？	物态取决于温度和压力共同作用;外核为液态;内核压力更高，使其在高温下仍保持固态	outer core;inner core
+3.2	classification	professional	大陆地壳和大洋地壳在厚度及典型岩性方面有何差异？	大陆地壳通常较厚且富硅、花岗质成分较多;大洋地壳较薄且以玄武质为主;不能将两者厚度和成分视为相同	continental crust;oceanic crust
+3.2	popular	popular	为什么说一块地球“板块”不只是地表薄薄的一层岩石？给孩子解释它与岩石圈的关系。	板块属于刚性的岩石圈;包含地壳和上部地幔的一部分;下方可在更软的地幔上缓慢运动	lithosphere
+3.3	comparison	professional	P波与S波的传播性质有什么差别？利用这种差别能怎样判断地球内部是否存在液态层？	P波为压缩波，可通过固体和液体;S波为剪切波，不能通过液体;S波传播缺失可作为液态外核的证据	P-waves;S-waves
+3.3	mechanism	professional	地震波穿越地球内部不同物质时为什么会发生折射？波速或路径变化如何帮助识别内部界面？	不同材料具有不同波速;进入不同层会改变传播路径;到时和路径差异可约束内部层界	refraction
+3.3	reasoning	professional	如果某些震中距范围内收不到特定地震波，为什么不能只解释为“那里的仪器坏了”？阴影带的全球规律说明了什么？	阴影带在多次观测中具有系统空间规律;与地球内部折射或波不能穿透某层有关;可用于推断内部结构	shadow
+3.3	comparison	professional	地震波观测与直接钻探在认识地球深部结构时分别提供什么信息？为何深部研究必须大量依靠间接证据？	钻探可直接取样但深度有限;地震波可穿行很深的区域;综合其传播性质推断不可直接到达的内部	seismic
+3.3	popular	popular	科学家没有挖到地心，为什么仍能知道地球内部不是完全一样的材料？请用地震波“穿过不同材料会改变”的思路解释。	地震波传播速度和方向受材料影响;某些波不能通过液态区域;记录不同地点的波可推断内部层次	seismic waves
+4.1	classification	professional	魏格纳支持大陆曾经相连时，除了大陆轮廓相似，还用了哪几类相互独立的证据？	相隔大陆上的同类化石;岩层和山系的延续对应;古气候与冰川遗迹等证据	fossil;glacial
+4.1	reasoning	professional	为什么比较大陆边缘在大陆架附近的轮廓，可能比只拼现代海岸线更有地质意义？	现代海岸会受侵蚀和沉积改变;大陆架边缘更接近大陆整体边界;轮廓拼合需结合其他地质证据	continental
+4.1	mechanism	professional	相隔大洋的大陆上发现相同的陆生或淡水生物化石，为大陆漂移提供了怎样的推理线索？	这些生物难以跨越宽阔咸水海洋迁移;现今分离的大陆过去可能相连;化石分布需放入古地理背景解释	fossil
+4.1	comparison	professional	大陆漂移早期受到质疑，主要的动力学难题是什么？缺少可信机制是否等于所有观测证据都不存在？	当时缺少令人信服的大陆运动机制;大陆如何穿过洋壳是难题;机制不足与观测证据缺失是两回事	mechanism
+4.1	popular	popular	热带地区的岩石里为什么可能保存古代冰川留下的痕迹？请结合大陆位置随时间变化解释。	大陆的位置在地质历史中可以改变;现在的热带地区过去可能靠近极地;古气候痕迹记录的是过去的位置和环境	glacial
+4.2	mechanism	professional	玄武岩冷却时，其中磁性矿物如何记录当时地磁场的方向？为什么这可成为古地磁证据？	磁性矿物在形成或冷却时沿地磁场定向;冷却后保留剩磁;岩石可保存形成时的磁场信息	magnetic
+4.2	reasoning	professional	两个大陆的视极移曲线各不相同，为什么把大陆恢复到过去相邻的位置后，曲线可能更一致？	视极移包含大陆自身运动的影响;复原大陆位置可消除部分相对运动;一致性支持大陆过去相连和后期移动	apparent polar
+4.2	mechanism	professional	为什么岩石剩磁的倾角可以帮助推断形成时的古纬度？	地磁场倾角随纬度有系统差异;形成时的磁性记录结合岩石年龄可约束过去位置	magnetic dip;latitude
+4.2	misconception	professional	两大陆同龄岩石推得的古磁极位置不同，是否必须解释为当时同时有两个北磁极？	不是唯一或合理的必然解释;大陆形成后相对移动可造成视极移差异，需复原位置比较	one pole position;relative to each other
+4.2	popular	popular	一块岩石像小指南针一样记住古代方向，科学家为什么还要知道它的年龄？	方向说明形成时的磁场信息;年龄把信息放进时间顺序，帮助研究大陆怎样移动	age of the rocks
+4.3	comparison	professional	解释板块运动时，地幔对流、洋脊推力和板片拉力分别强调什么作用？	对流涉及地幔热物质的循环运动;洋脊推力与高起洋脊处物质受重力向外移动有关;板片拉力与冷而密的俯冲板片下沉有关	convection;slab pull;ridge push
+4.3	mechanism	professional	较冷的洋板片开始俯冲后，为什么其下沉可以进一步拉动后方板块？	冷却使板片密度增大;重力促使其继续下沉;连接的板片向后方板块传递拉力	slab pull
+4.3	mechanism	professional	洋中脊位置较高为什么会产生与重力有关的向外运动趋势？这种作用与“海底被风吹走”有何区别？	高起洋脊具有重力势能差;岩石圈物质可在重力作用下向较低处移动;不是海面风直接推动岩石板块	ridge push
+4.3	misconception	professional	地幔存在对流是否说明地幔像一锅低黏度水那样快速翻滚？请说明物态和时间尺度。	地幔可在以固态为主的条件下缓慢塑性流动;运动发生在很长地质时间尺度;不能按日常沸水速度理解	mantle;convection
+4.3	popular	popular	给孩子讲清楚：一块又冷又重、正在向下沉的海底岩石，为什么可能拉着后面的一大片板块一起移动？	冷而密的岩石容易下沉;前方下沉部分仍连接后方板块;拉力可带动整个板块缓慢移动	slab pull
+4.4	classification	professional	一块岩石圈板块是否只能由大陆地壳或大洋地壳中的一种组成？请说明板块与地壳类型的关系。	板块可同时包含大陆和大洋部分;板块按运动和边界划分;不能把板块与某一种地壳类型简单等同	continental;oceanic
+4.4	reasoning	professional	为什么刚性板块上不同地点的线速度仍可能不相同？请从球面旋转解释。	板块可绕旋转轴作整体转动;各点距离旋转轴不同;同一角速度可对应不同线速度	rotational
+4.4	calculation	professional	假定某板块以每年3厘米的稳定速度移动，100万年内会移动约多少千米？这种计算依赖什么简化假设？	总距离300万厘米即30千米;假设速度和方向在该时期近似稳定;实际板块运动可随地质时间改变	cm/year
+4.4	classification	professional	盘古大陆开始裂解后，劳亚大陆和冈瓦纳大陆分别大致包含今天哪些大陆或陆块？	劳亚大陆主要包含北美、欧洲和亚洲;冈瓦纳大陆主要包含南美、非洲、印度、澳大利亚和南极洲;今天的大陆位置与过去不同	Laurasia;Gondwanaland
+4.4	popular	popular	为什么不能说“所有大陆一直以同样速度、朝同一个方向漂移”？	不同板块运动方向和速度不同;同一板块也有整体旋转;运动在地质历史中会变化	rotates;Plate
+4.5	mechanism	professional	洋中脊处为何能形成新洋壳？请联系板块分离和地幔减压熔融说明。	板块分离提供新洋壳形成空间;地幔物质上升时压力降低并部分熔融;岩浆形成玄武质等洋壳岩石	decompression;new oceanic crust
+4.5	reasoning	professional	为什么新形成的洋中脊海底比较老的大洋海底高？	新生洋壳及下方物质较热;热物质密度较低;冷却后海底逐渐下沉	warmer;lower density
+4.5	classification	professional	大陆裂谷发展成大洋盆地可以经历哪些阶段？请按教材的地质演化示意给出顺序。	大陆拱起和裂谷形成;进一步张裂形成狭长海域;持续扩张可形成成熟洋盆	rift valley;linear sea
+4.5	misconception	professional	洋中脊呈弯曲长链，是否意味着它由一条连续平滑的裂口组成？转换断层在其几何结构中有什么作用？	洋中脊常由多个相对直的脊段组成;脊段间存在错开;转换断层连接相邻脊段	straight-line segments;transform faults
+4.5	popular	popular	为什么科学家说海底有些地方像一条不断“长出新地板”的接缝？	板块沿洋中脊向两侧分开;岩浆上升并冷却形成新洋壳;新海底不断把较早形成的海底推向两侧	new oceanic crust
+4.6	mechanism	professional	两块洋板块相遇时，较老的那一块为什么常更容易俯冲？	较老洋板块通常更冷;冷却使密度增大;较密板块较易下沉到另一板块之下	older and colder
+4.6	mechanism	professional	俯冲带火山的岩浆形成为什么常强调水降低熔点，而不只归因于板块间摩擦加热？	俯冲物质升温释放水;水进入上覆热地幔并降低熔点;引发助熔或通量熔融形成岩浆	lowers;flux melting
+4.6	comparison	professional	洋洋汇聚和洋陆汇聚形成的火山地貌有何典型差别？	洋洋汇聚常形成海沟和火山岛弧;洋陆汇聚常形成海沟及大陆边缘火山山链;都涉及洋板块俯冲	island arc;mountain chain
+4.6	comparison	professional	大陆与大陆碰撞为何不同于洋板块俯冲？它通常怎样改变大陆地壳的厚度和地表地形？	大陆物质相对浮，难整体俯冲;碰撞造成挤压、褶皱和地壳增厚;常形成大型山系	continent-continent;subducted
+4.6	popular	popular	海沟附近为什么可能同时出现一串火山岛和地下较深处的地震？请把它们与同一块下沉板片联系起来。	板片向地幔俯冲形成海沟;俯冲相关的熔融供给火山;板片内部或接触带滑动产生地震	island arc;Earthquakes
+4.7	classification	professional	转换型板块边界与扩张、汇聚边界相比，对地壳的生成和消耗有何区别？	转换边界以板块侧向错动为主;通常不生成也不消耗地壳;扩张形成新壳，汇聚可消耗洋壳	without production or destruction
+4.7	misconception	professional	“转换断层只连接两个洋中脊脊段。”根据教材中的皇后夏洛特断层例子判断这句话。	该说法过于绝对;转换断层也可连接扩张边界和俯冲带;皇后夏洛特断层是教材例子	Queen Charlotte Fault
+4.7	classification	professional	圣安德烈亚斯断层西侧的加利福尼亚部分和下加利福尼亚半岛属于哪个板块？为什么地理上属于北美洲不等于属于北美板块？	教材将这些区域归于太平洋板块;大洲划分与运动板块划分依据不同;板块边界可穿过大陆	west of the San Andreas
+4.7	mechanism	professional	转换边界不制造新洋壳，为什么仍然经常发生地震？	两侧板块相对侧向运动;断层可积累应力并突然滑动;地震不要求必须形成新洋壳	earthquakes;slide
+4.7	popular	popular	两块巨大的岩石板如果互相擦身而过，既没挤成山也没拉开大裂谷，为什么仍值得监测？	侧向错动会积累并释放应力;可能发生地震;转换边界有自己的地质活动方式	Transform boundaries;earthquakes
+4.8	mechanism	professional	地震规模为什么与破裂面积和滑移量有关，而不只由地震发生的深度决定？	更大的破裂面和滑移通常释放更多能量;深度影响传播和受灾表现;深度不是震级的唯一决定因素	area that breaks;displacement
+4.8	reasoning	professional	一个海沟向陆一侧的震源深度逐渐增加，这一空间分布如何支持板片向陆地下方俯冲的解释？	震源可沿倾斜的下沉板片分布;越向陆侧板片可能越深;深度分布可约束俯冲几何形态	landward;subduction
+4.8	misconception	professional	“离板块边界很远的地区绝不会地震。”为什么教材中的板内地震例子否定这种绝对判断？	板内也可积累应力并破裂;大陆裂谷或远处应力传递等可相关;板块边界地震多不代表板内没有地震	intraplate
+4.8	comparison	professional	洋中脊与俯冲带的震源深度分布通常有何区别？	洋中脊地震多为浅源且局限于脊附近;俯冲带可出现由浅到深的地震;板片下沉是深源分布的重要背景	less than 30 km;increasingly deep
+4.8	popular	popular	为什么一张标有地震位置和深度的地图，能帮助科学家猜出海底板块往哪个方向钻入地下？	地震可能沿下沉板片发生;从浅到深的排列反映板片倾斜;需结合多点观测而非只看一次地震	depths;subducting
+4.9	mechanism	professional	平顶海山怎样形成？为什么它的平顶可以记录曾经接近海面的历史？	海山顶部可在近海面被侵蚀变平;随后地壳或海山下沉;形成位于水下的平顶海山或盖约特	guyots
+4.9	reasoning	professional	夏威夷群岛向西北方向火山岩年龄逐渐变老，如何结合热点模型推断太平洋板块的相对运动方向？	活动热点附近形成较年轻火山;旧火山随板块离开热点;年龄序列支持板块相对热点向西北移动	younger toward the southeast;northwest
+4.9	misconception	professional	夏威夷—天皇海山链发生弯折，是否只能解释为板块方向改变？教材提出了什么需要保留的另一种可能性？	板块运动方向改变是一种解释;热点自身也可能移动;仅凭弯折不能保证热点绝对固定	change in direction;not actually been stationary
+4.9	comparison	professional	海山岩石的年龄为什么通常可以小于其下方洋壳的年龄？这与海山后来在既有海底上形成有何关系？	海山火山可在已形成洋壳上生长;洋壳形成在先、火山活动在后;不能把海山年龄直接当成洋壳年龄	much younger than the oceanic crust
+4.9	popular	popular	用一条慢慢移动的纸带和一个位置相对固定的打孔器，向孩子说明热点为什么能留下海山链。	板块像移动纸带;热点不断在新位置形成火山;较早火山被带走而形成有年龄顺序的链条	hot spot;chains
+4.11	mechanism	professional	黑烟囱喷出的“黑烟”为何主要是矿物颗粒，而不是海底燃烧产生的烟？	热水溶解周围岩石中的物质;排入冷海水后矿物和硫化物沉淀;悬浮颗粒使喷流显黑	precipitate;black smoke
+4.11	mechanism	professional	热液烟囱为什么能逐渐长高？沉淀作用在其中起什么作用？	喷流冷却使溶解矿物沉淀;矿物在喷口周围累积;逐步构成烟囱状结构	Precipitation;chimneys
+4.11	classification	professional	在热液循环中，海水从进入海底地壳到重新排入海洋，大致经历哪些步骤？	海水沿裂隙进入地壳;受浅部岩浆热源加热并溶解矿物;通过对流重新上升排出	percolates;convection
+4.11	comparison	professional	热液口的化能合成与表层海洋常见的光合作用在能量来源上有何根本区别？	化能合成利用无机化合物氧化释放的化学能;光合作用利用光能;都可将无机碳转为有机物	chemosynthesis;oxidation
+4.11	popular	popular	热液口旁的动物为什么能在没有阳光的地方获得食物？请把细菌放在解释的开头。	细菌利用热液化学物质提供的能量制造有机物;动物取食细菌或与其共生;食物网不直接依赖当地阳光	bacteria;food web
+5.1	mechanism	professional	水的极性如何促进离子盐溶解？请以氯化钠为例。	水分子带有局部正负电性;水分子包围带相反电荷的离子并削弱离子间作用，使盐溶解	polar molecule;ions get surrounded
+5.1	calculation	professional	按教材冰的熔化潜热80 cal/g计算，100 g的0℃冰完全熔化需要多少热量？忽略散热。	需要8000 cal;相变期间能量用于熔化，冰水共存时温度不因该热量持续升高	80 cal/g;latent heat
+5.1	comparison	professional	比较比热容和汽化潜热：它们分别描述怎样的能量变化？	比热容描述单位质量物质升高单位温度所需热量;汽化潜热描述液体变为气体的相变热量，不能当作每度升温的热量	Specific heat;latent heat of vaporization
+5.1	reasoning	professional	相同质量的水和铜吸收相同热量，忽略相变与散热，哪一个升温较小？说明依据。	水升温较小;水的比热容高于铜，同质量同热量时温升较低	Copper;heat capacity
+5.1	popular	popular	为什么海边白天和夜晚的温差常常没有内陆那么大？请用海水吸热和放热解释。	水具有较大热容量;海洋缓慢吸收和释放热量，缓和温度变化	regulate global climate
+5.2	mechanism	professional	早期地球岩浆中的水怎样通过逸气过程参与海洋形成？	岩浆上升时压力降低，溶解气体逸出;大气水汽随地球冷却凝结降雨，逐渐形成持久水体	outgassing;condensed
+5.2	comparison	professional	比较早期大气的游离氧状况和光合作用出现后氧积累的条件。	早期游离氧少，生成的氧可被化学反应消耗;光合生物释放氧，产氧超过化学消耗后才逐渐积累	free oxygen;accumulate
+5.2	reasoning	professional	为什么海洋蒸发并不意味着这部分水永久离开地球水循环？	水汽通过大气输送并凝结降水;径流和地下水等途径可将水返回海洋	transpiration;groundwater
+5.2	classification	professional	在海洋、湖泊、地下水和大气之间，区分储水库与连接它们的水文过程。	各水体与大气是储水库;蒸发、降水、径流和下渗等是库之间的转移过程	hydrological cycle;reservoirs
+5.2	popular	popular	向小学生解释：一滴海水蒸发后，怎样可能变成山里的雨再回到海里？	蒸发进入大气后可被风输送;凝结降雨后可经河流或地下水返回海洋	winds;streams and rivers
+5.3	calculation	professional	若1000 g海水中含35 g溶解盐，该质量比例是多少百分数？“35‰”与“35%”相同吗？	质量比例为3.5%;35‰不是35%，相差十倍	3.5%;35 g
+5.3	comparison	professional	比较海水主要离子与微量成分对总盐度的贡献。	六种主要离子贡献约99.4%的溶解离子;微量成分虽可能重要，对总盐度的贡献较小	99.4%;minor constituents
+5.3	mechanism	professional	为什么可以利用电导率估计海水盐度？是否意味着仪器直接数出所有盐颗粒？	溶解离子使水能够导电，盐度与电导率相关;电导率是间接测量，需要适用的换算与条件处理	electrical conductivity
+5.3	reasoning	professional	按教材主要离子比例近似不变的假设，样品盐度减半时，钠占总溶解盐的比例是否也减半？	钠的绝对浓度约减半;相对比例近似保持不变，不能混淆浓度与占比	rule of constant proportions
+5.3	popular	popular	海水里除了食盐的成分还有别的东西吗？请列出两种主要离子并说明。	除钠和氯外还有硫酸根、镁、钙、钾等;海水是多种溶解成分的混合物	Magnesium;Calcium
+5.4	comparison	professional	对同一种气体，比较溶解度与饱和度的含义。	溶解度表示给定条件下可溶解的量;饱和度表示实际含量相对相应可溶解上限的程度	Solubility;Saturation
+5.4	mechanism	professional	为什么开阔海洋中层可能形成溶解氧极小层，而不是随深度一直增加？	中层缺少充分光合作用和直接大气补给;呼吸与有机物分解持续耗氧	oxygen minimum layer;decomposition
+5.4	reasoning	professional	深海没有阳光，深海底层水的氧从哪里得到补充？	高纬表层水与大气交换获得氧;富氧冷水下沉并通过深层环流输送，不能解释为深海当地光合产氧	oxygen-rich water sinks
+5.4	classification	professional	在其他条件不变时，降温、增压和盐度升高分别怎样影响气体溶解度？	降温和增压通常提高溶解度;盐度升高通常降低溶解度	decreased temperature;decreased salinity
+5.4	popular	popular	海洋表层和空气都含氧，为什么不能直接说鱼呼吸的水和人呼吸的空气含氧一样多？	空气与水中氧的浓度和存在状态不同;水中的溶解氧远少于相同体积空气中的氧	8 mg;210 mg
+5.6	classification	professional	区分固氮、硝化和反硝化在海洋氮循环中的主要方向。	固氮把N2转为可利用的含氮化合物;硝化把铵氧化为亚硝酸盐及硝酸盐;反硝化可将硝酸盐等还原为N2	fixation;nitrification;denitrification
+5.6	mechanism	professional	大气含大量氮气，为什么海洋初级生产仍可能受到氮营养限制？	多数海洋生物不能直接利用N2;需要细菌转化，生产取决于可利用含氮营养物而非氮气总量	cannot directly utilize
+5.6	comparison	professional	为什么硝酸盐的典型剖面与表层丰富的光合作用不呈简单正相关？	表层生产者迅速消耗硝酸盐;深层有机物分解再生营养盐且光合消耗少	rapidly consumed;regenerated
+5.6	reasoning	professional	为什么硝酸盐不能像主要保守离子那样仅根据盐度推定其浓度？	硝酸盐受到生物吸收、分解和氮循环影响;其浓度随区域和季节变化，属于非保守物质	non-conservative
+5.6	popular	popular	细菌为什么像海洋氮循环里的“加工厂”？请说明至少两种加工方向。	可把氮气转为生物可利用的含氮物质;也可转化铵、硝酸盐等并使氮返回氮气状态	marine bacteria;N2
+5.7	classification	professional	若某溶解成分表层低、深层随有机物分解而升高，应优先归入哪类分布？	属于营养盐型分布;表层生物吸收和深层再生共同解释其剖面	Nutrient-like Elements
+5.7	mechanism	professional	被清除型元素为何可随颗粒下沉从水柱中移除？	元素吸附或反应结合在颗粒表面;颗粒下沉把它们输送至沉积物	Scavenged Elements
+5.7	comparison	professional	比较保守型元素与被清除型元素的典型垂向分布及控制过程。	保守型随盐度近似同比变化且停留时间长;被清除型受颗粒移除影响，常随深度下降	Conservative Elements;Scavenged Elements
+5.7	reasoning	professional	一种反应性较弱的气体在冷深水中浓度较高，能否仅凭这一剖面判定它是营养盐型元素？	不能，分布形状相似不等于过程相同;稳定气体可因冷水溶解度较高而富集，需检查生物作用和来源	Stable Gases
+5.7	popular	popular	海里的铅或铝有时会搭着颗粒向下走，这种“搭便车”会怎样改变水中的含量？	元素附着颗粒并随之下沉;水柱中可溶解部分被移除，形成被清除型特征	aluminum or lead
+6.5	comparison	professional	比较红光与蓝绿光在典型清澈海水中的衰减，为什么潜水时物体颜色会变化？	红等长波光较快被吸收，蓝绿光通常传播更深;物体呈色取决于剩余照明和反射光	Longer wavelengths;blue and green
+6.5	calculation	professional	按教材示例，100 m深处只剩表层光的1%，若表层强度记为200单位，则该深度约剩多少？这能否作为所有海区的固定常数？	约2单位;是给定示例的计算，实际受水体条件等影响	1% of the original light
+6.5	classification	professional	可见光约400—700 nm，红端和紫端中哪一端波长较长、单个光子的能量较低？	红端波长较长;频率与单光子能量较低	400-700 nm;high energy
+6.5	reasoning	professional	为什么海水对光的衰减会限制海洋光合作用的垂向范围？	光随深度衰减;足够光照仅存在于上层，深层难以支持光合作用	photosynthesis;attenuated
+6.5	popular	popular	红色潜水装备在深一点的水里变暗，是装备自己变色了吗？	红光被海水较快吸收;照到装备的红光不足使其看起来变暗，不代表材料本身改变	red light;absorbs
+7.2	comparison	professional	比较硅藻和颗石藻外壳的主要成分，以及它们对沉积物的潜在贡献。	硅藻壳以硅质为主;颗石藻板片为碳酸钙;其下沉可分别贡献硅质和钙质沉积	Diatoms;calcium carbonate
+7.2	classification	professional	一种单细胞浮游藻具有一条环绕细胞、一条向后延伸的鞭毛，应优先归入哪类？说明其运动特征。	优先识别为甲藻;一条帮助前进，另一条使细胞旋转	pair of flagella
+7.2	reasoning	professional	为什么甲藻细胞数量很多，也未必像硅藻那样留下大量矿物质壳体沉积？	许多甲藻外被为易分解的纤维素;并非具有硅藻那样的矿化壳体	cellulose
+7.2	comparison	professional	比较硅藻和颗石藻在教材所述典型海域中的分布偏好。	硅藻多见于寒冷、营养丰富的沿岸水体;颗石藻多见于温暖开阔海域	cold, nutrient-rich;warm, open ocean
+7.2	popular	popular	海草看得见，浮游植物常看不见，为什么不能据此判断海草贡献了绝大多数海洋光合作用？	肉眼大小不能直接代表总生产贡献;数量众多的浮游植物贡献海洋光合作用的主要部分	95%
+7.3	classification	professional	区分补偿深度与“所有光完全消失的深度”。	补偿深度处光合作用与呼吸速率相等，净生产为零;并不要求光强严格为零	compensation depth
+7.3	reasoning	professional	若某深度光合作用速率为3、呼吸速率为5，单位相同，净初级生产是多少？相对补偿条件如何？	净生产为-2;呼吸超过光合，低于补偿条件而不能净积累有机物	photosynthesis equals respiration
+7.3	mechanism	professional	硅藻除需要氮、磷等营养外，为什么还特别依赖溶解硅供应？	硅藻需要硅用于壳体形成;缺硅可限制其生长，即使其他营养仍存在	silica; shell formation
+7.3	comparison	professional	对浮游植物，为什么表层可能光充足而缺营养，深层却相反？	表层光多但营养被迅速消耗;深层分解再生营养而光不足	nutrient-poor;decomposition
+7.3	popular	popular	给海水加很多营养，就能让漆黑深海里的浮游植物大量光合作用吗？	不能，光也是必要条件;营养充足无法代替光合作用所需的光	availability of light and nutrients
+7.4	mechanism	professional	为什么大陆架沿岸水体的初级生产常高于大洋中心？	陆源径流提供营养;浅陆架利于营养保留和返回表层	shallower bottom;runoff
+7.4	comparison	professional	比较热带与极地初级生产的主要季节限制因素。	热带常因分层而营养受限;极地冬季常光受限，春夏光恢复可出现藻华	nutrient-limited;little or no light
+7.4	reasoning	professional	热带海水温暖、全年阳光较多，为什么生产力仍可能很低？	强温跃层和分层阻碍深层营养补给;光充足并不消除营养限制	pronounced thermocline
+7.4	classification	professional	在教材的生产格局中，上升流海区与大洋中心哪个更可能具有较高单位面积初级生产？为什么？	上升流海区通常较高;深层营养进入表层有光区支持生产	significant upwelling;central ocean
+7.4	popular	popular	清澈得像玻璃的热带海水，一定比浑绿的海水养活更多浮游植物吗？	不一定，清澈可能伴随浮游植物少;需要同时考察营养供应等条件	water is very clear
+8.1	classification	professional	区分地球吸收的太阳短波辐射与地表向外发出的热辐射。	太阳输入主要是较短波辐射;温暖地表向外发出长波红外辐射	shortwave;longwave
+8.1	mechanism	professional	海水蒸发为什么能把热量带离海面？凝结时这部分能量怎样变化？	蒸发吸收潜热并随水汽转移;凝结释放潜热	latent heat;evaporate
+8.1	comparison	professional	比较传导与辐射传热，为什么二者不能作为同一个过程处理？	传导依赖接触传递;辐射通过电磁波传递，不要求同样的接触过程	Conduction;radiation
+8.1	reasoning	professional	为什么相同太阳光束在高纬地表提供的单位面积能量常低于低纬？	斜射使能量分散到更大面积;地球曲率造成入射角差异	curvature;angle
+8.1	popular	popular	用手电筒斜照桌子的例子，解释为什么地球不同纬度受热不同。	斜照时同束光铺到更大面积;单位面积收到的能量减少，可类比高纬受热	Differential Heating
+8.2	comparison	professional	北半球向北运动和向南运动的物体，在科里奥利偏转方向上有什么共同点？	均相对自身运动方向向右偏转;不能把向右固定理解为地理向东	to the right
+8.2	mechanism	professional	在假设地球不自转的简化模型中，赤道到极地会形成怎样的主要大气环流？	赤道受热上升、极地冷却下沉;每半球形成一个大尺度对流环，地表气流由极地趋向赤道	non-rotating Earth
+8.2	calculation	professional	按教材近似，赤道自转线速度1600 km/h、30°纬度1400 km/h，两地差多少？为什么同样一天转一圈而线速度不同？	相差200 km/h;纬圈周长不同而转动周期相同	1400;1600
+8.2	classification	professional	比较南北半球科里奥利偏转的相对方向，并指出赤道附近强度特征。	北半球向运动方向右侧、南半球向左侧;赤道附近作用弱，不能按中高纬情形直接套用	Southern Hemisphere;weaker at the equator
+8.2	popular	popular	地球转得一样快，为什么赤道上的人一天绕过的路比靠近极地的人长？	各纬度转一圈的时间相同;赤道纬圈更大，因此路程与线速度更大	40,000 km
+8.3	mechanism	professional	迎风坡多雨、背风坡干燥的雨影效应怎样形成？	湿空气迎坡抬升冷却凝结降水;越山后较干空气下沉增温，使背风侧更干	rain shadow
+8.3	comparison	professional	比较晴朗海岸白天海风与夜间陆风的典型方向及原因。	白天陆地升温快，近地面风由海向陆;夜间陆地冷却快，近地面风由陆向海	sea breeze;land breeze
+8.3	reasoning	professional	为什么赤道附近多雨，而约30°纬度附近常出现干旱区？	赤道暖湿气流上升冷却形成降水;副热带下沉气流较干且压缩增温，抑制云雨	Hadley;arid climates
+8.3	classification	professional	低压上升气流和高压下沉气流分别更常伴随怎样的天气？说明一般机制。	上升冷却利于凝结和降水;下沉增温利于蒸发和晴朗干燥，但不是每次天气的绝对规则	low pressure;high pressure
+8.3	popular	popular	夏天海边白天常吹来凉一些的海风，为什么到了夜里风向可能反过来？	陆地比海水升温和降温快;昼夜温差变化使海陆间近地面气流方向改变	land heats up and cools down
+8.4	classification	professional	飓风、台风和气旋这三个名称是否代表完全不同的风暴物理机制？	它们在相关热带风暴语境下指同类过程;名称主要随洋区不同	terminology;Northwest Pacific
+8.4	mechanism	professional	暖海水与水汽凝结释放的潜热怎样共同支持热带气旋发展？	暖海提供热和水汽;上升水汽凝结释放潜热，进一步支持上升和风暴环流	latent heat;warm water
+8.4	comparison	professional	比较南北半球热带气旋的典型旋转方向。	北半球近地面环流通常逆时针;南半球通常顺时针，受科里奥利偏转影响	counterclockwise;clockwise
+8.4	reasoning	professional	为什么风暴登陆后常逐渐减弱，而不能只用“遇到陆地摩擦”解释全部原因？	登陆切断或削弱暖湿海洋能源补给;能量和水汽来源减少，风暴难以持续	fuel source
+8.4	popular	popular	台风带来的海水上涨，为什么不只是普通海浪变大？	风可把海水向岸堆积形成风暴增水;低压也可贡献水位升高，与普通波浪振荡不同	storm surge;winds
+9.2	mechanism	professional	墨西哥湾流的曲流怎样形成脱离主流的暖核环或冷核环？	主流曲流加剧后可夹断成为涡环;涡环将所包围的暖水或冷水输送到不同背景水体中	meanders;pinch off
+9.2	comparison	professional	按教材北大西洋例子，比较暖核环和冷核环的典型旋转方向。	暖核环一般顺时针;冷核环一般逆时针，需限定北大西洋该例	warm core rings;cold core rings
+9.2	calculation	professional	假设流速恒为教材所举平均值6.4 km/h，水团12小时沿流向移动多远？这是否等于全年固定输送距离？	约76.8 km;只是在恒速假设下的路径距离，实际流速与流路会变化	6.4 km/hr
+9.2	reasoning	professional	十八世纪航海者为什么可以借温度计寻找有助返欧的墨西哥湾流？	该流相对周围水体温暖;温度可帮助识别水流位置并利用顺流航行	thermometers
+9.2	popular	popular	暖流中分离出一个带着暖水旋转的“大水圈”，它会把温暖带到哪里？	涡环可将暖水从主流带入较冷的周围北大西洋水体;旋转水团不是静止不动的水圈	moves it north
+9.3	comparison	professional	理想埃克曼模型中，北半球表层流与整层净输送分别相对风向偏多少？	表层流约向右偏45°;整层净输送约向右偏90°，不能将二者混用	45 degrees;90
+9.3	mechanism	professional	为什么埃克曼螺旋中的流速通常随深度减小，方向却逐层转动？	层间摩擦向下传递动量且能量逐步衰减;科里奥利作用使各层流向逐步偏转	Some energy is lost;spiraling pattern
+9.3	reasoning	professional	北半球风向正北，在理想埃克曼模型中，整层净输送主要朝哪个方位？	朝东;以风的运动方向为基准向右90°，不是沿风向北	Ekman transport
+9.3	mechanism	professional	环流中心海面略高时，地转流为什么不是一直径直流向低处？	海面坡度产生压力梯度驱动;科里奥利作用与其平衡形成沿等高线附近的地转流	Geostrophic flow;gravity
+9.3	popular	popular	风向一个方向吹，为什么海水整层搬运的方向可能在旁边？	地球自转使流动偏转;不同深度的流动合起来可产生侧向净输送	Ekman transport
+9.4	classification	professional	“西边界强化”的西边界是大洋环流的哪一侧？能否直接等同于大陆西岸？	指大洋环流或洋盆西侧;常对应大陆东岸，不能等同于大陆西岸	western side of the gyre;east coast
+9.4	comparison	professional	比较典型西边界流与东边界流的宽度、深度和速度。	西边界流通常较窄、较深、较快;东边界流通常较宽、较浅、较慢	faster, deeper, and narrower
+9.4	reasoning	professional	若两支边界流输送量相当，一支横截面积明显较小，对其平均速度可作什么推断？	较小横截面积需要较高平均速度;依据体积输送守恒，不能只比较表面宽度而忽略深度	same volume of water
+9.4	mechanism	professional	教材为什么把西边界强化与科里奥利效应随纬度变化联系起来？	偏转作用随纬度变化影响环流转向与空间分布;回流集中在洋盆西侧狭窄区域	changes more quickly with latitude;western side
+9.4	popular	popular	把水管口捏窄后水流更快，这个例子怎样帮助理解西边界流？类比需要什么前提？	在输送量相近时较窄通道需要较快流速;海流还涉及深度、旋转等，水管不是完整机制	garden hose
+9.7	classification	professional	朗缪尔环流中相邻环流胞的旋转方向有何关系？	相邻胞旋转方向相反;形成交替的表面辐合与辐散带	adjacent cells rotate
+9.7	mechanism	professional	为什么稳定强风下海面泡沫可形成平行长条？	相邻环流胞的表面辐合带聚集漂浮物;条带总体平行于风向	foam;parallel to the wind
+9.7	comparison	professional	比较朗缪尔环流表面辐合区与辐散区的垂向运动。	辐合区伴随下沉;辐散区伴随上升	upwelling;downwelling
+9.7	reasoning	professional	观察到泡沫条带后，能否把泡沫所在位置直接判为上升流中心？	不能，漂浮物通常聚集在表面辐合区;该处更对应下沉而不是辐散上升	convergence zones
+9.7	popular	popular	海面上几条泡沫线一定是船留下的吗？请给出一种风和水共同造成的解释。	不一定，强而持续的风可产生朗缪尔环流;表面汇聚把泡沫排成平行条带	Langmuir cells
+9.8	classification	professional	温盐环流的直接驱动力与风生表层环流有什么不同？	温盐环流与水体密度差及温盐变化相关;风生环流直接接受风的动量作用	differences in water density;wind
+9.8	mechanism	professional	海冰形成为什么可能提高剩余海水的密度，而融冰可能产生相反影响？	结冰移走较淡的水并使剩余水盐度升高;融冰加入淡水可降低表层盐度和密度	ice formation;ice melting
+9.8	comparison	professional	南极底层水和北大西洋深层水的主要形成区在教材中怎样区分？	南极底层水与南极威德尔海等区域有关;北大西洋深层水与北大西洋高纬区域有关	Weddell Sea;Greenland Sea
+9.8	reasoning	professional	为何可以用温盐图帮助辨认不同水团？	水团可具有特征性的温度盐度组合;下沉后这些特征有一定保持性，但混合可改变它们	T-S diagrams
+9.8	popular	popular	海面看起来没有大风，深海的水为什么仍可能缓慢移动？	温度和盐度造成密度差;较密水下沉并推动深层环流	thermohaline circulation
+10.1	classification	professional	区分波高、波长和波陡，为什么不能只用波高判断破碎倾向？	波高是波峰到波谷垂直距离，波长是相邻同相位点距离;波陡为波高与波长之比，破碎倾向还受相对尺度影响	Wave height;Wavelength;Wave steepness
+10.1	calculation	professional	周期8 s、波长80 m的规则行进波，其相速度与频率分别是多少？	相速度为10 m/s;频率为0.125 Hz	period;speed
+10.1	comparison	professional	内波与海面波在发生位置上有什么区别，深处大内波一定能在海面看出同样波高吗？	内波发生在不同密度水团界面;其大幅振荡未必表现为海面相同高度波动	Internal waves;unnoticeable
+10.1	reasoning	professional	为什么海啸和天文潮波不能仅因为都在海里传播就当作同一种起因的波？	海啸常由地震等扰动触发;天文潮波与潮汐运动相关，起因不同	Tidal waves;Tsunamis
+10.1	popular	popular	漂在水面的玩具随波上下起伏，为什么不能据此说它会以波的速度一直跨过大海？	波主要传播扰动和能量;水质点运动与波形传播速度不同	energy;waves
+10.2	comparison	professional	比较毛细波与较大风浪的主要恢复力。	毛细波主要由表面张力恢复;较大风浪主要由重力恢复	surface tension;gravity
+10.2	classification	professional	风浪发展除风速外，还需要记录哪两个主要因素？	持续吹风时间;同方向吹过水面的距离即风区长度	 duration;fetch
+10.2	calculation	professional	波高4 m、波长21 m的波，其波陡为多少？与教材约1/7失稳阈值相比如何？	波陡约0.190;大于约0.143，按该简化判据较易失稳破碎	1/7;steepness
+10.2	reasoning	professional	短时强风与长时同向吹风，为什么即使峰值风速相同，也不能认为产生相同海况？	能量输入还取决于持续时间和风区长度;峰值风速不足以决定完整波浪谱	Wind speed;duration
+10.2	popular	popular	为什么在小池塘里很难吹起和大海一样的巨浪？	风能作用的水面距离和持续条件受限;风区长度影响风浪成长	fetch
+10.3	mechanism	professional	波浪进入浅水时，速度、波长和波高通常怎样变化并最终破碎？	受底部影响速度下降、波长缩短;波高通常增长、波陡增大，最终破碎	wavelength decreases;wave height increases
+10.3	calculation	professional	一列波的波长为60 m，按教材波基约为半波长的近似，水深降至多少时开始明显受底部影响？	约30 m;这是波基近似而非所有波浪破碎水深	 half of their wavelength
+10.3	comparison	professional	缓坡海滩的溢出型破波与较陡海滩的卷破型破波，耗能方式怎样不同？	缓坡通常逐渐破碎并耗散能量;较陡坡可形成突然向前卷落的破波	spilling;plunging
+10.3	reasoning	professional	浪头为什么常向前卷落，而不是波的各部分同时停下？	下部先受海底影响而减速;波峰相对前移，失去下方支撑后卷落	bottom of the wave
+10.3	popular	popular	海浪快到沙滩时为什么会长高再扑倒？	浅水使波变慢、波峰间距缩短;波变陡后不稳定而破碎	shallow water;breaker
+10.4	comparison	professional	为什么海啸在深海也常可按浅水波处理？“浅水”在这里相对什么而言？	海啸波长很长;水深相对波长很小，浅水分类取决于相对尺度而非是否靠岸	100-200 km;shallow water waves
+10.4	mechanism	professional	海底垂向位移怎样把能量传给上方水体形成海啸？	海底升降推动上方水柱位移;扰动以长波向外传播	water column;seafloor rises or falls
+10.4	reasoning	professional	深海船只感到的海啸波高不大，为什么不能据此判断邻近岸线的淹没风险也很小？	海啸有长波长和大量水体参与;靠岸变浅可减速增高并造成大范围水位上涨和淹没	wave height begins to increase
+10.4	classification	professional	除海底地震之外，教材还列出了哪两类可能触发海啸的扰动？	火山活动;滑坡等大规模物质位移	volcanic activity;landslides
+10.4	popular	popular	电影把海啸画成特别高的卷浪，真实海啸到岸边还可能是什么样子？	可表现为快速上涨并向陆地涌入的大水体;不必是高高卷曲的普通破波形态	giant, cresting waves
+11.1	comparison	professional	为何讨论天体引潮作用时，不能只比较太阳和月球的总质量？	还必须比较距离;引潮作用对应引力的空间差异，对距离更敏感	cubed;distance
+11.1	mechanism	professional	为什么解释潮汐不能只考虑地球朝月球一侧受到的引力，而忽略另一侧？	月球引力在地球不同位置存在差异;相对地球整体运动的差异形成两侧潮汐响应	moon;two
+11.1	reasoning	professional	大潮、小潮中的“大”和“小”主要描述潮差，还是当天最高气温？	描述高潮与低潮间的潮差;与日月引潮作用的相对排列有关	spring tides;neap tides
+11.1	classification	professional	朔望附近与上下弦月附近，哪种日月排列更利于形成大潮？	朔望附近日地月近于共线，更易形成大潮;上下弦附近近直角排列，更易形成小潮	spring tides;neap tides
+11.1	popular	popular	“大潮”只在春天发生吗？请解释这个名字背后的月相规律。	不是，大潮与日月引潮作用相互加强有关;新月和满月附近通常出现大潮	spring tides
+11.2	comparison	professional	动力潮汐理论相比平衡潮理论，为什么更能解释不同海岸潮汐差异？	考虑大陆阻挡、水深和海盆等实际条件;潮汐响应因地区而异，不能只由理想双隆起推出	Dynamic Theory;continents
+11.2	calculation	professional	按每天潮峰约推迟50分钟的简化关系，某天13:00的相应潮峰三天后约在几点？	约15:30;仅为给定平均推迟量的推算，不代替地方潮汐预报	50 minutes
+11.2	mechanism	professional	为什么同一地点的相应高潮每天通常比前一天晚一些？	地球自转一天期间月球也在轨道上前进;该地点需多转一段角度才重新对准相关潮汐位置	moon has also moved
+11.2	reasoning	professional	教材给出地中海与芬迪湾潮差差异，说明只知道月球距离能否准确预测地方潮差？	不能，两地受相同天体强迫但海盆与岸形响应不同;需要地方动力条件	Mediterranean Sea;Bay of Fundy
+11.2	popular	popular	昨天退潮后能走过去的地方，今天同一时刻一定也能走吗？	不一定，潮汐时刻每天变化且地方条件不同;应依据当地当日潮汐信息，而非照搬昨天时间	tides don’t occur at same time
+11.3	classification	professional	某地一天有一次高潮和一次低潮，应怎样分类？	全日潮;按完整潮汐周期数分类而不是把高潮和低潮各算一个周期	diurnal tide
+11.3	comparison	professional	规则半日潮与混合半日潮都可能一天有两次高潮，它们主要怎样区分？	规则半日潮两次高潮和两次低潮各自高度近似;混合半日潮相应潮位存在显著不等	Mixed semidiurnal;equal
+11.3	reasoning	professional	一天两次高潮分别为2.0 m和3.6 m、两次低潮也明显不等，较符合哪种潮型？	混合半日潮;依据每日次数及不等潮高共同判断	Mixed semidiurnal tides
+11.3	classification	professional	潮型与潮差是否是同一个指标？能否仅凭潮差2 m判断全日潮还是半日潮？	不是，潮型涉及次数及相对高度关系;单个潮差不足以确定潮型	number and relative heights
+11.3	popular	popular	一天涨潮两次，就一定是两次一样高吗？	不一定，混合半日潮两次高潮可明显不同;需要同时看次数和高度	Mixed semidiurnal tides
+12.1	classification	professional	按成因分类，海洋沉积物的陆源、生源、水成和宇宙来源分别指什么？	陆源来自既有岩石风化碎屑;生源来自生物遗骸;水成来自海水化学沉淀;宇宙来源与地外物质及撞击有关	Sediment Classification;source
+12.1	reasoning	professional	为什么新生洋中脊地壳上的沉积物通常比老的被动大陆边缘薄？	新地壳积累时间短;大陆边缘常有较大物源输入并可长期积累	too new;passive margins
+12.1	comparison	professional	沉积物按粒径分类与按成因分类有什么区别？同为细粒物是否必然同源？	粒径描述颗粒大小，成因描述来源过程;同粒径可来自不同来源，二者不是互斥分类	texture;origin
+12.1	mechanism	professional	原先形成于古海洋的沉积岩为什么可能出现在高山中？	沉积物可固结成沉积岩;构造抬升和造山可使其出露高处	lithified;Everest
+12.1	popular	popular	海底的泥沙一定到处一样厚吗？请给出两个会影响厚度的因素。	并非一样厚;物源供应量和积累时间等影响沉积厚度	amount of accumulated sediment
+12.2	mechanism	professional	陆地岩石碎屑可通过哪些主要路径进入海洋？至少举出三种。	河流径流搬运;风成输送;冰川或冰山携带等	Streams and rivers;Wind;ice
+12.2	comparison	professional	河流入海后粗颗粒与细黏土的典型沉降距离有什么区别？	粗颗粒通常较快沉降并靠近海岸;细黏土可悬浮较久并远距离输送	larger particles;clay particles
+12.2	reasoning	professional	远离陆地的海底发现陆源细尘，为什么不一定需要附近有河口？	风可以远距离输送细粒尘埃;细颗粒也可由水流长距离搬运	aeolian;thousands of kilometers
+12.2	classification	professional	“陆源沉积物”是否专指沙粒？说明其粒径范围。	不是，可包括微细黏土到巨砾;名称主要指物源而非单一粒径	microscopic clays;large boulders
+12.2	popular	popular	沙漠里的小灰尘为什么可能最终落到远处的大海里？	风能搬运微小颗粒很长距离;风减弱或降水等可使其进入海洋	Wind-borne;rain
+12.3	classification	professional	按教材分类阈值，沉积物含35%的微体生物硬体遗骸能否称为生物软泥？25%又如何？	35%达到至少30%的阈值;25%未达到该阈值，不能仅凭含生物成分就称软泥	at least 30%
+12.3	comparison	professional	生物软体与矿化硬体在形成海底沉积物的潜力上为何不同？	软体通常较快分解;壳、齿或骨骼等硬体更耐分解而易保留	hard parts;soft parts
+12.3	reasoning	professional	微小生物壳体为何能贡献比大型动物遗骸更广泛的深海生源沉积？	微生物数量多且持续死亡下沉;大型生物遗骸通常不够集中，不能按个体大小判断总贡献	billions;Macroscopic
+12.3	classification	professional	硅藻、放射虫与碳酸钙壳体生物，在沉积物化学类型上怎样区分？	硅藻与放射虫贡献硅质壳体;碳酸钙壳体贡献钙质沉积	Silica tests;calcium carbonate
+12.3	popular	popular	肉眼看不到的小壳为什么能在海底积成厚泥？	单个虽小但数量巨大;持续下沉并长期保存可积累成沉积层	microscopic tests
+12.4	mechanism	professional	海水中溶解物质怎样形成水成沉积物？	温度、压力或pH等条件变化可降低溶解保持能力;化学沉淀形成固体并积累	precipitate;temperature, pressure, or pH
+12.4	comparison	professional	锰结核与河流带来的岩石碎屑，主要成因有什么区别？	锰结核通过海底物质逐层沉积或沉淀缓慢生长;河流碎屑来自既有岩石风化搬运	Manganese nodules;concentric layers
+12.4	reasoning	professional	热液喷口流体遇到冷海水后，为什么会出现黑色颗粒状“烟”？	溶解物质因条件变化沉淀为固体;多为金属硫化物颗粒，不是燃烧产生的烟灰	metal sulfides
+12.4	classification	professional	水成沉积物中的“水成”，是否意味着所有经水搬运的沉积物都属于该类？	不是，重点是从海水溶解成分化学沉淀形成;陆源碎屑即使经河流输送仍不因此变成水成	chemical reactions;hydrogenous sediment
+12.4	popular	popular	海底的锰结核像珍珠一样一层层长大，这和把石头磨成小沙粒有什么不同？	结核是围绕核心逐层增加物质;磨碎岩石是把已有大块分成小块	pearls;central object
+12.5	classification	professional	宇宙来源沉积物的两种主要形态是什么？	微小球粒;较大的陨石撞击碎屑等	microscopic spherules;meteor debris
+12.5	mechanism	professional	玻璃陨石类物质为什么可能含有地球上的硅质，而仍与宇宙撞击事件有关？	撞击可熔融并抛出地表硅质物;物质冷却凝固形成玻璃滴，分类关联撞击过程	terrestrial silica;tektites
+12.5	comparison	professional	宇宙来源沉积物的稀少分布与空间尘埃持续输入是否矛盾？	不矛盾，输入可以持续但相对量小;大气烧蚀等减少到达地表的物质量	fairly rare;constantly
+12.5	reasoning	professional	按教材约90%进入物质在大气中汽化的示例，若入射质量100单位，未汽化部分约多少？是否全落入海洋？	约10单位;未汽化不等于全部落入海洋，还涉及全球落点和其他过程	90%
+12.5	popular	popular	天上的小尘埃也能成为海底泥的一部分吗？它们为什么通常不堆成特别厚的一层？	可以成为宇宙来源沉积物;相对输入少且很多在大气中烧蚀，常被其他沉积物稀释	space dust
+12.6	comparison	professional	比较教材给出的陆源粗颗粒、生物软泥和深海黏土典型沉积速率的数量级。	陆源粗颗粒可约每千年1 m或更高;生物软泥约每千年1 cm;深海黏土约每千年1 mm，实际因地而异	1 m;1 cm;1 mm
+12.6	calculation	professional	按每千年1 cm且速率恒定的假设，积累10 cm生物软泥需要多久？	约1万年;该计算忽略压实、间断和速率变化等	1 cm per thousand years
+12.6	reasoning	professional	为什么只知道海面生物生产多，还不足以判定海底一定由生源软泥主导？	还需考虑壳体保存或溶解;其他来源输入可稀释生源比例，积累取决于多过程	preserved;other types of sediments
+12.6	mechanism	professional	洋中脊两侧离脊轴越远沉积物常越厚，主要有哪些原因？	海底随扩张远离脊轴而年龄增加;更长时间允许沉积积累，仍受物源等影响	progressively thicker
+12.6	popular	popular	海底有些地方很久才落下一点泥，为什么最后仍能留下地球的长历史？	极长时间可使缓慢沉积逐步累积;沉积层能保存过去环境信息，但速度不处处相同	thousands of years
+13.1	comparison	professional	黑色火山沙滩与白色珊瑚沙滩的主要物源有何不同？	黑沙常来自玄武岩等火山材料;白沙可富含珊瑚等生物的碳酸钙碎屑	basalt;calcium carbonate
+13.1	classification	professional	区分后滨与前滨相对于高潮线、低潮线的位置。	后滨通常在高潮线以上，仅异常大浪等淹及;前滨位于高潮线与低潮线之间	backshore;foreshore
+13.1	reasoning	professional	为什么不能把“海滩”定义为只能由石英细沙组成的岸段？	海滩物质受本地物源控制;可由壳体、砾石或火山碎屑等构成	lack sand;pebbles
+13.1	comparison	professional	在正常潮汐周期内，前滨与后滨被淹没的频率通常怎样不同？	前滨随涨落潮周期性出露和淹没;后滨较少淹没，多受异常高浪等影响	high tide line;low tide lines
+13.1	popular	popular	为什么有的海滩黑、有的白、有的全是小石子？	海滩材料来自附近不同岩石或生物遗骸等;不是所有海滩都由相同的沙组成	local area
+13.2	mechanism	professional	斜向入射波浪怎样使沙粒沿岸呈锯齿状净迁移？	上冲水沿斜方向推动沙粒;回流水近沿坡向下，反复形成沿岸净位移	zigzag;swash
+13.2	comparison	professional	沿岸流与沿岸输沙是否完全等同？	沿岸流描述水流;沿岸输沙还包括波浪上冲和回流引起的颗粒迁移	combined effects;longshore transport
+13.2	reasoning	professional	游泳者发现离岸距离差不多却离原来的毛巾很远，可以由哪类水流解释？	沿岸流可使人平行海岸位移;不必意味着向外海输送的离岸流	carried far down the beach
+13.2	classification	professional	在教材沿岸输沙描述中，上冲流和回流水方向为何通常不同？	上冲受波浪斜入射影响;回流较接近重力控制的沿坡向下方向	backwash;angle
+13.2	popular	popular	一颗沙子被浪斜着推上来又直着退下去，反复很多次会怎样移动？	逐波呈锯齿形移动;可沿海岸出现净输送而非每次回到原位	zigzag pattern
+13.3	mechanism	professional	不规则海岸的岬角为什么常比相邻海湾受到更强波浪侵蚀？	波浪折射使能量在岬角集中;海湾相对分散，导致侵蚀差异	focused on the headlands
+13.3	classification	professional	海蚀平台主要由什么作用形成，常分布于哪类垂向带？	破波带波浪侵蚀形成较平坦基底;常延伸于潮间带	wave-cut platform;intertidal zone
+13.3	reasoning	professional	岬角长期侵蚀强于海湾，可能对海岸线平面形状产生什么趋势？	突出岬角逐渐后退;可使不规则海岸趋于平直，但过程漫长且受其他条件影响	coastal straightening
+13.3	comparison	professional	海蚀洞或海蚀拱与堆积沙嘴的主导形成过程是否相同？	前者主要由岩岸侵蚀塑造;沙嘴以沉积物搬运堆积为主，不能混淆侵蚀与堆积	Arches;erosion
+13.3	popular	popular	海浪为什么会把突出的岩石海角一点点削掉？	折射让较多波能集中在突出处;长期冲击侵蚀使岩岸后退	wave energy;headlands
+13.4	classification	professional	三角洲与沙嘴都属堆积地貌，它们的典型供沙和塑形过程怎样区分？	三角洲常由河口大量泥沙沉积形成;沙嘴常由沿岸输沙向开阔水域延伸形成	deltas;spit
+13.4	mechanism	professional	沿岸流怎样促使沙嘴向海岸外延伸？	沿岸搬运的沉积物在岸线转折等条件下继续输送并沉积;形成沿输沙方向延伸的狭长沙体	longshore current;elongated
+13.4	reasoning	professional	一个总体以堆积为主的海岸，是否意味着岸线每一段都不会被侵蚀？	不是，局地侵蚀与局地堆积可以同时发生;总体净堆积不代表处处堆积	both deposition and erosion
+13.4	comparison	professional	大河入海处的扇形沉积体为何不同于外海孤立岩石？	前者以河流供沙在河口沉降堆积形成;地貌解释需看物质来源和形成过程而非只看外形	fan-shaped deltas
+13.4	popular	popular	河水带来的泥沙到了海口后，为什么可能“造出一块新地”？	流速等条件改变使泥沙沉降;长期供沙堆积可形成三角洲等地貌	rivers;deposited
+13.5	mechanism	professional	垂直海岸建丁坝后，为什么上游侧积沙而下游侧可能侵蚀加重？	丁坝阻挡沿岸输沙并在来沙侧截留;下游补沙减少但沙仍被搬走	Groins;downstream
+13.5	reasoning	professional	为什么保护一段海滩的硬质设施，不能只评价设施上游短期积沙量？	需检查下游供沙变化及邻岸侵蚀;局地收益可能转移侵蚀问题	replacement sand;erosion
+13.5	comparison	professional	单个丁坝与丁坝群有何联系，增加数量为什么未必消除整个岸段的供沙问题？	首坝可使下游缺沙而推动继续建坝;坝群仍在改变自然输沙，不能凭数量证明系统恢复	groin field
+13.5	classification	professional	教材所称海岸硬质稳定措施主要依靠什么方式影响沙的运动？	修建实体结构阻挡或改变沉积物输送;效果取决于岸段和输沙过程，可能产生副作用	hard stabilization
+13.5	popular	popular	在沙滩一边修一道拦沙墙，为什么旁边别人的沙滩反而可能变窄？	原本沿岸输送的沙被截留;下游拿不到补充却继续流失沙子	trap sand;cut off
+13.6	classification	professional	为什么河口湾常称为咸淡水混合环境，而不能直接等同于普通外海？	海水受到陆地淡水稀释形成半咸水;半封闭、小尺度环境可有较大温盐变化	brackish water
+13.6	mechanism	professional	溺谷型河口湾怎样由原有河谷形成？	海平面上升淹没河谷;海水与河流淡水混合形成河口环境	drowned river valley
+13.6	comparison	professional	河口湾与开阔大洋在温度、盐度变化幅度上，为什么可能不同？	河口湾较小且半封闭，受淡水与地方条件影响强;外海体积大且交换条件不同，不能用同一固定盐度描述两者	temperature and salinity variations
+13.6	reasoning	professional	若河流淡水输入突然增加，仅看外海盐度不变能否推定湾内盐度也不变？	不能，湾内受到淡水局地稀释和交换过程影响;应测量湾内的时间与空间盐度变化	fresh water input
+13.6	popular	popular	为什么河水进海的湾里，水可能既不像河水那么淡，也不像外海那么咸？	河水和海水在湾内混合;形成介于淡水和海水之间的半咸水	between fresh water and normal seawater
+13.7	comparison	professional	区分全球性海平面变化与地壳均衡升降导致的地方相对海平面变化。	全球性变化涉及海水量、热膨胀及洋盆容积等;地方陆地升降改变海陆相对高度，两者可叠加	eustatic;isostatic
+13.7	mechanism	professional	海水变暖即使没有新增水源，也能怎样推动海平面变化？	热膨胀使相同质量海水占据更大体积;可推动海平面上升	thermal expansion
+13.7	reasoning	professional	某地陆地抬升速度大于海面绝对上升速度，当地相对海平面可能怎样变化？	相对陆地可下降;需要同时考虑陆地与海面运动，而非只看全球平均	isostatic
+13.7	classification	professional	大陆冰体融化与洋盆构造变化，分别通过什么途径改变海平面？	大陆冰融化增加海洋水量;构造可改变洋盆形状和容量	glacial ice;shape of the seafloor
+13.7	popular	popular	量海平面的尺子如果随陆地一起慢慢上升，会不会影响你看到的海平面变化？	会，观测反映水面相对尺子的位置;需区分陆地升降与海水本身变化	isostatic
+14.1	comparison	professional	比较海冰与冰川冰在形成方式和典型厚度尺度上的差异。	海冰由海水冻结，通常较薄;冰川冰由陆地积雪压实形成，可厚达千米级	Sea ice;Glacial ice
+14.1	reasoning	professional	教材指出海冰覆盖面积大但冰体总体积占比小，为什么这并不矛盾？	体积同时取决于面积和厚度;海冰广而薄，陆地冰体面积较小但很厚	thin sheet;volume
+14.1	classification	professional	海上高大的冰山能否仅因漂在咸海水里就归为海水冻结形成的海冰？	不能，许多大冰山来自冰川崩解;分类依据来源而非所在水体	icebergs;glacial ice sheets
+14.1	comparison	professional	为什么南极和北极的海陆分布会影响海冰保存到多年的机会？	南极周围开阔水域利于海冰向暖水扩散融化;北冰洋较封闭更易留存部分多年冰，不能把旧统计当作当前值	Antarctica is surrounded;enclosed by continents
+14.1	popular	popular	薄薄一大片冰和小一些却特别厚的冰盖，哪一个冰更多能只看面积判断吗？	不能，需同时考虑厚度;面积大不必然表示体积大	volume
+14.2	mechanism	professional	积雪怎样依次转变为粒雪和冰川冰？	上层积雪重量压实下层雪;空气减少、密度增加，逐渐形成粒雪及更致密冰川冰	firn;density
+14.2	comparison	professional	为什么有些冰山白，有些旧冰呈蓝色？	含较多气泡的冰散射多种可见波长而显白;致密旧冰气泡少，较长波长吸收较强而显蓝	air bubbles;blue wavelengths
+14.2	classification	professional	冰川舌崩解形成的冰山通常是淡水冰还是普通海冰？为什么？	主要是淡水冰;源于陆地积雪压实的冰川，漂入海中不改变形成来源	fresh water ice;calved
+14.2	reasoning	professional	同一类致密冰中光路越长，为什么蓝色可能越明显？	长光路使红等较长波长进一步被吸收;剩余透射或散射光更偏蓝	longer the path
+14.2	popular	popular	海里的冰山为什么不一定是咸海水冻成的？	很多来自陆地积雪压成的冰川;冰川断裂后漂入海中形成冰山	pieces of glaciers
+2.2	calculation	professional	按1节约1.85 km/h，船以12节匀速航行3小时约行驶多少千米？	约66.6 km;节是速度单位，不是距离	1.85
+2.2	classification	professional	区分一海里与一节，能否把20节直接写成20海里？	海里是长度单位;节是一海里每小时的速度，需乘时间才能得到距离	1 nautical mile per hour
+2.2	mechanism	professional	传统测程木如何利用船与木板的相对运动估算船速？	木板受水阻相对水体近似不动;计时统计放出绳上结的数量以估计相对水速	chip logs;drag
+2.2	reasoning	professional	测程木量得的速度为什么主要相对水体，而不能直接当作相对海床的速度？	木板近似随水而非固定海床;海流可能使对水速度和对地速度不同	stationary in the water
+2.2	popular	popular	航海里说船跑“十节”，为什么不是说它走了十个绳结那么远？	名称来自早期绳结计时测速;现代节表示速度，需要时间才可算路程	knots per unit time
+4.10	classification	professional	岸礁、堡礁与环礁如何根据陆地和潟湖位置区分？	岸礁贴近海岸;堡礁与陆地间隔潟湖;环礁围绕潟湖且中央无相应岛陆	Fringing reefs;Barrier reefs;Atolls
+4.10	mechanism	professional	火山岛缓慢下沉而珊瑚持续向上生长，怎样可能由岸礁演变为环礁？	岛体下沉逐渐与礁分离形成潟湖;岛陆没入水下而礁持续生长，可保留环状礁体	subsided;progression
+4.10	reasoning	professional	为何造礁珊瑚的生长深度通常受光照约束？	珊瑚组织中的共生藻需要光合作用;礁体常在较浅、清澈水中生长	algae living in the coral tissues
+4.10	comparison	professional	堡礁与环礁都有潟湖，为什么仅看到潟湖不足以区分二者？	堡礁仍与中心或岸侧陆地相隔;典型环礁中央没有原有岛陆，需要看陆地布局	without any central land mass
+4.10	popular	popular	为什么一圈珊瑚礁中间只有水，可能和原先的一座火山岛有关？	岛体可逐渐下沉;珊瑚向上生长，最后留下围着潟湖的环礁	atolls;land mass subsided
+5.5	comparison	professional	光合作用与呼吸对溶解氧和二氧化碳的作用方向怎样相反？	光合作用消耗CO2并产生O2;呼吸等消耗O2并释放CO2	photosynthesis consumes;respiration
+5.5	mechanism	professional	增加溶解二氧化碳为什么可降低海水pH？	CO2参与碳酸体系反应;氢离子增加可降低pH，并改变碳酸盐平衡	carbonic acid;hydrogen ions
+5.5	reasoning	professional	“海洋酸化”是否必须意味着海水pH已经低于7？	不是，酸化指pH下降的过程;原本弱碱性的海水仍可在高于7时发生酸化	pH;acidification
+5.5	comparison	professional	为什么较老的深层水可累积较多CO2？	有机物分解和生物呼吸持续添加CO2;与表面大气交换及光合作用补偿隔离较久	older;respiration
+5.5	popular	popular	海水加入更多二氧化碳后，为什么贝壳的形成可能更困难？	碳酸体系变化减少可利用碳酸根并影响碳酸钙稳定性;不能简单说所有贝壳立刻被溶掉	carbonate;acidification
+6.4	calculation	professional	声速取1500 m/s，声呐往返时间2 s，海底深度应估计多少？	约1500 m;回声为往返路径需除以2	1500 m/s
+6.4	classification	professional	海水中的声波属于纵波还是横波，水分子振动方向如何？	属于纵向压缩波;质点振动大致平行于传播方向	longitudinal;parallel
+6.4	comparison	professional	在典型海洋条件的经验关系下，温度、盐度或压力升高分别怎样影响声速？	其他条件相同时升高通常使声速增大;不能把任意材料的声速只按密度作普遍推断	temperature, salinity, and pressure
+6.4	reasoning	professional	为什么水下用双耳判断声源方向可能比空气中困难？	水中声速较高;两耳到达时间差变小，使基于时差的定位更困难	time of arrival
+6.4	popular	popular	海里很远的声音能传到这里，是否意味着水分子也一路从声源跑到你的耳朵？	不是，声音通过局部振动传递能量;水分子主要来回振动而非随声跨越全程	vibrating back and forth
+9.6	mechanism	professional	正常赤道太平洋信风怎样联系西部暖水堆积与东部上升流？	信风推动表层暖水向西;东部表层水移走后由较冷、富营养深水补充	trade winds;upwelling
+9.6	comparison	professional	厄尔尼诺期间秘鲁近海表层变暖，为何鱼类生产可能下降？	上升流及营养补给减弱;初级生产下降影响食物网，温暖不等于更高生产力	low in nutrients;decline in fish
+9.6	reasoning	professional	ENSO中的“南方涛动”主要指海水上下波动还是大气状态的变化？	指与事件耦合的大气变化;需区分大气涛动与局地海浪	fluctuating atmospheric conditions
+9.6	classification	professional	沃克环流正常状态下，西太平洋和东太平洋的典型气压与降水怎样不同？	西部较低压、上升湿空气与较多降水;东部相对高压、较干燥	Walker Cell;high pressure
+9.6	popular	popular	海水变暖为什么不一定让秘鲁海边的鱼变多？	若变暖伴随富营养冷水上涌减少;浮游植物和食物来源可能随之减少	nutrient-rich;unusually warm
+14.3	comparison	professional	陆地冰川融化与已漂浮海冰融化，对海平面的一阶影响为什么不同？	陆地冰融水加入海洋增加水量;浮冰已排开海水，直接效应很小但并非所有间接效应为零	glacial ice;sea ice
+14.3	reasoning	professional	海冰融化直接增水效应小，为什么海冰减少仍能用于气候研究？	海冰范围和厚度对增暖有响应;长期海冰观测可作为气候变化指标，不能只看直接海平面效应	indicators of global warming
+14.3	calculation	professional	按教材所举1980年3.64 m、2008年1.89 m的平均冰厚，绝对减少多少？能否把它当成2026年的测量？	减少1.75 m;属于指定历史时段数据，不能当作当前观测值	3.64 meters;1.89 meters
+14.3	classification	professional	用某一年的卫星海冰数据能否直接代表长期趋势？论文应如何区分？	单年有波动，需多年的可比记录分析趋势;应标明观测时段，不能把教材历史数据说成当前状态	Satellite data
+14.3	popular	popular	只量冰铺了多大面积，为什么还不能知道一共有多少冰？	冰的总量还与厚度有关;需要同时研究覆盖范围与冰厚的变化	thickness;extent

@@ -1,0 +1,1035 @@
+﻿序号,匿名ID,复核优先级,AI证据忠实性_0至4,AI引用关联总数,AI受支持引用关联数,AI需引用陈述数,AI有支持引用陈述数,题目,原始回答_保留引用,AI证据评分理由,AI逐陈述核查,评价来源,采用状态,条件,原始问题ID
+1,af121d2b788868a5,高,4,1,1,1,1,What are two different types of well operations?,The supplied passage does not provide information on the types of well operations [PIRA-DOC-0b1f7594b34d325e-C001].,实际检索资料分别谈生产装置、安全管理及对流系统，未列生产井和注入井；关于资料未提供所问类别的说明成立。,"1. 所供资料没有说明所问的井作业类型
+引用ID：PIRA-DOC-0b1f7594b34d325e-C001
+完全支持ID：PIRA-DOC-0b1f7594b34d325e-C001
+所引段的types指“production units”，例子是“Semi-Submersibles”“FPSOs”，未给井的生产/注入类别；其余实际资料也未补足。",AI,已采用AI评分,lora_rag,PIRA-TEST-A924
+2,738fa70c4ac2f957,高,4,0,0,1,0,What are two different types of well operations?,The supplied passages are insufficient to identify two different types of well operations.,实际提供的三段为生产装置、安全管理及对流系统，确实不足以识别两类井；但未附任何引用。,"1. 实际所供段落不足以识别两种井作业类型
+引用ID：无
+完全支持ID：无
+实际段落仅列“Semi-Submersibles”“FPSOs”等装置及不相关主题；资料不足判断有依据，但未引用。",AI,已采用AI评分,base_rag,PIRA-TEST-A924
+3,35cdf1404e8325f0,低,4,3,3,3,3,What does the full-azimuth towed-streamer seismic survey described in the paper intends to do?,The full-azimuth towed-streamer seismic survey aims to overcome pre-salt exploration challenges and provide high-quality reservoir information efficiently [PIRA-DOC-5c487e856e5d4800-C001].,三个可独立核实的目标均由实际所引摘要直接支持。,"1. 调查旨在克服盐下勘探挑战
+引用ID：PIRA-DOC-5c487e856e5d4800-C001
+完全支持ID：PIRA-DOC-5c487e856e5d4800-C001
+“overcomes many of the pre-salt exploration challenges”。
+2. 调查旨在提供高质量储层信息
+引用ID：PIRA-DOC-5c487e856e5d4800-C001
+完全支持ID：PIRA-DOC-5c487e856e5d4800-C001
+“provide high-quality reservoir information”。
+3. 调查旨在有效率地实现上述目标
+引用ID：PIRA-DOC-5c487e856e5d4800-C001
+完全支持ID：PIRA-DOC-5c487e856e5d4800-C001
+“in an efficient manner”。",AI,已采用AI评分,lora_rag,PIRA-TEST-A1884
+4,31de2221904d672c,低,4,4,4,4,4,What does the full-azimuth towed-streamer seismic survey described in the paper intends to do?,The full-azimuth towed-streamer seismic survey intends to overcome pre-salt exploration challenges by providing high-quality reservoir information in an efficient manner for deep-water offshore Brazil [PIRA-DOC-5c487e856e5d4800-C001].,实际引用直接支持挑战、信息质量、效率和地点四个陈述。,"1. 调查旨在克服盐下勘探挑战
+引用ID：PIRA-DOC-5c487e856e5d4800-C001
+完全支持ID：PIRA-DOC-5c487e856e5d4800-C001
+“overcomes many of the pre-salt exploration challenges”。
+2. 提供高质量储层信息
+引用ID：PIRA-DOC-5c487e856e5d4800-C001
+完全支持ID：PIRA-DOC-5c487e856e5d4800-C001
+“provide high-quality reservoir information”。
+3. 以高效率实现目的
+引用ID：PIRA-DOC-5c487e856e5d4800-C001
+完全支持ID：PIRA-DOC-5c487e856e5d4800-C001
+“in an efficient manner”。
+4. 调查针对巴西海上深水区域
+引用ID：PIRA-DOC-5c487e856e5d4800-C001
+完全支持ID：PIRA-DOC-5c487e856e5d4800-C001
+开头“pre-salt areas in deep-water offshore Brazil”；调查“designed for pre-salt exploration offshore Brazil”。",AI,已采用AI评分,base_rag,PIRA-TEST-A1884
+5,f4ac5ef4c893e2c3,低,4,2,2,1,1,What were effectively hotspots of trace metals in their labile fraction in various estuarine systems in the southeastern and southern Brazilian coast?,Shipyards were effectively hotspots of trace metals in their labile fraction in various estuarine systems in southeastern and southern Brazil. [PIRA-DOC-6d64075754a1982b-C002] [PIRA-DOC-10cd4a4a4ee7a4b5-C002],一项热点识别陈述对应两个ID；两个实际片段均逐字包含完整结论，均支持。,"1. 巴西东南及南部多个河口系统的船厂是痕量金属活性组分热点
+引用ID：PIRA-DOC-6d64075754a1982b-C002, PIRA-DOC-10cd4a4a4ee7a4b5-C002
+完全支持ID：PIRA-DOC-6d64075754a1982b-C002, PIRA-DOC-10cd4a4a4ee7a4b5-C002
+两个实际片段均有“shipyards were effectively hotspots…in various estuarine systems in southeastern and southern Brazil”。",AI,已采用AI评分,base_rag,PIRA-TEST-A174
+6,4fbdab31e54e28bd,低,4,2,2,1,1,What were effectively hotspots of trace metals in their labile fraction in various estuarine systems in the southeastern and southern Brazilian coast?,Shipyards were effectively hotspots of trace metals in their labile fraction in various estuarine systems in southeastern and southern Brazil [PIRA-DOC-6d64075754a1982b-C002][PIRA-DOC-10cd4a4a4ee7a4b5-C002].,两个所引实际片段均完整支持同一船厂热点结论；第三个未引用片段不参与引用计数。,"1. 巴西东南及南部多个河口系统的船厂是痕量金属活性组分热点
+引用ID：PIRA-DOC-6d64075754a1982b-C002, PIRA-DOC-10cd4a4a4ee7a4b5-C002
+完全支持ID：PIRA-DOC-6d64075754a1982b-C002, PIRA-DOC-10cd4a4a4ee7a4b5-C002
+两个ID正文都明确包含“shipyards were effectively hotspots of trace metals in their labile fraction”。",AI,已采用AI评分,lora_rag,PIRA-TEST-A174
+7,1ea75ed7b9847204,高,4,1,1,1,1,"How is it possible to compensate for fast downhole pressure transients, such as surge and swab induced by elevation?",A downhole choke combined with continuous circulation is one of potential solutions to compensate for fast downhole pressure transients such as surge and swab induced by elevation. [PIRA-DOC-5d37b29b47f7861e-C003],所引实际段直接给出针对heave-induced surge/swab的井下节流器与连续循环潜在方案。,"1. 井下节流器结合连续循环是补偿升沉引起快速压力瞬变的潜在方案
+引用ID：PIRA-DOC-5d37b29b47f7861e-C003
+完全支持ID：PIRA-DOC-5d37b29b47f7861e-C003
+“fast downhole pressure transients, such as heave-induced surge and swab”后直接给出“A downhole choke combined with continuous circulation is one of potential solutions”。",AI,已采用AI评分,base_rag,PIRA-TEST-A1847
+8,dbaeeef9609a22ea,高,4,1,1,1,1,"How is it possible to compensate for fast downhole pressure transients, such as surge and swab induced by elevation?",A downhole choke combined with continuous circulation is one of potential solutions [PIRA-DOC-5d37b29b47f7861e-C003].,实际引用逐字支持这一潜在补偿方案。,"1. 井下节流器结合连续循环是潜在补偿方案
+引用ID：PIRA-DOC-5d37b29b47f7861e-C003
+完全支持ID：PIRA-DOC-5d37b29b47f7861e-C003
+“A downhole choke combined with continuous circulation is one of potential solutions”。",AI,已采用AI评分,lora_rag,PIRA-TEST-A1847
+9,ba7cbda4f44e02f5,低,4,1,1,1,1,Where to find Amphisbaena pretrei?,Amphisbaena pretrei is found in eastern Brazil [PIRA-DOC-033da8c1a50a756c-C001].,所引实际摘要明确物种来自巴西东部。,"1. Amphisbaena pretrei分布于巴西东部
+引用ID：PIRA-DOC-033da8c1a50a756c-C001
+完全支持ID：PIRA-DOC-033da8c1a50a756c-C001
+“Amphisbaena pretrei, a poorly studied amphisbaenid from eastern Brazil”。",AI,已采用AI评分,lora_rag,PIRA-TEST-A202
+10,d4841db5c699785c,高,2,3,1,3,1,Where to find Amphisbaena pretrei?,"Amphisbaena pretrei can be found in eastern Brazil, specifically along the coastal region of north-eastern Brazil, with populations distributed in areas that remained climatically stable since the last glacial maximum. [PIRA-DOC-033da8c1a50a756c-C001]",东部巴西直接支持；东北沿岸和气候稳定区是生态位建模结果，不能完全支持确定的实际种群地点陈述。,"1. 该物种见于巴西东部
+引用ID：PIRA-DOC-033da8c1a50a756c-C001
+完全支持ID：PIRA-DOC-033da8c1a50a756c-C001
+“amphisbaenid from eastern Brazil”直接支持。
+2. 该物种具体分布于巴西东北沿岸
+引用ID：PIRA-DOC-033da8c1a50a756c-C001
+完全支持ID：无
+只说“Ecological niche modelling identified a large area along the coast of north-eastern Brazil”，对模型区域转为确定物种分布只构成部分支持。
+3. 其种群分布在末次冰盛期以来气候稳定的地区
+引用ID：PIRA-DOC-033da8c1a50a756c-C001
+完全支持ID：无
+“remained climatically stable since the last glacial maximum”修饰模型识别区域，未直接断言现存种群均分布在该稳定区。",AI,已采用AI评分,base_rag,PIRA-TEST-A202
+11,7d687c2c714c885b,高,2,3,2,3,2,Where was the first onshore all-electric intelligent completion installation in?,"The first onshore all-electric intelligent completion installation was in Mossoro, Rio Grande do Sul, Brazil. [PIRA-DOC-dc70cc22d46b463d-C001]",实际片段支持城市和国家，但州名截在“Rio Gr”，不能补成Rio Grande do Sul。,"1. 首个陆上全电智能完井装置在Mossoro
+引用ID：PIRA-DOC-dc70cc22d46b463d-C001
+完全支持ID：PIRA-DOC-dc70cc22d46b463d-C001
+“first all-electric…in the land well 8-VRG-7D-RN…in Mossoro”。
+2. 该安装地点位于巴西
+引用ID：PIRA-DOC-dc70cc22d46b463d-C001
+完全支持ID：PIRA-DOC-dc70cc22d46b463d-C001
+“was carried out in Brazil in May 2001”。
+3. Mossoro所在州为Rio Grande do Sul
+引用ID：PIRA-DOC-dc70cc22d46b463d-C001
+完全支持ID：无
+实际资料末尾仅到“Mossoro (Rio Gr”，不足以支持完整州名；其余实际段落也未提供该州。",AI,已采用AI评分,base_rag,PIRA-TEST-A1137
+12,05103e76df9f2d51,高,2,3,2,3,2,Where was the first onshore all-electric intelligent completion installation in?,"Mossoro, Rio Grande do Sul, Brazil [PIRA-DOC-dc70cc22d46b463d-C001]",城市、国家有实际文本支持，Sul州名没有；不能从截断的“Rio Gr”补全。,"1. 所问安装地点为Mossoro
+引用ID：PIRA-DOC-dc70cc22d46b463d-C001
+完全支持ID：PIRA-DOC-dc70cc22d46b463d-C001
+“in the land well…in Mossoro”。
+2. 该安装地点在巴西
+引用ID：PIRA-DOC-dc70cc22d46b463d-C001
+完全支持ID：PIRA-DOC-dc70cc22d46b463d-C001
+“first all-electric…was carried out in Brazil”。
+3. 该安装地点的州为Rio Grande do Sul
+引用ID：PIRA-DOC-dc70cc22d46b463d-C001
+完全支持ID：无
+实际证据仅留下“(Rio Gr”，没有完整州名，对Sul不构成完全支持。",AI,已采用AI评分,lora_rag,PIRA-TEST-A1137
+13,083662f5c8739527,低,4,2,2,2,2,Why the upwelling phenomenon occurs in the north coast of the Rio de Janeiro State?,"The upwelling phenomenon occurs in the north coast of the Rio de Janeiro State due to constant northeast winds, which, combined with the northeast-southwest coastline orientation, create a curl confluence [PIRA-DOC-9ee75c287f07b4be-C001].",两个因果陈述均在所引实际段落中明确出现。,"1. 里约州北岸上升流由持续东北风引起
+引用ID：PIRA-DOC-9ee75c287f07b4be-C001
+完全支持ID：PIRA-DOC-9ee75c287f07b4be-C001
+“The upwelling phenomenon occurs due to constant northeast winds”。
+2. 东北风与东北—西南岸线共同造成curl confluence
+引用ID：PIRA-DOC-9ee75c287f07b4be-C001
+完全支持ID：PIRA-DOC-9ee75c287f07b4be-C001
+“The same winds combined with the Northeast-Southwest coastline orientation also promote a curl confluence”。",AI,已采用AI评分,base_rag,PIRA-TEST-A1172
+14,1d1f8c1f0f6a856b,低,4,1,1,1,1,Why the upwelling phenomenon occurs in the north coast of the Rio de Janeiro State?,The upwelling phenomenon occurs in the north coast of the Rio de Janeiro State due to constant northeast winds [PIRA-DOC-9ee75c287f07b4be-C001].,实际引用直接给出上升流由持续东北风引起。,"1. 该地上升流由持续东北风引起
+引用ID：PIRA-DOC-9ee75c287f07b4be-C001
+完全支持ID：PIRA-DOC-9ee75c287f07b4be-C001
+“The upwelling phenomenon occurs due to constant northeast winds”。",AI,已采用AI评分,lora_rag,PIRA-TEST-A1172
+15,4110c12d8e75ca0e,高,4,4,4,4,4,What made Petrobras decide to implement optical sensing technology in all of its new wells?,"Petrobras implemented optical sensing technology in all new wells because it was the only proven technology capable of supporting high vibration and high temperature conditions in 7"" tubing wells [PIRA-DOC-49dfe3d77907f27b-C002].",实际所引片段同时支持全新井推广决定、7英寸油管高振动适应能力及高温适应能力。,"1. Petrobras决定在所有新井采用光学传感技术
+引用ID：PIRA-DOC-49dfe3d77907f27b-C002
+完全支持ID：PIRA-DOC-49dfe3d77907f27b-C002
+“decided…to implement optical sensing technology in all of their new wells”。
+2. 采用原因包括其经验证可承受7英寸油管引起的高振动
+引用ID：PIRA-DOC-49dfe3d77907f27b-C002
+完全支持ID：PIRA-DOC-49dfe3d77907f27b-C002
+“only proven technology that could support the high vibration, produced by the 7'' tubing wells”。
+3. 采用原因包括该经验证技术可承受高温
+引用ID：PIRA-DOC-49dfe3d77907f27b-C002
+完全支持ID：PIRA-DOC-49dfe3d77907f27b-C002
+同一因果句继续“and high temperature”，并称only proven technology。
+4. 光学传感是文中唯一经验证同时耐高振动和高温的技术
+引用ID：PIRA-DOC-49dfe3d77907f27b-C002
+完全支持ID：PIRA-DOC-49dfe3d77907f27b-C002
+原文明确限定“the only proven technology”且随后同时列high vibration和high temperature，支持联合条件下的唯一性。",AI,已采用AI评分,lora_rag,PIRA-TEST-A610
+16,467c992d8d429aab,高,4,4,4,4,4,What made Petrobras decide to implement optical sensing technology in all of its new wells?,Petrobras decided to implement optical sensing technology in all of its new wells because it was the only proven technology capable of supporting the high vibration and high temperature conditions of the 7'' tubing wells. [PIRA-DOC-49dfe3d77907f27b-C002],全新井推广及两个工况能力均有实际引用直接支持。,"1. Petrobras决定所有新井采用光学传感技术
+引用ID：PIRA-DOC-49dfe3d77907f27b-C002
+完全支持ID：PIRA-DOC-49dfe3d77907f27b-C002
+“implement optical sensing technology in all of their new wells”。
+2. 原因包括其经验证可承受7英寸油管井的高振动
+引用ID：PIRA-DOC-49dfe3d77907f27b-C002
+完全支持ID：PIRA-DOC-49dfe3d77907f27b-C002
+“only proven technology…support the high vibration, produced by the 7'' tubing wells”。
+3. 原因包括其经验证可承受高温
+引用ID：PIRA-DOC-49dfe3d77907f27b-C002
+完全支持ID：PIRA-DOC-49dfe3d77907f27b-C002
+“and high temperature”是同句明确列出的另一工况。
+4. 光学传感是文中唯一经验证同时耐高振动和高温的技术
+引用ID：PIRA-DOC-49dfe3d77907f27b-C002
+完全支持ID：PIRA-DOC-49dfe3d77907f27b-C002
+原文明确限定“the only proven technology”且随后同时列high vibration和high temperature，支持联合条件下的唯一性。",AI,已采用AI评分,base_rag,PIRA-TEST-A610
+17,4153669694d0255e,低,4,1,1,1,1,"What did the energy minister, Edison Lobao, say about the revision of the country's oil law?",Edison Lobao stated that changes to the country's oil law will be designed to maintain the interest of foreign investors. [PIRA-DOC-5e36dfd48d03f17c-C001],人物表态与内容均由所引实际文本完整支持。,"1. Lobao称石油法修改将以维持外国投资者兴趣为设计目标
+引用ID：PIRA-DOC-5e36dfd48d03f17c-C001
+完全支持ID：PIRA-DOC-5e36dfd48d03f17c-C001
+“review of the country's oil law, where Lobao said changes will be designed in a way to maintain the interest of foreign investors”。",AI,已采用AI评分,base_rag,PIRA-TEST-A674
+18,69588e0c054ef257,低,4,2,2,2,2,"What did the energy minister, Edison Lobao, say about the revision of the country's oil law?",Energy minister Edison Lobao said that changes to the country's oil law will be designed to maintain the interest of foreign investors [PIRA-DOC-5e36dfd48d03f17c-C001].,能源部长身份和修法表态两个可核实陈述均由实际引用支持。,"1. Edison Lobao是文中能源部长
+引用ID：PIRA-DOC-5e36dfd48d03f17c-C001
+完全支持ID：PIRA-DOC-5e36dfd48d03f17c-C001
+“according to energy minister Edison Lobao”。
+2. Lobao称修法将保持外国投资者的兴趣
+引用ID：PIRA-DOC-5e36dfd48d03f17c-C001
+完全支持ID：PIRA-DOC-5e36dfd48d03f17c-C001
+“Lobao said changes will be designed…maintain the interest of foreign investors”。",AI,已采用AI评分,lora_rag,PIRA-TEST-A674
+19,acc5851cb8c75f31,高,4,1,1,1,1,Where the vessel Skandi Aker have its target operation ?,Skandi Aker is targeted primarily at the deepwater well intervention market [PIRA-DOC-250bc72a7132603e-C001].,实际所引资料完整明确目标市场。,"1. Skandi Aker主要针对深水井干预市场
+引用ID：PIRA-DOC-250bc72a7132603e-C001
+完全支持ID：PIRA-DOC-250bc72a7132603e-C001
+“Skandi Aker is targeted primarily at the deepwater well intervention market”。",AI,已采用AI评分,lora_rag,PIRA-TEST-A1129
+20,f1341228400f5052,高,4,1,1,2,1,Where the vessel Skandi Aker have its target operation ?,"The vessel Skandi Aker is targeted primarily at the deepwater well intervention market, as stated in [PIRA-DOC-250bc72a7132603e-C001]. Its target operations are thus in deepwater well intervention, specifically competing with mobile offshore drilling units in offshore oilfield services.",两个事实都在实际资料内；显式ID只附第一句，第二句的新事实MODUs竞争未另附引用。重复的深水井干预陈述去重。,"1. Skandi Aker主要针对深水井干预市场
+引用ID：PIRA-DOC-250bc72a7132603e-C001
+完全支持ID：PIRA-DOC-250bc72a7132603e-C001
+实际段落同句“targeted primarily at the deepwater well intervention market”。后句重复目标不另计。
+2. Skandi Aker将在海上油田服务中与移动式海上钻井装置竞争
+引用ID：无
+完全支持ID：无
+实际250bc段有“will compete directly with…MODUs”及“offshore intervention and oilfield services capability”，内容支持，但候选第二句未附ID，引用覆盖不计。",AI,已采用AI评分,base_rag,PIRA-TEST-A1129
+21,ec941d5f8798d0fb,低,4,2,2,2,2,Why is the Arctic expected to increase its anthropogenic noise?,"The Arctic is expected to increase its anthropogenic noise because the area is opening up to shipping, which is a major source of anthropogenic noise. [PIRA-DOC-43607eec08e95474-C001]",北极航运开放导致噪声增长，以及航运属于主要噪声源，均获所引实际段支持。,"1. 北极人为噪声预期增加是因为该地区向航运开放
+引用ID：PIRA-DOC-43607eec08e95474-C001
+完全支持ID：PIRA-DOC-43607eec08e95474-C001
+“noise is expected to increase include the Arctic, as the area opens up to shipping”。
+2. 航运是主要人为噪声来源之一
+引用ID：PIRA-DOC-43607eec08e95474-C001
+完全支持ID：PIRA-DOC-43607eec08e95474-C001
+“The main anthropogenic noise sources in the ocean include vessels”。",AI,已采用AI评分,base_rag,PIRA-TEST-B2223
+22,3f0eea8f00bd9d06,低,4,1,1,1,1,Why is the Arctic expected to increase its anthropogenic noise?,The Arctic is expected to increase its anthropogenic noise because the area is opening up to shipping [PIRA-DOC-43607eec08e95474-C001].,实际引用直接给出所答因果。,"1. 北极因向航运开放而预期增加人为噪声
+引用ID：PIRA-DOC-43607eec08e95474-C001
+完全支持ID：PIRA-DOC-43607eec08e95474-C001
+“Areas where anthropogenic noise is expected to increase include the Arctic, as the area opens up to shipping”。",AI,已采用AI评分,lora_rag,PIRA-TEST-B2223
+23,4c86c89bcc080147,中,2,1,0,1,0,Where will the main socioeconomic impacts of changes in erosion and sedimentation occur?,The main socioeconomic impacts of changes in erosion and sedimentation will occur in coastal zones where human occupation and economic activities are concentrated [PIRA-DOC-245549e0bda92358-C001].,实际所引245549段讨论人口经济驱动海岸占用及管理成本，没有明确主要影响集中于高占用/活动集中区。其他实际段落也未包含质量原文的high population density结论，只有背景性部分支持。,"1. 侵蚀沉积变化的主要社会经济影响会发生在人类占用和经济活动集中的沿岸
+引用ID：PIRA-DOC-245549e0bda92358-C001
+完全支持ID：无
+所引段只有“Economics and population growth commonly drive human occupation of the coastal zone”和沿岸管理成本，未断言主要影响的高密度区分布；不能用未实际给出的质量段末部代替。",AI,已采用AI评分,lora_rag,PIRA-TEST-B2392
+24,52f16f6739fb7d44,高,2,6,3,6,3,Where will the main socioeconomic impacts of changes in erosion and sedimentation occur?,"The main socioeconomic impacts of changes in erosion and sedimentation will occur in coastal zones with high human occupation, infrastructure, and economic activity, particularly where erosion and sedimentation alter shoreline positions or disrupt sediment supplies, affecting property, infrastructure, and ecosystem services [PIRA-DOC-245549e0bda92358-C001].",所引245549支持岸线变化相关设施受损和生态服务损失；主要影响集中区、沉积供应受阻及财产受损仅有部分或其他段背景，不能算所附ID完全支持。,"1. 主要社会经济影响集中在高人类占用、设施和经济活动的沿岸
+引用ID：PIRA-DOC-245549e0bda92358-C001
+完全支持ID：无
+“Economics and population growth…drive human occupation”只支持背景，没有主要影响集中于此类地区的明确结论。
+2. 侵蚀沉积变化可伴随岸线位置改变
+引用ID：PIRA-DOC-245549e0bda92358-C001
+完全支持ID：PIRA-DOC-245549e0bda92358-C001
+该段在“changes to erosion and sedimentation”语境讨论“coastal dynamics”及“changing shoreline or seabed position”，支持岸线改变。
+3. 侵蚀沉积变化会中断沉积物供应
+引用ID：PIRA-DOC-245549e0bda92358-C001
+完全支持ID：无
+所引段没有沉积供应中断机制；另一个136ad段说human activities中断供应、reduced sediment supply增强岸退，不能完全支持此处反向因果。
+4. 这些变化会影响财产
+引用ID：PIRA-DOC-245549e0bda92358-C001
+完全支持ID：无
+245549只明确管理成本与设施损坏，未明确property；property在实际4b95段中，但候选未引用该ID。
+5. 岸线变化可损坏基础设施或令其失效
+引用ID：PIRA-DOC-245549e0bda92358-C001
+完全支持ID：PIRA-DOC-245549e0bda92358-C001
+“infrastructure…damaged or lose function owing to changing shoreline or seabed position”。
+6. 侵蚀沉积变化可损失生态系统服务
+引用ID：PIRA-DOC-245549e0bda92358-C001
+完全支持ID：PIRA-DOC-245549e0bda92358-C001
+“such changes can lead to a loss of ecosystem services”。",AI,已采用AI评分,base_rag,PIRA-TEST-B2392
+25,2f62b12bfb98ea07,高,2,2,1,2,1,What happened to the number of exploration licences for seabed mining since 2015?,"Since 2015, the number of exploration licences for deepwater seabed mineral resources has increased significantly [PIRA-DOC-6c2b03a87e9745e4-C001].",实际引用完全支持显著增加，但未明确支持2015这个起算日期；拆开趋势和日期，日期链接不算完全支持。,"1. 深海海底矿产勘探许可证数量显著增加
+引用ID：PIRA-DOC-6c2b03a87e9745e4-C001
+完全支持ID：PIRA-DOC-6c2b03a87e9745e4-C001
+“exploration licences…number of which has increased significantly”。
+2. 上述增长的比较起点是2015年
+引用ID：PIRA-DOC-6c2b03a87e9745e4-C001
+完全支持ID：无
+实际引用只写“since the first Assessment”，开头引文2017a，未给2015起点；其余两实际片段不补足许可证时间依据。",AI,已采用AI评分,lora_rag,PIRA-TEST-B2017
+26,efb3f7527a773cdc,高,3,7,6,7,6,What happened to the number of exploration licences for seabed mining since 2015?,"The number of exploration licences for deepwater seabed mineral resources has increased significantly since 2015, with 30 contracts awarded by the International Seabed Authority (ISA) for polymetallic nodules, sulphides, and cobalt-rich ferromanganese crusts. [PIRA-DOC-6c2b03a87e9745e4-C001]",趋势和合同数量、授予机构、矿产对象明确支持；唯一未完全支持的是2015起算日期。,"1. 深海海底矿产勘探许可证数量显著增长
+引用ID：PIRA-DOC-6c2b03a87e9745e4-C001
+完全支持ID：PIRA-DOC-6c2b03a87e9745e4-C001
+“number of which has increased significantly”。
+2. 上述增长自2015年开始比较
+引用ID：PIRA-DOC-6c2b03a87e9745e4-C001
+完全支持ID：无
+实际文本为“since the first Assessment”，无2015的明确等同关系。
+3. 相关勘探合同数量为30份
+引用ID：PIRA-DOC-6c2b03a87e9745e4-C001
+完全支持ID：PIRA-DOC-6c2b03a87e9745e4-C001
+“the object of 30 contracts for exploration”。
+4. 这些合同由ISA授予
+引用ID：PIRA-DOC-6c2b03a87e9745e4-C001
+完全支持ID：PIRA-DOC-6c2b03a87e9745e4-C001
+“awarded by the International Seabed Authority (ISA)”。
+5. 合同对象包含多金属结核
+引用ID：PIRA-DOC-6c2b03a87e9745e4-C001
+完全支持ID：PIRA-DOC-6c2b03a87e9745e4-C001
+30份勘探合同对象列表明确含“polymetallic nodules”。
+6. 合同对象包含多金属硫化物
+引用ID：PIRA-DOC-6c2b03a87e9745e4-C001
+完全支持ID：PIRA-DOC-6c2b03a87e9745e4-C001
+同一合同对象列表明确含“polymetallic sulphides”。
+7. 合同对象包含富钴铁锰结壳
+引用ID：PIRA-DOC-6c2b03a87e9745e4-C001
+完全支持ID：PIRA-DOC-6c2b03a87e9745e4-C001
+同一合同对象列表明确含“cobalt-rich ferromanganese crusts”。",AI,已采用AI评分,base_rag,PIRA-TEST-B2017
+27,68f5fcabb1212aa0,高,2,4,2,4,2,What would be the destination of the LNG of the plant proposed by Petrobras and the UK's BG Group?,The destination of the LNG from the proposed floating plant is the domestic market during the dry season and export at other times [PIRA-DOC-28813627dc3a2d10-C001]. The LNG is sent to onshore gas grids via subsea pipelines [PIRA-DOC-ec052013ffb25d3f-C001].,第一引用支持两季去向；第二引用谈另一个再气化船项目且送岸的是气化后天然气，不能证明本液化厂LNG的管输和气网去向。,"1. 所提液化厂LNG旱季供应国内市场
+引用ID：PIRA-DOC-28813627dc3a2d10-C001
+完全支持ID：PIRA-DOC-28813627dc3a2d10-C001
+“LNG would be delivered to domestic terminals during the country's dry season”。
+2. 所提液化厂LNG其余时间出口
+引用ID：PIRA-DOC-28813627dc3a2d10-C001
+完全支持ID：PIRA-DOC-28813627dc3a2d10-C001
+“and exported at other times”。
+3. 该液化厂的LNG经海底管道输送
+引用ID：PIRA-DOC-ec052013ffb25d3f-C001
+完全支持ID：无
+所引段为Suez Neptune再气化船：“vaporize it into natural gas…sent ashore by subsea pipeline”，既非本厂也非液态LNG管输。
+4. 该液化厂LNG直接送至陆上天然气网
+引用ID：PIRA-DOC-ec052013ffb25d3f-C001
+完全支持ID：无
+“onshore gas grid”对应Golar Winter在Guanabara Bay的LNG import project，不能转作Petrobras/BG所提海上液化厂目的地。",AI,已采用AI评分,lora_rag,PIRA-TEST-A296
+28,14c8555c2d4218e8,高,3,3,2,3,2,What would be the destination of the LNG of the plant proposed by Petrobras and the UK's BG Group?,The destination of the LNG from the proposed Petrobras and BG Group plant would be domestic terminals during Brazil's dry season and export terminals at other times. [PIRA-DOC-28813627dc3a2d10-C001],国内终端及非旱季出口均直接支持；把出口具体写成export terminals没有实际段落完整支撑。,"1. 旱季LNG将送至巴西国内终端
+引用ID：PIRA-DOC-28813627dc3a2d10-C001
+完全支持ID：PIRA-DOC-28813627dc3a2d10-C001
+“delivered to domestic terminals during the country's dry season”。
+2. 其余时间LNG将出口
+引用ID：PIRA-DOC-28813627dc3a2d10-C001
+完全支持ID：PIRA-DOC-28813627dc3a2d10-C001
+“exported at other times”。
+3. 其余时间的具体目的地是export terminals
+引用ID：PIRA-DOC-28813627dc3a2d10-C001
+完全支持ID：无
+所引段未说明出口端终端设施，只有exported；出口事实不完全证明该新增终端描述。",AI,已采用AI评分,base_rag,PIRA-TEST-A296
+29,eed47c7ed8db69d8,中,4,1,1,1,1,What is the main use of mangrove mapped areas to government?,The main use of mangrove mapped areas to government is to determine the most suitable areas for the conservation and fishery of the crab Ucides cordatus [PIRA-DOC-2ecdce67384b4fbb-C001].,实际C001虽在末尾截断，但开头已明确地图识别该蟹保护和捕捞适宜区，足以支持回答的概括。,"1. 红树林地图可识别Ucides cordatus保护与捕捞适宜区。
+引用ID：PIRA-DOC-2ecdce67384b4fbb-C001
+完全支持ID：PIRA-DOC-2ecdce67384b4fbb-C001
+C001：‘determined and mapped the more suitable mangrove areas for the conservation and fishery of this crab’。",AI,已采用AI评分,lora_rag,PIRA-TEST-A1298
+30,0c450e8f20189604,中,3,3,2,3,2,What is the main use of mangrove mapped areas to government?,"The main use of mangrove mapped areas to government is for the conservation and management of commercial fisheries, specifically targeting the crab *Ucides cordatus*, by identifying suitable habitats near river mouths and farther away for different crab size and fishery use. [PIRA-DOC-2ecdce67384b4fbb-C001]",所引C001充分支持该蟹保护/捕捞制图和河口附近保护区；但捕捞区部分止于‘farther awa’，未提供远处蟹体型和捕捞使用程度，涉及两地差异的合并陈述只能部分支持。,"1. 地图用于Ucides cordatus的保护和渔业管理。
+引用ID：PIRA-DOC-2ecdce67384b4fbb-C001
+完全支持ID：PIRA-DOC-2ecdce67384b4fbb-C001
+C001：‘more suitable mangrove areas for the conservation and fishery of this crab’。
+2. 河口附近存在适宜保护的栖息地。
+引用ID：PIRA-DOC-2ecdce67384b4fbb-C001
+完全支持ID：PIRA-DOC-2ecdce67384b4fbb-C001
+C001：保护适宜区‘near to the river mouth’，并列出小蟹和低捕捞程度。
+3. 更远处的适宜栖息地对应不同的蟹体型与捕捞用途。
+引用ID：PIRA-DOC-2ecdce67384b4fbb-C001
+完全支持ID：无
+C001只显示捕捞适宜区位于‘farther awa’，其后截断；未展示远处蟹体型及捕捞使用程度，部分支持不计完全支持。",AI,已采用AI评分,base_rag,PIRA-TEST-A1298
+31,d20162dcf060c987,高,4,0,0,1,0,Which companies contributed with Petrobras in the development of the first installation of Electric Submersible Pump in an underwater well?,The supplied passages are insufficient to identify which companies contributed with Petrobras in the development of the first installation of an Electric Submersible Pump in an underwater well.,实际三段分别谈全电智能完井、人工举升方法和海上项目，均未列首例水下ESP安装合作公司。资料不足判断合理，但没有附引用。,"1. 所给材料不足以识别首例水下ESP安装的合作公司。
+引用ID：无
+完全支持ID：无
+实际dc70…C002谈2001/2003智能完井，07e…C001只列举升方法，f093…C003只概述项目；无合作公司名单。无引用故支持引用计0。",AI,已采用AI评分,base_rag,PIRA-TEST-A484
+32,cfb58171f0707939,高,4,1,1,1,1,Which companies contributed with Petrobras in the development of the first installation of Electric Submersible Pump in an underwater well?,The supplied passage does not provide information about which companies contributed with Petrobras in the development of the first installation of Electric Submersible Pump in an underwater well [PIRA-DOC-dc70cc22d46b463d-C002].,所引C002确未提供首例水下ESP合作公司，其他两段也没有，资料局限说明忠实。,"1. 所给段落未提供首例水下ESP安装的合作公司。
+引用ID：PIRA-DOC-dc70cc22d46b463d-C002
+完全支持ID：PIRA-DOC-dc70cc22d46b463d-C002
+C002仅述‘all-electric intelligent completion’的2001年陆上及2003年水下部署，没有ESP合作公司名单。",AI,已采用AI评分,lora_rag,PIRA-TEST-A484
+33,a64456cbee73e876,低,4,3,3,3,3,Why are warm-water-tolerant species of seaweeds replacing those that are intolerant to warmer water?,"Because of climate change, seawater temperatures are increasing, which causes cold-water species to decline and warm-water species to increase [PIRA-DOC-497d1f37baf890fd-C001].",C001的气候变化背景、升温影响及耐温种替代直接支持三项因果陈述。,"1. 气候变化背景下海水温度上升。
+引用ID：PIRA-DOC-497d1f37baf890fd-C001
+完全支持ID：PIRA-DOC-497d1f37baf890fd-C001
+C001标题‘Impacts of climate change’接‘Increase in seawater temperature’。
+2. 升温导致冷水海藻衰退。
+引用ID：PIRA-DOC-497d1f37baf890fd-C001
+完全支持ID：PIRA-DOC-497d1f37baf890fd-C001
+C001：温度影响冷水海藻‘reproduction and survival’，并报告‘Kelp die-offs’。
+3. 耐温种增加并替代冷水种。
+引用ID：PIRA-DOC-497d1f37baf890fd-C001
+完全支持ID：PIRA-DOC-497d1f37baf890fd-C001
+C001：‘warm-water-tolerant species replacing those that are intolerant of warmer water’。",AI,已采用AI评分,lora_rag,PIRA-TEST-B2053
+34,9d09dc3365207414,低,4,4,4,4,4,Why are warm-water-tolerant species of seaweeds replacing those that are intolerant to warmer water?,"Warm-water-tolerant seaweed species are replacing cold-water species because increasing seawater temperatures disrupt the reproductive regimes and survival of cold-water species like kelps, leading to their decline and replacement by species better adapted to warmer conditions [PIRA-DOC-497d1f37baf890fd-C001].",所引C001含繁殖敏感、存活受影响、海带死亡和耐温种替代，四项均充分支持。,"1. 升温干扰海带等冷水海藻的繁殖。
+引用ID：PIRA-DOC-497d1f37baf890fd-C001
+完全支持ID：PIRA-DOC-497d1f37baf890fd-C001
+C001：冷水海藻尤其海带‘reproductive regimes that are temperature-sensitive’。
+2. 升温影响冷水海藻存活。
+引用ID：PIRA-DOC-497d1f37baf890fd-C001
+完全支持ID：PIRA-DOC-497d1f37baf890fd-C001
+C001：‘Increase in seawater temperature affects their reproduction and survival’。
+3. 冷水种因而衰退。
+引用ID：PIRA-DOC-497d1f37baf890fd-C001
+完全支持ID：PIRA-DOC-497d1f37baf890fd-C001
+C001报告海带‘die-offs’及分布改变。
+4. 较适应暖水的种替代冷水种。
+引用ID：PIRA-DOC-497d1f37baf890fd-C001
+完全支持ID：PIRA-DOC-497d1f37baf890fd-C001
+C001：‘warm-water-tolerant species replacing’不耐暖水种。",AI,已采用AI评分,base_rag,PIRA-TEST-B2053
+35,639b695c2f5c67b1,低,4,3,3,3,3,On which vessel will the Hamworthy vaporizer system be installed?,"The Hamworthy vaporizer system will be installed on the 145,000 cu m LNG shuttle regasification vessel Suez Neptune [PIRA-DOC-ec052013ffb25d3f-C001].",C001第二句直接包含安装对象、船型与容量。,"1. Hamworthy汽化系统将安装在Suez Neptune。
+引用ID：PIRA-DOC-ec052013ffb25d3f-C001
+完全支持ID：PIRA-DOC-ec052013ffb25d3f-C001
+C001：‘vaporizer system to be installed on ... Suez Neptune’。
+2. Suez Neptune为LNG穿梭再气化船。
+引用ID：PIRA-DOC-ec052013ffb25d3f-C001
+完全支持ID：PIRA-DOC-ec052013ffb25d3f-C001
+C001：‘LNG shuttle regasification vessel (SRV) Suez Neptune’。
+3. 该船容量为145,000立方米。
+引用ID：PIRA-DOC-ec052013ffb25d3f-C001
+完全支持ID：PIRA-DOC-ec052013ffb25d3f-C001
+C001直接写‘145,000 cu m’。",AI,已采用AI评分,lora_rag,PIRA-TEST-A371
+36,1e30a1f96623a687,低,4,1,1,1,1,On which vessel will the Hamworthy vaporizer system be installed?,"The Hamworthy vaporizer system will be installed on the Suez Neptune.  
+[PIRA-DOC-ec052013ffb25d3f-C001]",原引用紧随答案，C001明确给出该安装对象。,"1. Hamworthy汽化系统将安装在Suez Neptune。
+引用ID：PIRA-DOC-ec052013ffb25d3f-C001
+完全支持ID：PIRA-DOC-ec052013ffb25d3f-C001
+C001：‘vaporizer system to be installed on ... Suez Neptune’。",AI,已采用AI评分,base_rag,PIRA-TEST-A371
+37,d68013023d9ed14b,高,3,8,3,4,3,What is the importance of public policies for oceanic area?,"Public policies for oceanic areas are essential for guiding rational resource planning, protecting ecosystems, ensuring coastal population well-being, and enabling participatory decision-making through co-management instruments. [PIRA-DOC-a6ac4f15765931e0-C001] [PIRA-DOC-8aa5166f4adce7ec-C002]",句末两个来源均附着于四项独立作用，计8个链接。C001完整支持前三项；C002确述参与式共同管理，但未说明海洋适用范围，第四项只部分支持。其他交叉来源不能支持相应论断。,"1. 海洋公共政策指导合理资源规划。
+引用ID：PIRA-DOC-a6ac4f15765931e0-C001, PIRA-DOC-8aa5166f4adce7ec-C002
+完全支持ID：PIRA-DOC-a6ac4f15765931e0-C001
+C001：‘guide the rational planning of resources of marine space’；C002谈共同管理安排，未直接说明海洋资源合理规划。
+2. 海洋公共政策保护生态系统。
+引用ID：PIRA-DOC-a6ac4f15765931e0-C001, PIRA-DOC-8aa5166f4adce7ec-C002
+完全支持ID：PIRA-DOC-a6ac4f15765931e0-C001
+C001：‘effective protection of ecosystems and resources’；C002未陈述生态保护结果。
+3. 海洋公共政策保障沿海居民福祉。
+引用ID：PIRA-DOC-a6ac4f15765931e0-C001, PIRA-DOC-8aa5166f4adce7ec-C002
+完全支持ID：PIRA-DOC-a6ac4f15765931e0-C001
+C001：‘ensuring the quality of coastal population life’；C002未指沿海居民生活质量。
+4. 海洋公共政策通过共同管理工具促进参与式决策。
+引用ID：PIRA-DOC-a6ac4f15765931e0-C001, PIRA-DOC-8aa5166f4adce7ec-C002
+完全支持ID：无
+C002称共同管理工具‘require participatory procedures’及决策场所，但内容仅明确Resex保护区，未给海洋适用范围；C001无此机制，故不算完全支持。",AI,已采用AI评分,base_rag,PIRA-TEST-A636
+38,92d0145ece7d816c,高,3,5,2,5,2,What is the importance of public policies for oceanic area?,"Public policies for oceanic areas are essential for guiding rational planning of marine resources, protecting ecosystems, and ensuring sustainable development [PIRA-DOC-a6ac4f15765931e0-C001]. They also provide a framework for co-management and participatory decision-making [PIRA-DOC-8aa5166f4adce7ec-C002].",C001完整支持规划和生态保护；可持续发展是宽泛推论。C002确谈共同管理与参与决策，但实际片段不能确认其海洋适用范围，相关两项仅部分支持。,"1. 海洋政策指导海洋资源合理规划。
+引用ID：PIRA-DOC-a6ac4f15765931e0-C001
+完全支持ID：PIRA-DOC-a6ac4f15765931e0-C001
+C001：‘guide the rational planning of resources of marine space’。
+2. 海洋政策保护生态系统。
+引用ID：PIRA-DOC-a6ac4f15765931e0-C001
+完全支持ID：PIRA-DOC-a6ac4f15765931e0-C001
+C001：‘effective protection of ecosystems and resources’。
+3. 海洋政策确保可持续发展。
+引用ID：PIRA-DOC-a6ac4f15765931e0-C001
+完全支持ID：无
+C001列具体资源规划、居民生活及生态保护目标，未给确保总体可持续发展的结论，属于部分概括。
+4. 海洋政策提供共同管理框架。
+引用ID：PIRA-DOC-8aa5166f4adce7ec-C002
+完全支持ID：无
+C002有Resex共同管理‘institutional framework’，但片段没有海洋政策范围，部分支持不计完全支持。
+5. 海洋政策提供参与式决策框架。
+引用ID：PIRA-DOC-8aa5166f4adce7ec-C002
+完全支持ID：无
+C002有‘participatory procedures’和决策场所，但未说明其海洋范围，部分支持。",AI,已采用AI评分,lora_rag,PIRA-TEST-A636
+39,378ff309dfb0dfb6,低,4,5,5,5,5,"After Petrobras' production tower in Campo de Garoupa fell and broke, the company employed a provisional early production system to replace this production tower. Which structures of the previous production system did this interim system benefit from?","The interim production system benefited from the seafloor pipeline, meter, loading tower, and processing ship (Presidente Prudente Moraes) from the original production system.  
+[Citation: PIRA-DOC-0a22cce6f9d013f9-C001]",C001完整列举四类复用设施及处理船名称；[Citation: ID]仍为可识别的原引用。,"1. 临时系统复用原海底管道。
+引用ID：PIRA-DOC-0a22cce6f9d013f9-C001
+完全支持ID：PIRA-DOC-0a22cce6f9d013f9-C001
+C001：‘uses the seafloor pipe line ... remaining from the original production system’。
+2. 临时系统复用原计量器。
+引用ID：PIRA-DOC-0a22cce6f9d013f9-C001
+完全支持ID：PIRA-DOC-0a22cce6f9d013f9-C001
+C001复用清单列‘meter’。
+3. 临时系统复用原装载塔。
+引用ID：PIRA-DOC-0a22cce6f9d013f9-C001
+完全支持ID：PIRA-DOC-0a22cce6f9d013f9-C001
+C001复用清单列‘loading tower’。
+4. 临时系统复用原处理船。
+引用ID：PIRA-DOC-0a22cce6f9d013f9-C001
+完全支持ID：PIRA-DOC-0a22cce6f9d013f9-C001
+C001复用清单列‘processing ship’。
+5. 该处理船名为Presidente Prudente Moraes。
+引用ID：PIRA-DOC-0a22cce6f9d013f9-C001
+完全支持ID：PIRA-DOC-0a22cce6f9d013f9-C001
+C001：‘processing ship (Presidente Prudente Moraes)’。",AI,已采用AI评分,base_rag,PIRA-TEST-A583
+40,655c97ac6cecca29,低,4,4,4,4,4,"After Petrobras' production tower in Campo de Garoupa fell and broke, the company employed a provisional early production system to replace this production tower. Which structures of the previous production system did this interim system benefit from?","The interim system benefited from the seafloor pipeline, meter, loading tower, and processing ship from the original system [PIRA-DOC-0a22cce6f9d013f9-C001].",同一引文附着于四个可分别核实的复用设施，各被C001明确支持。,"1. 临时系统复用原海底管道。
+引用ID：PIRA-DOC-0a22cce6f9d013f9-C001
+完全支持ID：PIRA-DOC-0a22cce6f9d013f9-C001
+C001：‘seafloor pipe line’留自原系统。
+2. 临时系统复用原计量器。
+引用ID：PIRA-DOC-0a22cce6f9d013f9-C001
+完全支持ID：PIRA-DOC-0a22cce6f9d013f9-C001
+C001：‘meter’留自原系统。
+3. 临时系统复用原装载塔。
+引用ID：PIRA-DOC-0a22cce6f9d013f9-C001
+完全支持ID：PIRA-DOC-0a22cce6f9d013f9-C001
+C001：‘loading tower’留自原系统。
+4. 临时系统复用原处理船。
+引用ID：PIRA-DOC-0a22cce6f9d013f9-C001
+完全支持ID：PIRA-DOC-0a22cce6f9d013f9-C001
+C001：‘processing ship ... remaining from the original production system’。",AI,已采用AI评分,lora_rag,PIRA-TEST-A583
+41,781d3835738fd2e6,高,2,2,1,2,1,What was considered to evaluate the model's capacity?,The model's capability was evaluated by comparing simulation results with field observations in an estuary region in Brazil [PIRA-DOC-efc99a9ebacebbc0-C001].,C001明确巴西河口评价场景，但不含实地观测比较。其他实际段落谈吸力锚与FPSO腐蚀，也不能补足这一方法。,"1. 模型在巴西一个河口地区进行能力评价。
+引用ID：PIRA-DOC-efc99a9ebacebbc0-C001
+完全支持ID：PIRA-DOC-efc99a9ebacebbc0-C001
+C001：‘To evaluate the capabilities ... consider an estuary region in Brazil’。
+2. 评价通过比较模拟结果和现场观测进行。
+引用ID：PIRA-DOC-efc99a9ebacebbc0-C001
+完全支持ID：无
+C001说模拟显示水动力行为与水质参数效应，未提‘field observations’或比较过程。",AI,已采用AI评分,lora_rag,PIRA-TEST-A1393
+42,9169ff801a9fba85,中,4,4,4,4,4,What was considered to evaluate the model's capacity?,"The model's capacity was evaluated by simulating hydrodynamic behaviors and water quality parameters in a complex tidal system comprising extensive mangrove flats, using a shallow water hydrodynamics model [PIRA-DOC-efc99a9ebacebbc0-C001].",所引C001包含全部方法与系统描述；评价地点遗漏属于答题完整性问题。,"1. 使用浅水水动力模型。
+引用ID：PIRA-DOC-efc99a9ebacebbc0-C001
+完全支持ID：PIRA-DOC-efc99a9ebacebbc0-C001
+C001：‘use a shallow water hydrodynamics model’。
+2. 模拟水动力行为用于展示模型能力。
+引用ID：PIRA-DOC-efc99a9ebacebbc0-C001
+完全支持ID：PIRA-DOC-efc99a9ebacebbc0-C001
+C001：‘simulations carried out show the hydrodynamic behaviors’。
+3. 模拟涉及水质参数。
+引用ID：PIRA-DOC-efc99a9ebacebbc0-C001
+完全支持ID：PIRA-DOC-efc99a9ebacebbc0-C001
+C001：‘effects related to the water quality parameters’。
+4. 研究系统为具有广泛红树林滩地的复杂潮汐系统。
+引用ID：PIRA-DOC-efc99a9ebacebbc0-C001
+完全支持ID：PIRA-DOC-efc99a9ebacebbc0-C001
+C001：‘complex tidal system comprised of extensive mangrove flats’。",AI,已采用AI评分,base_rag,PIRA-TEST-A1393
+43,3cdcab48bf54a908,高,0,0,0,1,0,What measurements were used to improve the quality of the images obtained by the Permanent Reservoir Monitoring system?,The supplied passages are insufficient to identify specific measurements used to improve image quality in the Permanent Reservoir Monitoring system.,实际C001明确提供了hydrophone和geophone measurements，并说明成像改善和PRM应用；一概称无法识别测量与已给材料冲突。,"1. 给定资料不足以识别PRM改善成像的具体测量。
+引用ID：无
+完全支持ID：无
+实际7800…C001第二句列‘seabed hydrophone and geophone measurements’，末句连到PRM试点，足够回答。无引用，链接数0。",AI,已采用AI评分,base_rag,PIRA-TEST-A1107
+44,bb4587b8eab9efcf,高,0,1,0,1,0,What measurements were used to improve the quality of the images obtained by the Permanent Reservoir Monitoring system?,The supplied passage is insufficient to answer this question [PIRA-DOC-7800e42383e0652a-C001].,被引用的C001本身就完整写明测量种类并关联PRM，不能支持资料不足的说法。,"1. 所给段落不足以回答所用测量。
+引用ID：PIRA-DOC-7800e42383e0652a-C001
+完全支持ID：无
+C001明确‘hydrophone and geophone measurements’，说明波场分离、成像改善及PRM应用，直接反驳资料不足判断。",AI,已采用AI评分,lora_rag,PIRA-TEST-A1107
+45,6219835968386b4c,中,3,7,5,7,5,What happens when there is and when there is no dredging in a channel?,"When dredging occurs, it maintains channel depth and reduces siltation, influencing salinity, current velocity, and suspended sediment concentration. When dredging stops, the channel silts rapidly, with bed evolution stabilizing after about 60 days [PIRA-DOC-448edc68eaf0a67d-C002].",段末C002视为两句共同来源。该源直接支持三种物理参数变化及停止后快速淤积、60天稳定；维持深度和减少淤积只获间接支持。另一实际来源谈Santos疏浚维持深度，但未被引用，不能补作有效引用。,"1. 疏浚维持航道深度。
+引用ID：PIRA-DOC-448edc68eaf0a67d-C002
+完全支持ID：无
+所引C002未直接述维护深度；实际8a770…C001谈另一Santos航道‘maintained only by dredging’，但该ID未附着于回答。
+2. 疏浚减少淤积。
+引用ID：PIRA-DOC-448edc68eaf0a67d-C002
+完全支持ID：无
+C002仅明确停止后快速淤积，未直接比较疏浚期间淤积量，属间接推论。
+3. 疏浚影响盐度。
+引用ID：PIRA-DOC-448edc68eaf0a67d-C002
+完全支持ID：PIRA-DOC-448edc68eaf0a67d-C002
+C002：‘significant variations ... salinity’。
+4. 疏浚影响流速。
+引用ID：PIRA-DOC-448edc68eaf0a67d-C002
+完全支持ID：PIRA-DOC-448edc68eaf0a67d-C002
+C002列‘current velocity’。
+5. 疏浚影响悬浮泥沙浓度。
+引用ID：PIRA-DOC-448edc68eaf0a67d-C002
+完全支持ID：PIRA-DOC-448edc68eaf0a67d-C002
+C002列‘suspended sediment concentration’。
+6. 停止疏浚后航道迅速淤积。
+引用ID：PIRA-DOC-448edc68eaf0a67d-C002
+完全支持ID：PIRA-DOC-448edc68eaf0a67d-C002
+C002：‘fast siltation ... right after dredging stops’。
+7. 河床演变约60天后稳定。
+引用ID：PIRA-DOC-448edc68eaf0a67d-C002
+完全支持ID：PIRA-DOC-448edc68eaf0a67d-C002
+C002床面演变结果‘stabilizing the variations after a 60-day period’。",AI,已采用AI评分,base_rag,PIRA-TEST-A1488
+46,5ea20713e179a444,中,3,3,2,3,2,What happens when there is and when there is no dredging in a channel?,"When dredging occurs, the channel remains open and functional [PIRA-DOC-448edc68eaf0a67d-C002]. When dredging stops, the channel silts up rapidly, with the siltation stabilizing after about 60 days [PIRA-DOC-448edc68eaf0a67d-C002].",快速淤积和60天稳定有直接支持；所引C002未直接说疏浚保证航道始终开放可用，另一个实际来源只谈深度维护，故该概括部分支持。,"1. 疏浚使航道保持开放和可用。
+引用ID：PIRA-DOC-448edc68eaf0a67d-C002
+完全支持ID：无
+C002述物理参数变化和停止后淤积，没有直接给航道开放/功能状态；另一实际8a770…C001深度维护只是部分背景且未被引用。
+2. 停止疏浚后航道迅速淤积。
+引用ID：PIRA-DOC-448edc68eaf0a67d-C002
+完全支持ID：PIRA-DOC-448edc68eaf0a67d-C002
+C002：‘fast siltation ... right after dredging stops’。
+3. 淤积变化约60天后趋稳。
+引用ID：PIRA-DOC-448edc68eaf0a67d-C002
+完全支持ID：PIRA-DOC-448edc68eaf0a67d-C002
+C002：‘stabilizing the variations after a 60-day period’。",AI,已采用AI评分,lora_rag,PIRA-TEST-A1488
+47,6b9aa9a87949b69b,高,4,4,1,4,1,How were ambiguities in the oil detection resolved?,"Ambiguities in oil detection were resolved with ancillary information such as known pollution sources, aerial inspection data, and helicopter-based aerial photos [PIRA-DOC-b26a558236624de0-C001].",回答全部事实可在实际材料中找到，但被引b26…只泛称辅助信息，没有列三种具体信息；这些细节位于未被引的bdccc…C001。忠实性充分，引用定位不足。,"1. 借助辅助信息消除油检测歧义。
+引用ID：PIRA-DOC-b26a558236624de0-C001
+完全支持ID：PIRA-DOC-b26a558236624de0-C001
+b26…C001：‘Ambiguities ... resolved with the aid of ancillary information’。
+2. 所用辅助信息包括已知污染源位置。
+引用ID：PIRA-DOC-b26a558236624de0-C001
+完全支持ID：无
+b26…未列信息类型；实际bdccc…C001有‘location of knows sources of pollution’，但未被引用。
+3. 所用辅助信息包括航空检查数据。
+引用ID：PIRA-DOC-b26a558236624de0-C001
+完全支持ID：无
+具体‘aerial inspection information’仅在实际bdccc…C001，所引b26…没有。
+4. 所用辅助信息包括直升机拍摄的航片。
+引用ID：PIRA-DOC-b26a558236624de0-C001
+完全支持ID：无
+具体‘aerial photos taken from helicopters’仅在实际bdccc…C001，所引b26…没有。",AI,已采用AI评分,lora_rag,PIRA-TEST-A346
+48,25a08d113292a975,高,4,9,5,6,4,How were ambiguities in the oil detection resolved?,"Ambiguities in the oil detection were resolved with the aid of ancillary information in a GIS environment, including location of known pollution sources, aerial inspection data, and OPS-controlled aerial photos taken from helicopters [PIRA-DOC-b26a558236624de0-C001]. Additionally, ancillary information such as aerial inspection and helicopter photos was used to clarify oil detection ambiguities [PIRA-DOC-bdccc11ae1f4895f-C001].",两份实际材料合起来支持全部回答；但第一句所引b26…只支持辅助信息/GIS，不支持具体三类信息与OPS属性。重复论断按同论断同ID去重，并保留第二句新增bdccc…链接。,"1. 辅助信息用于消除油检测歧义。
+引用ID：PIRA-DOC-b26a558236624de0-C001, PIRA-DOC-bdccc11ae1f4895f-C001
+完全支持ID：PIRA-DOC-b26a558236624de0-C001, PIRA-DOC-bdccc11ae1f4895f-C001
+两源均明确‘Ambiguities ... resolved with the aid of ancillary information’。
+2. 辅助信息在GIS环境整合。
+引用ID：PIRA-DOC-b26a558236624de0-C001
+完全支持ID：PIRA-DOC-b26a558236624de0-C001
+b26…C001：‘in a GIS (Geographic Information System) environment’。
+3. 辅助信息包括已知污染源位置。
+引用ID：PIRA-DOC-b26a558236624de0-C001
+完全支持ID：无
+此细节在实际bdccc…C001，但第一句仅引用b26…，后者没有列出。
+4. 航空检查信息帮助消除歧义。
+引用ID：PIRA-DOC-b26a558236624de0-C001, PIRA-DOC-bdccc11ae1f4895f-C001
+完全支持ID：PIRA-DOC-bdccc11ae1f4895f-C001
+bdccc…C001明确‘aerial inspection information’，b26…未列具体类型。
+5. 直升机航片帮助消除歧义。
+引用ID：PIRA-DOC-b26a558236624de0-C001, PIRA-DOC-bdccc11ae1f4895f-C001
+完全支持ID：PIRA-DOC-bdccc11ae1f4895f-C001
+bdccc…C001明确‘aerial photos taken from helicopters’，b26…没有。
+6. 航片具有OPS控制属性。
+引用ID：PIRA-DOC-b26a558236624de0-C001
+完全支持ID：无
+‘OPS controlled’在实际bdccc…C001中，但携带该属性的第一句仅引用b26…；第二句未重复OPS属性。",AI,已采用AI评分,base_rag,PIRA-TEST-A346
+49,5fa1db01317ab9cc,高,4,3,3,3,3,"Apart from Riser, what other monitoring systems are installed?","The monitoring systems installed are the oceanographic buoy, Acoustic Doppler Current Profiles (ADCP), and a positioning system (PETRONAV) [PIRA-DOC-2a49b8ef99c91a8a-C001].",实际C001明确三套系统；末尾截断发生在同步说明之后，不影响三项支持。,"1. 安装海洋浮标。
+引用ID：PIRA-DOC-2a49b8ef99c91a8a-C001
+完全支持ID：PIRA-DOC-2a49b8ef99c91a8a-C001
+C001：‘other monitoring systems installed are the oceanographic buoy’。
+2. 安装ADCP。
+引用ID：PIRA-DOC-2a49b8ef99c91a8a-C001
+完全支持ID：PIRA-DOC-2a49b8ef99c91a8a-C001
+C001：‘Acoustic Doppler Current Profiles (ADCP)’。
+3. 安装PETRONAV定位系统。
+引用ID：PIRA-DOC-2a49b8ef99c91a8a-C001
+完全支持ID：PIRA-DOC-2a49b8ef99c91a8a-C001
+C001：‘There is a positioning system (PETRONAV)’。",AI,已采用AI评分,lora_rag,PIRA-TEST-A536
+50,9b6db1874926ec1e,高,4,11,11,11,11,"Apart from Riser, what other monitoring systems are installed?","Apart from the riser, the monitoring systems installed include an oceanographic buoy (to measure waves, surface current, wind, and pressures) and Acoustic Doppler Current Profilers (ADCP) to measure current velocity and direction along the water column. Additionally, a positioning system (PETRONAV) with GPS and inertial sensors is installed. [PIRA-DOC-2a49b8ef99c91a8a-C001]",段末引文视作两句共同来源，C001充分支持三种系统、浮标四类测量、ADCP两种测量与PETRONAV两个组件。,"1. 除立管外安装海洋浮标。
+引用ID：PIRA-DOC-2a49b8ef99c91a8a-C001
+完全支持ID：PIRA-DOC-2a49b8ef99c91a8a-C001
+C001明确‘oceanographic buoy’。
+2. 浮标测量波浪。
+引用ID：PIRA-DOC-2a49b8ef99c91a8a-C001
+完全支持ID：PIRA-DOC-2a49b8ef99c91a8a-C001
+C001：‘to measure waves (height, period and direction)’。
+3. 浮标测量表面海流。
+引用ID：PIRA-DOC-2a49b8ef99c91a8a-C001
+完全支持ID：PIRA-DOC-2a49b8ef99c91a8a-C001
+C001列‘surface current (value and direction)’。
+4. 浮标测量风。
+引用ID：PIRA-DOC-2a49b8ef99c91a8a-C001
+完全支持ID：PIRA-DOC-2a49b8ef99c91a8a-C001
+C001列‘wind’。
+5. 浮标测量压力。
+引用ID：PIRA-DOC-2a49b8ef99c91a8a-C001
+完全支持ID：PIRA-DOC-2a49b8ef99c91a8a-C001
+C001列‘pressures’。
+6. 安装ADCP。
+引用ID：PIRA-DOC-2a49b8ef99c91a8a-C001
+完全支持ID：PIRA-DOC-2a49b8ef99c91a8a-C001
+C001列‘Acoustic Doppler Current Profiles (ADCP)’。
+7. ADCP测量水柱内流速。
+引用ID：PIRA-DOC-2a49b8ef99c91a8a-C001
+完全支持ID：PIRA-DOC-2a49b8ef99c91a8a-C001
+C001：‘current (velocity ... ) along the water column’。
+8. ADCP测量水柱内流向。
+引用ID：PIRA-DOC-2a49b8ef99c91a8a-C001
+完全支持ID：PIRA-DOC-2a49b8ef99c91a8a-C001
+C001：‘current (... direction) along the water column’。
+9. 安装PETRONAV定位系统。
+引用ID：PIRA-DOC-2a49b8ef99c91a8a-C001
+完全支持ID：PIRA-DOC-2a49b8ef99c91a8a-C001
+C001：‘There is a positioning system (PETRONAV)’。
+10. PETRONAV含GPS接收机。
+引用ID：PIRA-DOC-2a49b8ef99c91a8a-C001
+完全支持ID：PIRA-DOC-2a49b8ef99c91a8a-C001
+C001：‘consisting of GPS receiver’。
+11. PETRONAV含惯性传感器。
+引用ID：PIRA-DOC-2a49b8ef99c91a8a-C001
+完全支持ID：PIRA-DOC-2a49b8ef99c91a8a-C001
+C001：GPS‘blended with inertial sensors’。",AI,已采用AI评分,base_rag,PIRA-TEST-A536
+51,fd219c9f81f1cbc2,高,2,27,7,9,5,What are the major threats to marine biodiversity?,"The major threats to marine biodiversity are overexploitation, habitat loss and degradation, unsustainable fishing activities, aquaculture, coastal urbanization, climate warming, harmful algal blooms, and invasive alien species. [PIRA-DOC-cd382f7c5e1e6492-C002], [PIRA-DOC-99f0a24e850771d8-C001], [PIRA-DOC-bd99e69624f4192b-C003]",9个独立威胁各带段末3个来源，共27链接；过度开发、栖息地丧失/退化、不持续捕捞和入侵种有完整来源支持。其余列项或仅为截断背景，或谈人类健康，或只述影响而未确认主要生物多样性威胁。,"1. 过度开发是海洋生物多样性的主要威胁。
+引用ID：PIRA-DOC-cd382f7c5e1e6492-C002, PIRA-DOC-99f0a24e850771d8-C001, PIRA-DOC-bd99e69624f4192b-C003
+完全支持ID：PIRA-DOC-cd382f7c5e1e6492-C002, PIRA-DOC-bd99e69624f4192b-C003
+bd99…C003明确‘Overexploitation ... major threats’；cd382…C002高水平捕捞‘rapidly undermined the biodiversity’并称主要挑战；99f…未谈此项。
+2. 栖息地丧失是主要威胁。
+引用ID：PIRA-DOC-cd382f7c5e1e6492-C002, PIRA-DOC-99f0a24e850771d8-C001, PIRA-DOC-bd99e69624f4192b-C003
+完全支持ID：PIRA-DOC-bd99e69624f4192b-C003
+bd99…C003明确‘habitat loss ... major threats’；其余源未明确此项。
+3. 栖息地退化是主要威胁。
+引用ID：PIRA-DOC-cd382f7c5e1e6492-C002, PIRA-DOC-99f0a24e850771d8-C001, PIRA-DOC-bd99e69624f4192b-C003
+完全支持ID：PIRA-DOC-bd99e69624f4192b-C003
+bd99…C003明确‘habitat ... degradation ... major threats’。
+4. 不持续捕捞是主要威胁。
+引用ID：PIRA-DOC-cd382f7c5e1e6492-C002, PIRA-DOC-99f0a24e850771d8-C001, PIRA-DOC-bd99e69624f4192b-C003
+完全支持ID：PIRA-DOC-cd382f7c5e1e6492-C002, PIRA-DOC-bd99e69624f4192b-C003
+cd382…C002述高捕捞破坏生物多样性与缺管理风险；bd99…C003述过度开发及有效渔业管理逆转影响。99f…无此项。
+5. 水产养殖是海洋生物多样性的主要威胁。
+引用ID：PIRA-DOC-cd382f7c5e1e6492-C002, PIRA-DOC-99f0a24e850771d8-C001, PIRA-DOC-bd99e69624f4192b-C003
+完全支持ID：无
+cd382…C002开头为截断的‘stal land uses, fishing activities and aquaculture’，缺先行谓语，后接挑战；不足完整确认所有水产养殖为主要威胁。其他两源无此项。
+6. 沿海城市化是主要生物多样性威胁。
+引用ID：PIRA-DOC-cd382f7c5e1e6492-C002, PIRA-DOC-99f0a24e850771d8-C001, PIRA-DOC-bd99e69624f4192b-C003
+完全支持ID：无
+99f…C001述城市化驱动沿海水域变化和外来种增加，未直接定性为主要生物多样性威胁，仅部分支持；其他源未完整说明。
+7. 气候暖化是主要生物多样性威胁。
+引用ID：PIRA-DOC-cd382f7c5e1e6492-C002, PIRA-DOC-99f0a24e850771d8-C001, PIRA-DOC-bd99e69624f4192b-C003
+完全支持ID：无
+bd99…C003只说气候变化影响‘more apparent’，未明确主要威胁程度；99f…C001暖化段讨论病原体和人类健康，均属部分或不匹配支持。
+8. 有害藻华是主要海洋生物多样性威胁。
+引用ID：PIRA-DOC-cd382f7c5e1e6492-C002, PIRA-DOC-99f0a24e850771d8-C001, PIRA-DOC-bd99e69624f4192b-C003
+完全支持ID：无
+99f…C001是在‘threats to human health’范围谈一些区域有害藻华增加，不能直接支持主要生物多样性威胁；其余无此项。
+9. 外来入侵种是主要海洋生态威胁。
+引用ID：PIRA-DOC-cd382f7c5e1e6492-C002, PIRA-DOC-99f0a24e850771d8-C001, PIRA-DOC-bd99e69624f4192b-C003
+完全支持ID：PIRA-DOC-99f0a24e850771d8-C001
+99f…C001明确入侵种‘one of the major threats to global marine ecosystems’，其他源无此项。",AI,已采用AI评分,base_rag,PIRA-TEST-B2287
+52,ed964d5359b51521,高,3,7,6,7,6,What are the major threats to marine biodiversity?,"Overexploitation, habitat loss and degradation, and pollution are major threats to marine biodiversity [PIRA-DOC-bd99e69624f4192b-C003]. Seabed mining and hydrocarbon extraction pose major threats to biodiversity in areas beyond national jurisdiction [PIRA-DOC-cd382f7c5e1e6492-C002]. Invasive alien species are a major threat to marine ecosystems [PIRA-DOC-99f0a24e850771d8-C001].",六项论断有对应支持；污染一项却引用明确称其不显著的段落。采矿/油气为潜在重大影响，回答的威胁表述与风险语气相容。,"1. 过度开发是主要威胁。
+引用ID：PIRA-DOC-bd99e69624f4192b-C003
+完全支持ID：PIRA-DOC-bd99e69624f4192b-C003
+C003：‘Overexploitation ... major threats to marine fish biodiversity’。
+2. 栖息地丧失是主要威胁。
+引用ID：PIRA-DOC-bd99e69624f4192b-C003
+完全支持ID：PIRA-DOC-bd99e69624f4192b-C003
+C003明确‘habitat loss’。
+3. 栖息地退化是主要威胁。
+引用ID：PIRA-DOC-bd99e69624f4192b-C003
+完全支持ID：PIRA-DOC-bd99e69624f4192b-C003
+C003明确‘habitat ... degradation’。
+4. 污染是海洋生物多样性的主要威胁。
+引用ID：PIRA-DOC-bd99e69624f4192b-C003
+完全支持ID：无
+C003反而说‘pollution was not considered a significant threat’，与用该源支持主要威胁相冲突；其他实际源未补充污染结论。
+5. 海底采矿对国家管辖范围外生物多样性构成重大威胁。
+引用ID：PIRA-DOC-cd382f7c5e1e6492-C002
+完全支持ID：PIRA-DOC-cd382f7c5e1e6492-C002
+C002述常在国家管辖外的海山，继而称开放海洋‘seabed mining’有‘potential ... major impacts’，缺管理可破坏多样性。
+6. 油气开采对国家管辖范围外生物多样性构成重大威胁。
+引用ID：PIRA-DOC-cd382f7c5e1e6492-C002
+完全支持ID：PIRA-DOC-cd382f7c5e1e6492-C002
+同一C002列‘hydrocarbon extraction’扩张及潜在重大影响/毁坏风险。
+7. 外来入侵种是海洋生态系统的主要威胁。
+引用ID：PIRA-DOC-99f0a24e850771d8-C001
+完全支持ID：PIRA-DOC-99f0a24e850771d8-C001
+C001：‘invasive alien species ... one of the major threats to global marine ecosystems’。",AI,已采用AI评分,lora_rag,PIRA-TEST-B2287
+53,fa090b2b510227a2,高,4,0,0,1,0,How will the Brazilian population be benefited with the early production of petroleum?,The supplied passages are insufficient to state how the Brazilian population will be benefited by the early production of petroleum.,实际材料分别为沿海人口、Petrobras生产系统概览及海底设备降资本支出，没有说明巴西人口如何因提前产油受益。合理说明资料局限，未附引文。,"1. 给定资料不足以说明巴西人口从提前产油得到何种益处。
+引用ID：无
+完全支持ID：无
+96df…C001谈沿海人口，327e…C001仅概述早期/永久生产系统，9914…C001谈设备标准化和CAPEX；均无满足能源需求或人口受益结论。",AI,已采用AI评分,base_rag,PIRA-TEST-A232
+54,09a7701c191b235d,高,4,1,1,1,1,How will the Brazilian population be benefited with the early production of petroleum?,The supplied passage is insufficient to determine how the Brazilian population will benefit from the early production of petroleum [PIRA-DOC-327efc3302b4fabd-C001].,所引327e…C001只给生产系统及工程能力概览，未给居民获益；其他实际段落也不足以回答，说明忠实。,"1. 所给段落不足以判断巴西人口如何从提前产油受益。
+引用ID：PIRA-DOC-327efc3302b4fabd-C001
+完全支持ID：PIRA-DOC-327efc3302b4fabd-C001
+C001仅称‘panoramic view’、early/permanent production systems、工程能力及公司表现预测，没有人口受益或能源需求结论。",AI,已采用AI评分,lora_rag,PIRA-TEST-A232
+55,9249128f8a54b58a,低,4,2,2,2,2,What is SAASS and what was it developed for?,SAASS is an autonomous system for the acquisition of submarine signals developed for Petrobras [PIRA-DOC-eaa2876b39e4d680-C001].,两项陈述均由实际C001直接支持。,"1. SAASS是自主海底信号采集系统
+引用ID：PIRA-DOC-eaa2876b39e4d680-C001
+完全支持ID：PIRA-DOC-eaa2876b39e4d680-C001
+原文“SAASS, an autonomous system for the acquisition of submarine signals”。
+2. SAASS为Petrobras开发
+引用ID：PIRA-DOC-eaa2876b39e4d680-C001
+完全支持ID：PIRA-DOC-eaa2876b39e4d680-C001
+原文“needs ... of Petrobras ... recorder was developed”。",AI,已采用AI评分,lora_rag,PIRA-TEST-A538
+56,1e348d09ee79cd73,高,3,8,7,8,7,What is SAASS and what was it developed for?,"SAASS is an autonomous acoustic recorder developed for Petrobras, a Brazilian oil exploration company, to acquire submarine signals. It was developed to meet the needs of an acoustic monitoring program, focusing on development period, cost, and technical requirements for oil exploration applications. [PIRA-DOC-eaa2876b39e4d680-C001]",主要事实均有实际C001支撑，末尾将应用限定为油气勘探属于超出原文的推断。,"1. SAASS是自主声学记录器
+引用ID：PIRA-DOC-eaa2876b39e4d680-C001
+完全支持ID：PIRA-DOC-eaa2876b39e4d680-C001
+“an acoustic recorder ... SAASS, an autonomous system”。
+2. SAASS为Petrobras开发
+引用ID：PIRA-DOC-eaa2876b39e4d680-C001
+完全支持ID：PIRA-DOC-eaa2876b39e4d680-C001
+“To meet the needs ... of Petrobras ... developed”。
+3. Petrobras是巴西石油勘探公司
+引用ID：PIRA-DOC-eaa2876b39e4d680-C001
+完全支持ID：PIRA-DOC-eaa2876b39e4d680-C001
+“Petrobras, a Brazilian oil exploration company”。
+4. SAASS采集海底信号
+引用ID：PIRA-DOC-eaa2876b39e4d680-C001
+完全支持ID：PIRA-DOC-eaa2876b39e4d680-C001
+“acquisition of submarine signals”。
+5. 开发是为了声学监测计划
+引用ID：PIRA-DOC-eaa2876b39e4d680-C001
+完全支持ID：PIRA-DOC-eaa2876b39e4d680-C001
+“needs of an acoustic monitoring program”。
+6. 开发考虑开发周期
+引用ID：PIRA-DOC-eaa2876b39e4d680-C001
+完全支持ID：PIRA-DOC-eaa2876b39e4d680-C001
+“main goal, the development period”。
+7. 开发考虑成本
+引用ID：PIRA-DOC-eaa2876b39e4d680-C001
+完全支持ID：PIRA-DOC-eaa2876b39e4d680-C001
+“and its cost”。
+8. 技术要求针对油气勘探应用
+引用ID：PIRA-DOC-eaa2876b39e4d680-C001
+完全支持ID：无
+原文只说“technical requirements for that application”，指声学监测计划；未明确是勘探应用。",AI,已采用AI评分,base_rag,PIRA-TEST-A538
+57,b11a8478a32ac55e,高,4,7,7,7,7,How to deal with critical levels of marine litter?,"Marine litter is managed through science, legislation, education, and international cooperation [PIRA-DOC-1c090dc0db03818c-C001]. Plastics, the main component, originate from poor waste management, especially in rural and developing regions [PIRA-DOC-427ae05b31908346-C001].",实际证据分别直接支持综合治理组成及塑料、废物管理背景。,"1. 治理需要科学参与
+引用ID：PIRA-DOC-1c090dc0db03818c-C001
+完全支持ID：PIRA-DOC-1c090dc0db03818c-C001
+“integrated approach, encompassing science”。
+2. 治理需要立法
+引用ID：PIRA-DOC-1c090dc0db03818c-C001
+完全支持ID：PIRA-DOC-1c090dc0db03818c-C001
+“legislation”。
+3. 治理需要教育
+引用ID：PIRA-DOC-1c090dc0db03818c-C001
+完全支持ID：PIRA-DOC-1c090dc0db03818c-C001
+“education”。
+4. 治理需要国际合作
+引用ID：PIRA-DOC-1c090dc0db03818c-C001
+完全支持ID：PIRA-DOC-1c090dc0db03818c-C001
+“international cooperation”。
+5. 塑料是海洋垃圾主要组成
+引用ID：PIRA-DOC-427ae05b31908346-C001
+完全支持ID：PIRA-DOC-427ae05b31908346-C001
+“Plastics now represent the major share of marine litter”。
+6. 陆源塑料垃圾与不良废物管理有关
+引用ID：PIRA-DOC-427ae05b31908346-C001
+完全支持ID：PIRA-DOC-427ae05b31908346-C001
+“Most marine litter is from land-based sources, resulting from poor waste management practices”；结合首句塑料占主要部分支持该概括。
+7. 问题尤其见于部分农村和发展中地区
+引用ID：PIRA-DOC-427ae05b31908346-C001
+完全支持ID：PIRA-DOC-427ae05b31908346-C001
+“especially in some rural and developing regions”。",AI,已采用AI评分,lora_rag,PIRA-TEST-B2427
+58,468a91f09275058f,高,4,27,9,9,9,How to deal with critical levels of marine litter?,"To deal with critical levels of marine litter, an integrated approach is required, involving science, legislation, education, international cooperation, and improved waste management practices, particularly in rural and developing regions. This includes addressing land-based sources, enhancing monitoring with time series data, and harmonizing reporting on dumping at sea [PIRA-DOC-1c090dc0db03818c-C001][PIRA-DOC-427ae05b31908346-C001][PIRA-DOC-f25098e781cfbc71-C001].",所有实质建议都能在实际资料中找到依据；三来源共同挂在两句末，逐项只有相应来源支持，冗余引用不计支持。,"1. 需要综合治理
+引用ID：PIRA-DOC-1c090dc0db03818c-C001, PIRA-DOC-427ae05b31908346-C001, PIRA-DOC-f25098e781cfbc71-C001
+完全支持ID：PIRA-DOC-1c090dc0db03818c-C001
+C001称“requires an integrated approach”。
+2. 综合治理包括科学
+引用ID：PIRA-DOC-1c090dc0db03818c-C001, PIRA-DOC-427ae05b31908346-C001, PIRA-DOC-f25098e781cfbc71-C001
+完全支持ID：PIRA-DOC-1c090dc0db03818c-C001
+C001“encompassing science”。
+3. 综合治理包括立法
+引用ID：PIRA-DOC-1c090dc0db03818c-C001, PIRA-DOC-427ae05b31908346-C001, PIRA-DOC-f25098e781cfbc71-C001
+完全支持ID：PIRA-DOC-1c090dc0db03818c-C001
+C001“legislation”。
+4. 综合治理包括教育
+引用ID：PIRA-DOC-1c090dc0db03818c-C001, PIRA-DOC-427ae05b31908346-C001, PIRA-DOC-f25098e781cfbc71-C001
+完全支持ID：PIRA-DOC-1c090dc0db03818c-C001
+C001“education”。
+5. 综合治理包括国际合作
+引用ID：PIRA-DOC-1c090dc0db03818c-C001, PIRA-DOC-427ae05b31908346-C001, PIRA-DOC-f25098e781cfbc71-C001
+完全支持ID：PIRA-DOC-1c090dc0db03818c-C001
+C001“international cooperation”。
+6. 需改善废物管理，尤其农村及发展中地区
+引用ID：PIRA-DOC-1c090dc0db03818c-C001, PIRA-DOC-427ae05b31908346-C001, PIRA-DOC-f25098e781cfbc71-C001
+完全支持ID：PIRA-DOC-427ae05b31908346-C001
+427段“poor waste management practices, especially in some rural and developing regions”支持治理这一来源的建议。
+7. 需处理陆源垃圾
+引用ID：PIRA-DOC-1c090dc0db03818c-C001, PIRA-DOC-427ae05b31908346-C001, PIRA-DOC-f25098e781cfbc71-C001
+完全支持ID：PIRA-DOC-427ae05b31908346-C001
+427段“Most marine litter is from land-based sources”。
+8. 需时间序列数据监测
+引用ID：PIRA-DOC-1c090dc0db03818c-C001, PIRA-DOC-427ae05b31908346-C001, PIRA-DOC-f25098e781cfbc71-C001
+完全支持ID：PIRA-DOC-427ae05b31908346-C001
+427段“Time series data are needed to assess and monitor impacts”。
+9. 需统一海上倾倒报告
+引用ID：PIRA-DOC-1c090dc0db03818c-C001, PIRA-DOC-427ae05b31908346-C001, PIRA-DOC-f25098e781cfbc71-C001
+完全支持ID：PIRA-DOC-427ae05b31908346-C001
+427段“need to harmonize reporting on dumping at sea”。",AI,已采用AI评分,base_rag,PIRA-TEST-B2427
+59,0bf5674dc437ac4c,低,4,1,1,1,1,Which season the 10-m wind over the ESGA blows weaker?,The 10-m wind over the ESGA blows weaker during autumn. [PIRA-DOC-1b88c27601b1899d-C001],实际C001明确支持所答季节。,"1. ESGA的10米风在秋季较弱
+引用ID：PIRA-DOC-1b88c27601b1899d-C001
+完全支持ID：PIRA-DOC-1b88c27601b1899d-C001
+“The wind is weaker during autumn”。",AI,已采用AI评分,base_rag,PIRA-TEST-A290
+60,63a73cfb0d133207,高,3,2,1,2,1,Which season the 10-m wind over the ESGA blows weaker?,"Autumn, when the average wind speed is 5.3 m s-1 [PIRA-DOC-1b88c27601b1899d-C001].",季节结论完全支持，数值被省去四月/月平均限定。,"1. 秋季风较弱
+引用ID：PIRA-DOC-1b88c27601b1899d-C001
+完全支持ID：PIRA-DOC-1b88c27601b1899d-C001
+“The wind is weaker during autumn”。
+2. 秋季平均风速为5.3 m/s
+引用ID：PIRA-DOC-1b88c27601b1899d-C001
+完全支持ID：无
+原文为“monthly average of 5.3 m s-1 in April”，未给整个秋季平均。",AI,已采用AI评分,lora_rag,PIRA-TEST-A290
+61,a18061b5bf726742,低,4,3,3,3,3,"How much more CO2 is being emited in 2019 compared to 2010, in gigaton?",Global CO₂ emissions increased from 30.4 gigatons in 2010 to 33.3 gigatons in 2019. The difference is 33.3 - 30.4 = 2.9 gigatons. [PIRA-DOC-a4e79d8a4f650e76-C001],实际C001含两个基数，2.9为明确且正确的算术推导。,"1. 2010年全球CO2排放30.4 Gt
+引用ID：PIRA-DOC-a4e79d8a4f650e76-C001
+完全支持ID：PIRA-DOC-a4e79d8a4f650e76-C001
+“30.4 gigatons in 2010”。
+2. 2019年全球CO2排放33.3 Gt
+引用ID：PIRA-DOC-a4e79d8a4f650e76-C001
+完全支持ID：PIRA-DOC-a4e79d8a4f650e76-C001
+“33.3 gigatons in 2019”。
+3. 2019比2010增加2.9 Gt
+引用ID：PIRA-DOC-a4e79d8a4f650e76-C001
+完全支持ID：PIRA-DOC-a4e79d8a4f650e76-C001
+依据上述原文数值，33.3−30.4=2.9。",AI,已采用AI评分,base_rag,PIRA-TEST-B2327
+62,ba27ce004ec9f0a4,低,4,2,2,3,2,"How much more CO2 is being emited in 2019 compared to 2010, in gigaton?",Global CO2 emissions increased from 30.4 gigatons in 2010 to 33.3 gigatons in 2019 [PIRA-DOC-a4e79d8a4f650e76-C001]. This represents an increase of 2.9 gigatons of CO2 between 2010 and 2019.,实际资料完全支撑数据及差值；末句算术结论未另附引用，引用计数按原句位置记录。,"1. 2010年全球CO2排放30.4 Gt
+引用ID：PIRA-DOC-a4e79d8a4f650e76-C001
+完全支持ID：PIRA-DOC-a4e79d8a4f650e76-C001
+“30.4 gigatons in 2010”。
+2. 2019年全球CO2排放33.3 Gt
+引用ID：PIRA-DOC-a4e79d8a4f650e76-C001
+完全支持ID：PIRA-DOC-a4e79d8a4f650e76-C001
+“33.3 gigatons in 2019”。
+3. 2019比2010增加2.9 Gt
+引用ID：无
+完全支持ID：无
+由实际C001的33.3和30.4正确相减；本句未附来源ID，故无支持引用链接。",AI,已采用AI评分,lora_rag,PIRA-TEST-B2327
+63,7a7a626e67e980ae,高,3,5,3,5,3,Why will food pressure increase in 2030?,"Food pressure will increase due to population growth, which is expected to reach 8.5 billion in 2030 [PIRA-DOC-cbabebf802a41494-C001]. This will increase demand for food, requiring greater production and reducing waste [PIRA-DOC-69db28ed61a08155-C002].",内容基本对应实际C002，但首句错引水产产量C001；C002开头被截成“each 8.5 billion”，缺少人口主语，首句不得借质量原文补证。,"1. 2030年人口预计达到85亿
+引用ID：PIRA-DOC-cbabebf802a41494-C001
+完全支持ID：无
+被引C001谈养殖产量和地区份额，没有人口85亿；实际C002开头仅“each 8.5 billion”，人口主语被截。
+2. 人口增长会增加食物压力
+引用ID：PIRA-DOC-cbabebf802a41494-C001
+完全支持ID：无
+被引C001没有人口与食物压力因果；实际C002“This will inevitably increase the pressure”之前人口主语缺失，不能拿质量原文补证。
+3. 食物需求将增长
+引用ID：PIRA-DOC-69db28ed61a08155-C002
+完全支持ID：PIRA-DOC-69db28ed61a08155-C002
+C002“increase the pressure on food sectors to increase production”支持需求增长这一概括。
+4. 需要增加食物产量
+引用ID：PIRA-DOC-69db28ed61a08155-C002
+完全支持ID：PIRA-DOC-69db28ed61a08155-C002
+C002“pressure on food sectors to increase production”。
+5. 需要减少浪费
+引用ID：PIRA-DOC-69db28ed61a08155-C002
+完全支持ID：PIRA-DOC-69db28ed61a08155-C002
+C002“reduce losses and waste”。",AI,已采用AI评分,lora_rag,PIRA-TEST-B2468
+64,299bc4d5d7c06582,高,2,11,3,7,3,Why will food pressure increase in 2030?,"Food pressure will increase in 2030 due to projected growth in aquaculture production, expected to reach 109 million tons, driven by rising demand for protein and population growth, as noted in [PIRA-DOC-cbabebf802a41494-C001] and [PIRA-DOC-69db28ed61a08155-C002]. This expansion will strain food systems, especially with limited land and water resources and climate change impacts, as stated in [PIRA-DOC-69db28ed61a08155-C002].",养殖产量数值及资源/气候约束有实际材料，但把产量增长当作压力原因、蛋白需求驱动等未被支持。,"1. 2030食物压力因养殖产量增长而增加
+引用ID：PIRA-DOC-cbabebf802a41494-C001, PIRA-DOC-69db28ed61a08155-C002
+完全支持ID：无
+C001预测产量；C002“pressure ... to increase production”是压力促增产，未支持逆向因果。
+2. 2030养殖产量预计109百万吨
+引用ID：PIRA-DOC-cbabebf802a41494-C001, PIRA-DOC-69db28ed61a08155-C002
+完全支持ID：PIRA-DOC-cbabebf802a41494-C001
+C001“projected to reach 109 million tons in 2030”；C002无此数字。
+3. 养殖扩张由蛋白需求增长驱动
+引用ID：PIRA-DOC-cbabebf802a41494-C001, PIRA-DOC-69db28ed61a08155-C002
+完全支持ID：无
+两段均未给蛋白需求增长这一驱动力。
+4. 人口增长驱动养殖扩张
+引用ID：PIRA-DOC-cbabebf802a41494-C001, PIRA-DOC-69db28ed61a08155-C002
+完全支持ID：无
+C002开头仅“each 8.5 billion”，人口主语缺失，C001亦无人口；当前片段不足以完整核实。
+5. 养殖扩张会使食物系统承压
+引用ID：PIRA-DOC-69db28ed61a08155-C002
+完全支持ID：无
+C002谈压力促增产及可持续要求，没有说扩张自身导致食物系统压力。
+6. 土地和水资源将更稀缺
+引用ID：PIRA-DOC-69db28ed61a08155-C002
+完全支持ID：PIRA-DOC-69db28ed61a08155-C002
+C002“land and water, are likely to be scarcer”。
+7. 气候变化影响将加剧
+引用ID：PIRA-DOC-69db28ed61a08155-C002
+完全支持ID：PIRA-DOC-69db28ed61a08155-C002
+C002“impact of climatic change will intensify”。",AI,已采用AI评分,base_rag,PIRA-TEST-B2468
+65,dfde46fd398ac9dd,高,2,4,1,4,1,What is the duality regarding the benefits of Steel Lazy Wave Risers (SLWR)?,"The duality is that SLWRs reduce fatigue damage and improve safety, but require more complex and costly fatigue analysis than SCR [PIRA-DOC-b8a48dec6959d82d-C001].",唯一引用的b8段支持SLWR减轻TDZ需求；复杂分析见实际另一段474但未被引用，安全和分析成本相对SCR比较均无直接支持。,"1. SLWR减少疲劳损伤
+引用ID：PIRA-DOC-b8a48dec6959d82d-C001
+完全支持ID：PIRA-DOC-b8a48dec6959d82d-C001
+b8段在疲劳极限语境称吸收FPSO运动，“making this region much less demanded ... against ... SCR”，支持疲劳负担降低。
+2. SLWR提高安全性
+引用ID：PIRA-DOC-b8a48dec6959d82d-C001
+完全支持ID：无
+b8段未直接论证安全性提高。
+3. SLWR疲劳分析比SCR更复杂
+引用ID：PIRA-DOC-b8a48dec6959d82d-C001
+完全支持ID：无
+b8段未作分析复杂性比较；474段虽有“complex, non-linear models”但未被引且未比较SCR。
+4. SLWR疲劳分析比SCR更昂贵
+引用ID：PIRA-DOC-b8a48dec6959d82d-C001
+完全支持ID：无
+b8段未作分析成本比较；实际其他片段也未明确相对SCR的成本。",AI,已采用AI评分,lora_rag,PIRA-TEST-A1873
+66,4ecbbded6c60699d,高,3,12,6,6,5,What is the duality regarding the benefits of Steel Lazy Wave Risers (SLWR)?,"The duality regarding the benefits of Steel Lazy Wave Risers (SLWR) is that they reduce fatigue damage by absorbing FPSO motions, improving structural integrity, yet require highly complex and computationally intensive fatigue analyses, risking overconservative assumptions if simplified methods are used. [PIRA-DOC-b8a48dec6959d82d-C001] [PIRA-DOC-47400979fba762af-C001]",主要内容由两段互补支持，结构完整性提高为由疲劳改善作出的泛化，没有独立直接证据。,"1. SLWR降低疲劳损伤
+引用ID：PIRA-DOC-b8a48dec6959d82d-C001, PIRA-DOC-47400979fba762af-C001
+完全支持ID：PIRA-DOC-b8a48dec6959d82d-C001, PIRA-DOC-47400979fba762af-C001
+b8段“much less demanded ... against ... SCR”；474段“effective way of improving fatigue ... lazy wave”。
+2. SLWR吸收FPSO运动
+引用ID：PIRA-DOC-b8a48dec6959d82d-C001, PIRA-DOC-47400979fba762af-C001
+完全支持ID：PIRA-DOC-b8a48dec6959d82d-C001
+b8段“absorb part of the FPSO motions”；474段未给机制。
+3. SLWR改善结构完整性
+引用ID：PIRA-DOC-b8a48dec6959d82d-C001, PIRA-DOC-47400979fba762af-C001
+完全支持ID：无
+两段讲疲劳需求或分析，未直接评价结构完整性这一较宽结论。
+4. 疲劳分析高度复杂
+引用ID：PIRA-DOC-b8a48dec6959d82d-C001, PIRA-DOC-47400979fba762af-C001
+完全支持ID：PIRA-DOC-47400979fba762af-C001
+474段“complex, non-linear models”；b8无此论断。
+5. 疲劳分析计算量大
+引用ID：PIRA-DOC-b8a48dec6959d82d-C001, PIRA-DOC-47400979fba762af-C001
+完全支持ID：PIRA-DOC-47400979fba762af-C001
+474段“most computational-intensive ... very large number of load cases”。
+6. 简化方法需避免过度保守
+引用ID：PIRA-DOC-b8a48dec6959d82d-C001, PIRA-DOC-47400979fba762af-C001
+完全支持ID：PIRA-DOC-47400979fba762af-C001
+474段“simplifying ... weighed ... not introducing uneconomical, overconservative assumptions”。",AI,已采用AI评分,base_rag,PIRA-TEST-A1873
+67,d6fec95e22a6cad7,中,4,2,0,2,0,Where is located Albacora Leste field?,"Albacora Leste field is located in the Campos Basin, offshore Brazil [PIRA-DOC-8813022416ed7588-C002].",回答内容由实际fd36段完整支持，但唯一引用881段只列油田和巴西产量贡献，不支持具体位置。,"1. Albacora Leste位于Campos盆地
+引用ID：PIRA-DOC-8813022416ed7588-C002
+完全支持ID：无
+被引881段只列“... Albacora Leste”；实际未引用fd36段有“Albacora Leste field in Campos basin”。
+2. Albacora Leste位于巴西海上
+引用ID：PIRA-DOC-8813022416ed7588-C002
+完全支持ID：无
+被引881段无海上位置；未引用fd36段“field 150 km off Rio de Janeiro”可支持内容。",AI,已采用AI评分,lora_rag,PIRA-TEST-A867
+68,c888a10cc0f2278e,低,4,4,2,2,2,Where is located Albacora Leste field?,"Albacora Leste field is located in the Campos Basin, offshore Brazil. [PIRA-DOC-8813022416ed7588-C002] [PIRA-DOC-fd36a27e552c958e-C001]",两项位置陈述均由fd36完整支持；881段为列举油田的冗余引用，不计支持。,"1. Albacora Leste位于Campos盆地
+引用ID：PIRA-DOC-8813022416ed7588-C002, PIRA-DOC-fd36a27e552c958e-C001
+完全支持ID：PIRA-DOC-fd36a27e552c958e-C001
+fd36“Albacora Leste field in Campos basin”；881无盆地。
+2. Albacora Leste位于巴西海上
+引用ID：PIRA-DOC-8813022416ed7588-C002, PIRA-DOC-fd36a27e552c958e-C001
+完全支持ID：PIRA-DOC-fd36a27e552c958e-C001
+fd36“field 150 km off Rio de Janeiro”；881无海上位置。",AI,已采用AI评分,base_rag,PIRA-TEST-A867
+69,4a409d4efb92c291,低,4,3,3,3,3,How can the benefits from marine and coastal ecosystems be categorized?,"Benefits from marine and coastal ecosystems can be categorized into goods, services, and cultural benefits [PIRA-DOC-1d8870d5c8c6c15e-C002].",实际C002明确列出三类，无超出。,"1. 海洋海岸生态系统利益可分为goods
+引用ID：PIRA-DOC-1d8870d5c8c6c15e-C002
+完全支持ID：PIRA-DOC-1d8870d5c8c6c15e-C002
+“Traditionally ... in terms of goods”。
+2. 海洋海岸生态系统利益可分为services
+引用ID：PIRA-DOC-1d8870d5c8c6c15e-C002
+完全支持ID：PIRA-DOC-1d8870d5c8c6c15e-C002
+同一句列“services”。
+3. 海洋海岸生态系统利益可分为cultural benefits
+引用ID：PIRA-DOC-1d8870d5c8c6c15e-C002
+完全支持ID：PIRA-DOC-1d8870d5c8c6c15e-C002
+同一句列“cultural benefits”。",AI,已采用AI评分,lora_rag,PIRA-TEST-B2066
+70,43c21b7eee688583,低,4,6,6,6,6,How can the benefits from marine and coastal ecosystems be categorized?,"Benefits from marine and coastal ecosystems can be categorized into goods, services, and cultural benefits [PIRA-DOC-1d8870d5c8c6c15e-C002]. Goods have direct market value, while services and cultural benefits have indirect, non-consumptive value [PIRA-DOC-1d8870d5c8c6c15e-C002].",分类及价值属性均由实际C002直接支持。,"1. 利益可分为goods
+引用ID：PIRA-DOC-1d8870d5c8c6c15e-C002
+完全支持ID：PIRA-DOC-1d8870d5c8c6c15e-C002
+“in terms of goods”。
+2. 利益可分为services
+引用ID：PIRA-DOC-1d8870d5c8c6c15e-C002
+完全支持ID：PIRA-DOC-1d8870d5c8c6c15e-C002
+“services”。
+3. 利益可分为cultural benefits
+引用ID：PIRA-DOC-1d8870d5c8c6c15e-C002
+完全支持ID：PIRA-DOC-1d8870d5c8c6c15e-C002
+“cultural benefits”。
+4. goods有直接市场价值
+引用ID：PIRA-DOC-1d8870d5c8c6c15e-C002
+完全支持ID：PIRA-DOC-1d8870d5c8c6c15e-C002
+“goods have a direct use (consumptive) value, determined through market prices”。
+5. services有间接非消耗价值
+引用ID：PIRA-DOC-1d8870d5c8c6c15e-C002
+完全支持ID：PIRA-DOC-1d8870d5c8c6c15e-C002
+“services ... have an indirect use (non-consumptive) value”。
+6. 文化利益有间接非消耗价值
+引用ID：PIRA-DOC-1d8870d5c8c6c15e-C002
+完全支持ID：PIRA-DOC-1d8870d5c8c6c15e-C002
+“cultural benefits have an indirect use (non-consumptive) value”。",AI,已采用AI评分,base_rag,PIRA-TEST-B2066
+71,a54a475d66c57423,低,4,3,3,3,3,What are the traditional methods of cleaning the pipe during commissioning?,"Traditional methods of cleaning the pipe during commissioning include cleaning with water, chemical cleaning, or steam cleaning. [PIRA-DOC-92b5c0514a53f6a2-C001]",实际C001保留了三种传统清洗方法的完整句子。,"1. 投产清洗传统方法包括水清洗
+引用ID：PIRA-DOC-92b5c0514a53f6a2-C001
+完全支持ID：PIRA-DOC-92b5c0514a53f6a2-C001
+“Traditional methods ... include cleaning with water”。
+2. 传统方法包括化学清洗
+引用ID：PIRA-DOC-92b5c0514a53f6a2-C001
+完全支持ID：PIRA-DOC-92b5c0514a53f6a2-C001
+“chemical cleaning”。
+3. 传统方法包括蒸汽清洗
+引用ID：PIRA-DOC-92b5c0514a53f6a2-C001
+完全支持ID：PIRA-DOC-92b5c0514a53f6a2-C001
+“or steam cleaning”。",AI,已采用AI评分,base_rag,PIRA-TEST-A516
+72,96f87309189bb4b6,低,4,3,3,3,3,What are the traditional methods of cleaning the pipe during commissioning?,"Traditional methods of cleaning the pipe during commissioning include water, chemical, and steam cleaning [PIRA-DOC-92b5c0514a53f6a2-C001].",实际C001逐项直接支持。,"1. 投产清洗传统方法包括水清洗
+引用ID：PIRA-DOC-92b5c0514a53f6a2-C001
+完全支持ID：PIRA-DOC-92b5c0514a53f6a2-C001
+“Traditional methods ... include cleaning with water”。
+2. 传统方法包括化学清洗
+引用ID：PIRA-DOC-92b5c0514a53f6a2-C001
+完全支持ID：PIRA-DOC-92b5c0514a53f6a2-C001
+“chemical cleaning”。
+3. 传统方法包括蒸汽清洗
+引用ID：PIRA-DOC-92b5c0514a53f6a2-C001
+完全支持ID：PIRA-DOC-92b5c0514a53f6a2-C001
+“or steam cleaning”。",AI,已采用AI评分,lora_rag,PIRA-TEST-A516
+73,aff32dafc32f8330,高,3,4,2,4,2,What was shown by the results of the simulation?,"The simulation results showed that the quality and spatial resolution of wind data significantly affect the quality of model output, and that boundary condition differences still influence results even at distances of 200–300 km from the model boundaries, particularly in the low-frequency wave spectrum. [PIRA-DOC-9a227342f912be8a-C002]",边界结论与实际C002一致；风资料两项结论有强相关证据，但显著影响的因果说法比原文更强，按完全支持标准不计这两条支持链接。,"1. 风资料质量显著影响模型输出质量
+引用ID：PIRA-DOC-9a227342f912be8a-C002
+完全支持ID：无
+原文“wind quality ... highly correlated to ... model output”，支持强相关，未直接作因果显著性结论。
+2. 风资料空间分辨率显著影响模型输出质量
+引用ID：PIRA-DOC-9a227342f912be8a-C002
+完全支持ID：无
+原文“its spatial resolution is highly correlated”，同样不是明确因果检验。
+3. 边界条件差异在离边界200—300公里仍可影响结果
+引用ID：PIRA-DOC-9a227342f912be8a-C002
+完全支持ID：PIRA-DOC-9a227342f912be8a-C002
+“difference were still noticeable at the buoy ... 200-300 km away”。
+4. 该边界差异在低频波谱中可见
+引用ID：PIRA-DOC-9a227342f912be8a-C002
+完全支持ID：PIRA-DOC-9a227342f912be8a-C002
+“restricted to the narrow band of the low frequency wave spectrum”。",AI,已采用AI评分,base_rag,PIRA-TEST-A1504
+74,a4dc59e8d41602e2,低,4,2,2,2,2,What was shown by the results of the simulation?,The simulation results showed that the wind quality and its spatial resolution is highly correlated to the quality of model output [PIRA-DOC-9a227342f912be8a-C002].,两项相关关系均见实际C002原句。,"1. 风资料质量与模型输出质量高度相关
+引用ID：PIRA-DOC-9a227342f912be8a-C002
+完全支持ID：PIRA-DOC-9a227342f912be8a-C002
+“wind quality ... highly correlated to the quality of model output”。
+2. 风资料空间分辨率与模型输出质量高度相关
+引用ID：PIRA-DOC-9a227342f912be8a-C002
+完全支持ID：PIRA-DOC-9a227342f912be8a-C002
+“and its spatial resolution is highly correlated”。",AI,已采用AI评分,lora_rag,PIRA-TEST-A1504
+75,3651aef27c1d6995,低,4,1,1,1,1,Who sent a letter to US subsea engineer Global Industries?,Petrobras sent a letter of intent to US subsea engineer Global Industries [PIRA-DOC-b3fd257d4f4823fd-C001].,实际C001直接给出信件发出方。,"1. Petrobras向Global Industries发送意向函
+引用ID：PIRA-DOC-b3fd257d4f4823fd-C001
+完全支持ID：PIRA-DOC-b3fd257d4f4823fd-C001
+“Global Industries has received a letter of intent from Petrobras”。",AI,已采用AI评分,lora_rag,PIRA-TEST-A976
+76,8295c04351d3bbff,高,0,0,0,1,0,Who sent a letter to US subsea engineer Global Industries?,The supplied passages are insufficient to identify who sent a letter to US subsea engineer Global Industries.,实际C001也明确“letter of intent from Petrobras”，资料不足这一可核实陈述与证据冲突，且无引用。,"1. 所给资料不足以识别发信人
+引用ID：无
+完全支持ID：无
+实际b3fd首句明确“Global Industries ... a letter of intent from Petrobras”，因此资料不足判断不成立。",AI,已采用AI评分,base_rag,PIRA-TEST-A976
+77,f4247e898d70e1a2,高,0,1,0,1,0,What can happen if the main security barrier fails?,"If the main security barrier fails, the flexible pipe may fail due to stress corrosion cracking [PIRA-DOC-463686c8dafac31d-C001].",实际463段讲柔性管SCC，但没有主要安全屏障失效导致SCC的条件因果，不能用主题相近替代支持。,"1. 主要安全屏障失效会导致柔性管因SCC失效
+引用ID：PIRA-DOC-463686c8dafac31d-C001
+完全支持ID：无
+463段仅说SCC需要water、stress、susceptible material；没有主要屏障或其失效与SCC的因果。",AI,已采用AI评分,lora_rag,PIRA-TEST-A1661
+78,b61e4c35243dd31d,高,3,6,5,6,5,What can happen if the main security barrier fails?,"If the main security barrier fails, the flexible pipe may experience stress corrosion cracking (SCC), especially due to the presence of water, stress, and susceptible materials, leading to structural failure. This risk is particularly relevant in the Pre-Salt fields of Brazil where high concentrations of H₂S and CO₂ are present. [PIRA-DOC-463686c8dafac31d-C001]",实际463段支持SCC条件、管层裂纹及巴西盐下高H2S/CO2背景，但不支持把主安全屏障失效与SCC建立因果。,"1. 主安全屏障失效会使柔性管发生SCC
+引用ID：PIRA-DOC-463686c8dafac31d-C001
+完全支持ID：无
+463段无主要安全屏障失效的描述或因果。
+2. SCC需要水、应力和易感材料同时存在
+引用ID：PIRA-DOC-463686c8dafac31d-C001
+完全支持ID：PIRA-DOC-463686c8dafac31d-C001
+“need three elements to happen: water, stress and susceptible material”；任一去除则不发生。
+3. SCC可造成柔性管结构失效
+引用ID：PIRA-DOC-463686c8dafac31d-C001
+完全支持ID：PIRA-DOC-463686c8dafac31d-C001
+“A new failure mode by SCC ... induces cracks in the pipes metallic layers”。
+4. SCC风险与巴西盐下柔性管应用有关
+引用ID：PIRA-DOC-463686c8dafac31d-C001
+完全支持ID：PIRA-DOC-463686c8dafac31d-C001
+“Brazil Offshore ... flexible pipes”“For the Pre-Salt fields ... A new failure mode by SCC”。
+5. 巴西盐下油田H2S浓度高
+引用ID：PIRA-DOC-463686c8dafac31d-C001
+完全支持ID：PIRA-DOC-463686c8dafac31d-C001
+“For the Pre-Salt fields ... high concentrations of H2S”。
+6. 巴西盐下油田CO2浓度高
+引用ID：PIRA-DOC-463686c8dafac31d-C001
+完全支持ID：PIRA-DOC-463686c8dafac31d-C001
+同句“and CO2”。",AI,已采用AI评分,base_rag,PIRA-TEST-A1661
+79,1bd425a17d879939,高,4,2,2,2,2,Which of the most important large-scale variability could BESM-OA2.5 reproduce?,"BESM-OA2.5 can reproduce the most important large-scale variabilities, particularly over the Atlantic Ocean [PIRA-DOC-32d73d79a9e1ce4b-C001].",笼统的能力与重点区域陈述均由实际C001直接支持。,"1. BESM-OA2.5可再现重要大尺度变率
+引用ID：PIRA-DOC-32d73d79a9e1ce4b-C001
+完全支持ID：PIRA-DOC-32d73d79a9e1ce4b-C001
+“could reproduce the most important large-scale variabilities”。
+2. 再现能力尤其涉及大西洋
+引用ID：PIRA-DOC-32d73d79a9e1ce4b-C001
+完全支持ID：PIRA-DOC-32d73d79a9e1ce4b-C001
+“particularly over the Atlantic Ocean”。",AI,已采用AI评分,lora_rag,PIRA-TEST-A1386
+80,e503f022bd93f32c,低,4,4,4,4,4,Which of the most important large-scale variability could BESM-OA2.5 reproduce?,"BESM-OA2.5 could reproduce the most important large-scale variabilities, particularly the North Atlantic Oscillation, the Atlantic Meridional Mode, and the Atlantic Meridional Overturning Circulation, as well as extratropical modes in both hemispheres [PIRA-DOC-32d73d79a9e1ce4b-C001].",实际C001逐项直接支持，没有借其他无关资料。,"1. BESM-OA2.5可再现北大西洋涛动NAO
+引用ID：PIRA-DOC-32d73d79a9e1ce4b-C001
+完全支持ID：PIRA-DOC-32d73d79a9e1ce4b-C001
+“could reproduce ... the North Atlantic Oscillation”。
+2. 可再现大西洋经向模态AMM
+引用ID：PIRA-DOC-32d73d79a9e1ce4b-C001
+完全支持ID：PIRA-DOC-32d73d79a9e1ce4b-C001
+“the Atlantic Meridional Mode”。
+3. 可再现大西洋经向翻转环流AMOC
+引用ID：PIRA-DOC-32d73d79a9e1ce4b-C001
+完全支持ID：PIRA-DOC-32d73d79a9e1ce4b-C001
+“the Atlantic Meridional Overturning Circulation”。
+4. 可再现南北半球温带模态
+引用ID：PIRA-DOC-32d73d79a9e1ce4b-C001
+完全支持ID：PIRA-DOC-32d73d79a9e1ce4b-C001
+“the extratropical modes that occur in both hemispheres”。",AI,已采用AI评分,base_rag,PIRA-TEST-A1386

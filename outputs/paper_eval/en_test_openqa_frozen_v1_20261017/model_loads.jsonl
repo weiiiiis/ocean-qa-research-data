@@ -1,0 +1,3 @@
+{"conditions": ["base", "base_rag"], "load_ms": 14365.889699984109, "warmups_excluded": true, "timestamp_utc": "2026-10-17T08:33:55.782477+00:00"}
+{"conditions": ["base", "base_rag"], "load_ms": 20087.757500004955, "warmups_excluded": true, "timestamp_utc": "2026-10-17T15:37:23.068770+00:00"}
+{"conditions": ["lora", "lora_rag"], "load_ms": 13547.989999991842, "warmups_excluded": true, "timestamp_utc": "2026-10-17T15:59:23.298004+00:00"}

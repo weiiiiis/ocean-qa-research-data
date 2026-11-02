@@ -1,0 +1,30 @@
+[
+  {
+    "stage": "base",
+    "rag": false,
+    "nontruncated_pairs": 101,
+    "identical_answer_pairs": 101,
+    "changed_ids": []
+  },
+  {
+    "stage": "base",
+    "rag": true,
+    "nontruncated_pairs": 78,
+    "identical_answer_pairs": 78,
+    "changed_ids": []
+  },
+  {
+    "stage": "v2",
+    "rag": false,
+    "nontruncated_pairs": 101,
+    "identical_answer_pairs": 101,
+    "changed_ids": []
+  },
+  {
+    "stage": "v2",
+    "rag": true,
+    "nontruncated_pairs": 98,
+    "identical_answer_pairs": 98,
+    "changed_ids": []
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "questions": 101,
+  "unique_known_article_eids": 91,
+  "unique_normalized_passages": 90,
+  "selection_rules": [
+    "official validation split",
+    "corpus 1 only (scientific abstracts)",
+    "article EID present",
+    "article EID absent from official test",
+    "normalized supporting passage absent from official test"
+  ],
+  "reason_for_excluding_corpus_2": "UN report-level source identity cannot be separated reliably from released metadata",
+  "input_validation_sha256": "59415a3193aa92dcc1d5f9ecc9a9e52f2625b4b44dfc0944aa489ff5b98b4ae0",
+  "held_out_test_sha256": "2b964253fa0c6ca1e7640e296c336ca2f9e930973529eba1837c1e033407ea08",
+  "output_sha256": "dfc77de963b9aa41ce0a62b4e9e2b53fa48b0b84bbac78d6a1ac3a5425a2b739",
+  "boundary": "Disjoint only by published EID and normalized passage. Not proof of unseen pretraining or complete source-document independence. This is a development pool, never add its QA to this run's SFT data. Do not select training settings on the official test."
+}

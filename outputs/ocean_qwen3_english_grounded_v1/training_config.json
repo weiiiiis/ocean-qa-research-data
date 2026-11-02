@@ -1,0 +1,62 @@
+{
+  "base_model": "D:\\weitiao\\ocean-chat\\models\\Qwen3-4B-Instruct",
+  "base_model_files_sha256": {
+    "config.json": "5beea1a4a34c62782bfb2f911c606741a3bab8f92d80a118fa053c28af12e8ba",
+    "configuration.json": "f888421726665e8a84b738eed42a64875aed79de8be7daade851ac8bf4c0cef9",
+    "generation_config.json": "835fffe355c9438e7a25be099b3fccaa98350b83451f9fd2d99512e74f1ade48",
+    "model-00001-of-00003.safetensors": "75311d91bb08cf0b882913da464a1e722a31fb44db35208663487efb7a3d8ed6",
+    "model-00002-of-00003.safetensors": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+    "model-00003-of-00003.safetensors": "7dd39ccca5e4de123c74c14af44c9bf2eb75df33b4614382af0134528e060d5d",
+    "model.safetensors.index.json": "d6c42883a895dfef5b0080ed2116a1bcd764f558406b98923d675978a1abf29c",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "a62ff0a2472a0fa1b8eaabcb57c59b58afa42a22831dc141400b6e0cf2b65ce3",
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  "start_adapter": null,
+  "train_file": "D:\\weitiao\\ocean-chat\\paper_data\\english_training_v2\\train_candidates_240.jsonl",
+  "train_sha256": "1a8b4f593b7afb0d06cbbdd312ed4f976ef46c8e03fbc0c2137c9355da486812",
+  "script_sha256": "5cfddf91db9a4f0b8821f78b1800c633a5b8eb8bb84182f99c54e12059a483c5",
+  "validation_file": "D:\\weitiao\\ocean-chat\\paper_data\\english_training_v2\\validation_candidates_60.jsonl",
+  "validation_sha256": "aab6c69c6b6b00825a336d517b09dc4a7203d69ac18e9fab1fc587ba38f355c0",
+  "epochs": 2,
+  "learning_rate": 5e-05,
+  "max_seq_length": 1024,
+  "gradient_accumulation_steps": 4,
+  "seed": 42,
+  "data_summary": {
+    "examples": 240,
+    "source_groups": 48,
+    "min_tokens": 203,
+    "median_tokens": 316.0,
+    "p95_tokens": 434.15,
+    "max_tokens": 497,
+    "example_types": {
+      "closed_book": 48,
+      "grounded": 144,
+      "insufficient_evidence": 48
+    },
+    "assistant_only_loss": true,
+    "truncated_examples": 0,
+    "validation_examples": 60,
+    "validation_used_for_updates": false
+  },
+  "quantization": "4-bit NF4, double quantization, FP16 compute",
+  "fresh_lora": {
+    "r": 8,
+    "alpha": 16,
+    "dropout": 0.05,
+    "target_modules": [
+      "q_proj",
+      "v_proj"
+    ]
+  },
+  "checkpoint_selection": "Save every epoch. Select on document-separated development data, never on the locked test. No epoch is automatically declared best.",
+  "packages": {
+    "torch": "2.6.0+cu124",
+    "transformers": "4.51.3",
+    "peft": "0.19.1",
+    "bitsandbytes": "0.50.0",
+    "numpy": "2.1.3"
+  },
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+}

@@ -1,0 +1,108 @@
+{
+  "scope": {
+    "questions": 101,
+    "answers": 202,
+    "source_groups": 91,
+    "unique_expected_gold_supporting_text_ids": 90,
+    "unique_retrieved_source_sections_in_all_contexts": 233
+  },
+  "verdicts": {
+    "v2_better": 5,
+    "v2_worse": 17,
+    "equivalent": 76,
+    "tradeoff": 1,
+    "uncertain": 2
+  },
+  "f1_content_crosstab": [
+    {
+      "f1_direction": "increase",
+      "v2_better": 3,
+      "v2_worse": 5,
+      "equivalent": 14,
+      "tradeoff": 1,
+      "uncertain": 1,
+      "row_total": 24,
+      "total_questions": 101,
+      "unit": "question",
+      "source": "D:\\weitiao\\ocean-chat\\outputs\\paper_eval\\ai_content_audit_20261028_175905\\paired_reviews.csv"
+    },
+    {
+      "f1_direction": "decrease",
+      "v2_better": 2,
+      "v2_worse": 11,
+      "equivalent": 22,
+      "tradeoff": 0,
+      "uncertain": 0,
+      "row_total": 35,
+      "total_questions": 101,
+      "unit": "question",
+      "source": "D:\\weitiao\\ocean-chat\\outputs\\paper_eval\\ai_content_audit_20261028_175905\\paired_reviews.csv"
+    },
+    {
+      "f1_direction": "unchanged",
+      "v2_better": 0,
+      "v2_worse": 1,
+      "equivalent": 40,
+      "tradeoff": 0,
+      "uncertain": 1,
+      "row_total": 42,
+      "total_questions": 101,
+      "unit": "question",
+      "source": "D:\\weitiao\\ocean-chat\\outputs\\paper_eval\\ai_content_audit_20261028_175905\\paired_reviews.csv"
+    }
+  ],
+  "coverage": {
+    "v1": {
+      "point_weighted_numerator": 104.0,
+      "points": 141,
+      "point_weighted_mean": 0.7375886524822695,
+      "question_equal_sum": 75.125,
+      "assessable_questions": 97,
+      "question_equal_mean": 0.7744845360824743
+    },
+    "v2": {
+      "point_weighted_numerator": 93.0,
+      "points": 141,
+      "point_weighted_mean": 0.6595744680851063,
+      "question_equal_sum": 67.875,
+      "assessable_questions": 97,
+      "question_equal_mean": 0.6997422680412371
+    }
+  },
+  "coverage_changes": {
+    "unchanged": 84,
+    "decreased": 12,
+    "NA_no_assessable_points": 4,
+    "increased": 1
+  },
+  "refusals": {
+    "v1_erroneous": 3,
+    "v2_erroneous": 8,
+    "new_erroneous": 5,
+    "resolved_erroneous": 0,
+    "new_ids": [
+      "PIRA-DEV-A1109",
+      "PIRA-DEV-A1234",
+      "PIRA-DEV-A1825",
+      "PIRA-DEV-A331",
+      "PIRA-DEV-A862"
+    ]
+  },
+  "checks": {
+    "answer_and_f1_linkage": "all 202 exact answers and F1 matched original records/metrics",
+    "same_prompt_and_context": "101 pairs matched",
+    "necessary_point_quotes_checked": 141,
+    "quote_mismatches": 0,
+    "original_summary_differences": 0,
+    "source_hash_files": 56,
+    "source_hash_mismatches": 0
+  },
+  "reviewer_limitations": [
+    "Single conversational AI",
+    "Exact model/version unrecorded",
+    "Prior exposure to identities/partial F1 results; not fully independent blind review",
+    "AI-defined necessary points subjective",
+    "Excerpt support does not independently verify scientific truth",
+    "No new content labels or intervals generated"
+  ]
+}

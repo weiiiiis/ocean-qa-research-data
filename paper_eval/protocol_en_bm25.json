@@ -1,0 +1,35 @@
+{
+  "protocol_version": "ocean-paper-eval-en-bm25-0.1",
+  "base_model": "models/Qwen3-4B-Instruct",
+  "adapter": "outputs/ocean_qwen3_targeted30/final_lora_adapter",
+  "embedding_model": "models/embedding_minilm",
+  "language": "en",
+  "seed": 20261016,
+  "generation": {
+    "max_new_tokens": 160,
+    "do_sample": false,
+    "repetition_penalty": 1.05,
+    "max_input_tokens": 2048
+  },
+  "mcqa_max_new_tokens": 16,
+  "retrieval": {
+    "method": "bm25",
+    "implementation": "paper_eval/bm25_retrieval.py",
+    "top_k": 3,
+    "min_score": 0.0,
+    "max_context_tokens": 1000,
+    "device": "cpu",
+    "k1": 1.5,
+    "b": 0.75,
+    "lowercase": true,
+    "stop_words": "english",
+    "token_pattern": "(?u)\\b\\w\\w+\\b",
+    "query_term_frequency": "binary",
+    "source_unique": true,
+    "exclude_zero_scores": true
+  },
+  "warmup_generations_per_condition": 1,
+  "measurement_boundary": "Natural answers only; no fixed-token cost probes. BM25 runs on CPU and does not load the configured compatibility embedding_model. A short response is not evidence of faster token generation.",
+  "data_boundary": "Retrieval query is the question stem only. Gold reference answers, expected source IDs and other evaluation labels never enter retrieval or prompts. Retrieved source passages are intentionally supplied as evidence. Development-selected BM25 settings need independent test confirmation.",
+  "integration_note": "The runner must dispatch retrieval.method=bm25 to paper_eval.bm25_retrieval.Retriever, include its implementation SHA256 in code_files, and record implementation_metadata. Existing dense runs must remain frozen and use a new output directory for this protocol."
+}
